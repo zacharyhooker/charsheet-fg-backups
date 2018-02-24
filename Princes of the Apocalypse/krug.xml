@@ -76,7 +76,7 @@
 				<name type="string">CP</name>
 			</slot1>
 			<slot2>
-				<amount type="number">12</amount>
+				<amount type="number">11</amount>
 				<name type="string">GP</name>
 			</slot2>
 			<slot3>
@@ -110,7 +110,7 @@
 			<encumbered type="number">90</encumbered>
 			<encumberedheavy type="number">180</encumberedheavy>
 			<liftpushdrag type="number">540</liftpushdrag>
-			<load type="number">64</load>
+			<load type="number">56</load>
 			<max type="number">270</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -182,7 +182,7 @@
 			<hdmod type="number">0</hdmod>
 			<temporary type="number">0</temporary>
 			<total type="number">24</total>
-			<wounds type="number">0</wounds>
+			<wounds type="number">9</wounds>
 		</hp>
 		<ideals type="string">Self-Knowledge. If you know yourself, there's nothing left to know.</ideals>
 		<initiative>
@@ -220,7 +220,7 @@
 			<id-00003>
 				<carried type="number">1</carried>
 				<cost type="string">5 sp</cost>
-				<count type="number">8</count>
+				<count type="number">6</count>
 				<description type="formattedtext">
 					<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>
 				</description>
@@ -234,7 +234,7 @@
 			<id-00004>
 				<carried type="number">1</carried>
 				<cost type="string">1 cp</cost>
-				<count type="number">10</count>
+				<count type="number">5</count>
 				<description type="formattedtext">
 					<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>
 				</description>
@@ -246,7 +246,7 @@
 				<weight type="number">1</weight>
 			</id-00004>
 			<id-00005>
-				<carried type="number">1</carried>
+				<carried type="number">2</carried>
 				<count type="number">1</count>
 				<isidentified type="number">1</isidentified>
 				<name type="string">Purple Bandana</name>
@@ -336,6 +336,13 @@
 				<type type="string">Tools</type>
 				<weight type="number">1</weight>
 			</id-00012>
+			<id-00015>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<isidentified type="number">1</isidentified>
+				<name type="string">Wooden pipe - short and stout </name>
+				<weight type="number">1</weight>
+			</id-00015>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
@@ -355,6 +362,19 @@
 		<perception type="number">12</perception>
 		<perceptionmodifier type="number">0</perceptionmodifier>
 		<personalitytraits type="string">I feel tremendous empathy for all who suffer. I retreated from society after a life-altering event, the murder of my beloved wife, Hilda</personalitytraits>
+		<powergroup>
+			<id-00004>
+				<atkmod type="number">0</atkmod>
+				<atkprof type="number">1</atkprof>
+				<name type="string">Rage</name>
+				<prepared type="number">0</prepared>
+				<savemod type="number">0</savemod>
+				<saveprof type="number">1</saveprof>
+				<stat type="string">strength</stat>
+				<uses type="number">2</uses>
+				<usesperiod type="string">enc</usesperiod>
+			</id-00004>
+		</powergroup>
 		<powermeta>
 			<pactmagicslots1>
 				<max type="number">0</max>
@@ -447,6 +467,14 @@
 			</id-00001>
 			<id-00003>
 				<actions>
+					<id-00001>
+						<durmod type="number">1</durmod>
+						<durunit type="string">minute</durunit>
+						<label type="string">Rage;ADVCHK:strength;ADVSAV:strength;DMG:2,melee;RESIST:bludgeoning,slashing,piercing</label>
+						<order type="number">1</order>
+						<targeting type="string">self</targeting>
+						<type type="string">effect</type>
+					</id-00001>
 				</actions>
 				<cast type="number">0</cast>
 				<description type="formattedtext">
@@ -460,6 +488,7 @@
 					<p>Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you have neither attacked a hostile creature since your last turn nor taken damage since then. You can also end your rage as a bonus action on your turn</p>
 					<p>Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.</p>
 				</description>
+				<group type="string">Rage</group>
 				<level type="number">0</level>
 				<locked type="number">1</locked>
 				<name type="string">Rage</name>

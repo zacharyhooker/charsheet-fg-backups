@@ -245,7 +245,7 @@
 			<deathsavesuccess type="number">0</deathsavesuccess>
 			<temporary type="number">0</temporary>
 			<total type="number">16</total>
-			<wounds type="number">0</wounds>
+			<wounds type="number">10</wounds>
 		</hp>
 		<ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
 		<initiative>
@@ -302,6 +302,13 @@
 				<name type="string">Braided Silver and Electrum Ring</name>
 				<weight type="number">0</weight>
 			</id-00004>
+			<id-00005>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<isidentified type="number">1</isidentified>
+				<name type="string">Rotting Human Skull</name>
+				<weight type="number">0</weight>
+			</id-00005>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
@@ -316,7 +323,7 @@
 		</languagelist>
 		<level type="number">2</level>
 		<name type="string">Osfyr Shaeradim</name>
-		<notes type="string">Meliko - stonemason\nVelovi - shy man with army of children</notes>
+		<notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult</notes>
 		<perception type="number">12</perception>
 		<perceptionmodifier type="number">0</perceptionmodifier>
 		<personalitytraits type="string">I think anyone who's nice to me is hiding evil intent.</personalitytraits>
@@ -365,7 +372,7 @@
 			</pactmagicslots9>
 			<spellslots1>
 				<max type="number">3</max>
-				<used type="number">0</used>
+				<used type="number">2</used>
 			</spellslots1>
 			<spellslots2>
 				<max type="number">0</max>
@@ -474,6 +481,10 @@
 						<order type="number">3</order>
 						<type type="string">cast</type>
 					</id-00003>
+					<id-00004>
+						<order type="number">4</order>
+						<type type="string">cast</type>
+					</id-00004>
 				</actions>
 				<cast type="number">0</cast>
 				<castingtime type="string">1 action</castingtime>
@@ -495,6 +506,10 @@
 			</id-00003>
 			<id-00004>
 				<actions>
+					<id-00001>
+						<order type="number">1</order>
+						<type type="string">cast</type>
+					</id-00001>
 				</actions>
 				<cast type="number">0</cast>
 				<castingtime type="string">1 minute</castingtime>
@@ -533,6 +548,10 @@
 						<order type="number">2</order>
 						<type type="string">damage</type>
 					</id-00002>
+					<id-00003>
+						<order type="number">3</order>
+						<type type="string">cast</type>
+					</id-00003>
 				</actions>
 				<cast type="number">0</cast>
 				<castingtime type="string">1 action</castingtime>
