@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3" release="8|CoreRPG:3">
+	<character>
+		<abilities>
+			<charisma>
+				<bonus type="number">3</bonus>
+				<save type="number">3</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">0</saveprof>
+				<score type="number">16</score>
+			</charisma>
+			<constitution>
+				<bonus type="number">-1</bonus>
+				<save type="number">-1</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">0</saveprof>
+				<score type="number">9</score>
+			</constitution>
+			<dexterity>
+				<bonus type="number">0</bonus>
+				<save type="number">2</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">1</saveprof>
+				<score type="number">11</score>
+			</dexterity>
+			<intelligence>
+				<bonus type="number">-1</bonus>
+				<save type="number">1</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">1</saveprof>
+				<score type="number">9</score>
+			</intelligence>
+			<strength>
+				<bonus type="number">3</bonus>
+				<save type="number">3</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">0</saveprof>
+				<score type="number">16</score>
+			</strength>
+			<wisdom>
+				<bonus type="number">2</bonus>
+				<save type="number">2</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">0</saveprof>
+				<score type="number">14</score>
+			</wisdom>
+		</abilities>
+		<adventurelist>
+		</adventurelist>
+		<alignment type="string">Lawful Good</alignment>
+		<appearance type="string">A outspoken man with a cynical outlook on life; has a tattoo on his back. Prefers tailored clothing.</appearance>
+		<background type="string">Charlatan</background>
+		<backgroundlink type="windowreference">
+			<class>reference_background</class>
+			<recordname>reference.backgrounddata.charlatan@DD PHB Deluxe</recordname>
+		</backgroundlink>
+		<bonds type="string">I work for my king's son in an attempt to appease the gods.</bonds>
+		<classes>
+			<id-00002>
+				<casterlevelinvmult type="number">1</casterlevelinvmult>
+				<casterpactmagic type="number">1</casterpactmagic>
+				<hddie type="dice">d8</hddie>
+				<hdused type="number">0</hdused>
+				<level type="number">2</level>
+				<name type="string">Warlock</name>
+				<shortcut type="windowreference">
+					<class>reference_class</class>
+					<recordname>reference.classdata.warlock@DD PHB Deluxe</recordname>
+				</shortcut>
+			</id-00002>
+		</classes>
+		<coins>
+			<slot1>
+				<amount type="number">0</amount>
+			</slot1>
+			<slot2>
+				<amount type="number">0</amount>
+			</slot2>
+			<slot3>
+				<amount type="number">0</amount>
+			</slot3>
+			<slot4>
+				<amount type="number">0</amount>
+			</slot4>
+			<slot5>
+				<amount type="number">0</amount>
+			</slot5>
+			<slot6>
+				<amount type="number">0</amount>
+			</slot6>
+		</coins>
+		<defenses>
+			<ac>
+				<armor type="number">0</armor>
+				<misc type="number">0</misc>
+				<prof type="number">1</prof>
+				<shield type="number">0</shield>
+				<temporary type="number">0</temporary>
+				<total type="number">10</total>
+			</ac>
+		</defenses>
+		<deity type="string">Illmater</deity>
+		<encumbrance>
+			<encumbered type="number">80</encumbered>
+			<encumberedheavy type="number">160</encumberedheavy>
+			<liftpushdrag type="number">480</liftpushdrag>
+			<load type="number">1</load>
+			<max type="number">240</max>
+		</encumbrance>
+		<exp type="number">0</exp>
+		<expneeded type="number">0</expneeded>
+		<featlist>
+		</featlist>
+		<featurelist>
+			<id-00004>
+				<locked type="number">1</locked>
+				<name type="string">False Identity</name>
+				<source type="string">Charlatan</source>
+				<text type="formattedtext">
+					<p>You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona.</p>
+					<p>Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</p>
+				</text>
+			</id-00004>
+			<id-00005>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Arcane Recovery</name>
+				<source type="string">Wizard</source>
+				<text type="formattedtext">
+					<p>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher. For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</p>
+				</text>
+			</id-00005>
+			<id-00006>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Spellcasting</name>
+				<source type="string">Wizard</source>
+				<text type="formattedtext">
+					<p>As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.</p>
+					<p><b>Cantrips</b></p>
+					<p>At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.</p>
+					<p><b>Spellbook</b></p>
+					<p>At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind.</p>
+					<p><b>Preparing and Casting Spells</b></p>
+					<p>The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+					<p>You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+					<p>For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell <i>magic missile </i>, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
+					<p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.</p>
+					<p><b>Spellcasting Ability</b></p>
+					<p>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</p>
+					<p><b>Spell save DC </b>= 8 + your proficiency bonus + your Intelligence modifier</p>
+					<p><b>Spell attack modifier </b>= your proficiency bonus + your Intelligence modifier</p>
+					<p><b>Ritual Casting</b></p>
+					<p>You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.</p>
+					<p><b>Spellcasting Focus</b></p>
+					<p>You can use an arcane focus (found in chapter 5) as a spellcasting focus for your wizard spells.</p>
+					<p><b>Learning Spells of 1st Level and Higher</b></p>
+					<p>Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see the &#34;Your Spellbook&#34; sidebar).</p>
+				</text>
+			</id-00006>
+			<id-00007>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">The Great Old One</name>
+				<source type="string">Warlock</source>
+				<text type="formattedtext">
+					<p>Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it.</p>
+					<p>Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.</p>
+					<h>Features</h>
+					<linklist>
+						<link class="reference_classfeature" recordname="reference.classdata.warlock.features.expandedspelllist_greatoldone_1@DD PHB Deluxe">Expanded Spell List (Great Old One)</link>
+						<link class="reference_classfeature" recordname="reference.classdata.warlock.features.awakenedmind1@DD PHB Deluxe">Awakened Mind</link>
+						<link class="reference_classfeature" recordname="reference.classdata.warlock.features.entropicward6@DD PHB Deluxe">Entropic Ward</link>
+						<link class="reference_classfeature" recordname="reference.classdata.warlock.features.thoughtshield10@DD PHB Deluxe">Thought Shield</link>
+						<link class="reference_classfeature" recordname="reference.classdata.warlock.features.createthrall14@DD PHB Deluxe">Create Thrall</link>
+					</linklist>
+				</text>
+			</id-00007>
+			<id-00008>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Pact Magic</name>
+				<source type="string">Warlock</source>
+				<text type="formattedtext">
+					<p>Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the warlock spell list.</p>
+					<linklist>
+						<link class="reference_colindex" recordname="reference.spelllists.warlock@DD PHB Deluxe">Warlock Spells</link>
+					</linklist>
+					<p><b>Cantrips</b></p>
+					<p>You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.</p>
+					<p><b>Spell Slots</b></p>
+					<p>The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
+					<p>For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell <i>witch bolt </i>, you must spend one of those slots, and you cast it as a 3rd-level spell.</p>
+					<p><b>Spells Known of 1st Level and Higher</b></p>
+					<p>At 1st level, you know two 1st-level spells of your choice from the warlock spell list.</p>
+					<p>The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p>
+					<p>Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</p>
+					<p><b>Spellcasting Ability</b></p>
+					<p>Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p>
+					<p><b>Spell save DC </b>= 8 + your proficiency bonus + your Charisma modifier</p>
+					<p><b>Spell attack modifier </b>= your proficiency bonus + your Charisma modifier</p>
+					<p><b>Spellcasting Focus</b></p>
+					<p>You can use an arcane focus (found in chapter 5) as a spellcasting focus for your warlock spells.</p>
+				</text>
+			</id-00008>
+			<id-00009>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Expanded Spell List (Great Old One)</name>
+				<source type="string">Warlock</source>
+				<specialization type="string">The Great Old One</specialization>
+				<specializationchoice type="number">0</specializationchoice>
+				<text type="formattedtext">
+					<p>The Great Old One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+					<h>Great Old One Expanded Spells</h>
+					<p><b>Warlock Level - Spell</b></p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.dissonantwhispers@DD PHB Deluxe"><b>Spell: </b></link>1st - Dissonant Whispers</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.tasha_shideouslaughter@DD PHB Deluxe"><b>Spell: </b></link>1st - Tasha's Hideous Laughter
+						<link class="reference_spell" recordname="reference.spelldata.detectthoughts@DD PHB Deluxe"><b>Spell: </b></link>2nd - Detect Thoughts
+						<link class="reference_spell" recordname="reference.spelldata.phantasmalforce@DD PHB Deluxe"><b>Spell: </b></link>2nd - Phantasmal Force
+						<link class="reference_spell" recordname="reference.spelldata.clairvoyance@DD PHB Deluxe"><b>Spell: </b></link>3rd - Clairvoyance
+						<link class="reference_spell" recordname="reference.spelldata.sending@DD PHB Deluxe"><b>Spell: </b></link>3rd - Sending
+						<link class="reference_spell" recordname="reference.spelldata.dominatebeast@DD PHB Deluxe"><b>Spell: </b></link>4th - Dominate Beast
+						<link class="reference_spell" recordname="reference.spelldata.evard_sblacktentacles@DD PHB Deluxe"><b>Spell: </b></link>4th - Evard's Black Tentacles
+						<link class="reference_spell" recordname="reference.spelldata.dominateperson@DD PHB Deluxe"><b>Spell: </b></link>5th - Dominate Person
+						<link class="reference_spell" recordname="reference.spelldata.telekinesis@DD PHB Deluxe"><b>Spell: </b></link>5th - Telekinesis
+				</text>
+			</id-00009>
+			<id-00010>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Awakened Mind</name>
+				<source type="string">Warlock</source>
+				<specialization type="string">The Great Old One</specialization>
+				<text type="formattedtext">
+					<p>Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</p>
+				</text>
+			</id-00010>
+			<id-00011>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Eldritch Invocations</name>
+				<source type="string">Warlock</source>
+				<text type="formattedtext">
+					<p>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.</p>
+					<p>At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.</p>
+					<p>Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.</p>
+					<p>A level prerequisite in an invocation refers to warlock level, not character level.</p>
+					<h>Eldritch Invocations</h>
+					<p>If an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites.</p>
+					<table>
+						<tr>
+							<td><b>Name</b></td>
+							<td><b>Prerequisite</b></td>
+							<td colspan="5"><b>Description</b></td>
+						</tr>
+						<tr>
+							<td><b>Agonizing Blast</b></td>
+							<td>eldritch blast cantrip</td>
+							<td colspan="5">When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.eldritchblast@DD PHB Deluxe"><b>Spell: </b></link>Eldritch Blast</linklist>
+					<table>
+						<tr>
+							<td><b>Armor of Shadows</b></td>
+							<td>-</td>
+							<td colspan="5">You can cast <i>mage armor </i>on yourself at will, without expending a spell slot or material components.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.magearmor@DD PHB Deluxe"><b>Spell: </b></link>Mage Armor</linklist>
+					<table>
+						<tr>
+							<td><b>Ascendant Step</b></td>
+							<td>9th level</td>
+							<td colspan="5">You can cast <i>levitate </i>on yourself at will, without expending a spell slot or material components.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.levitate@DD PHB Deluxe"><b>Spell: </b></link>Levitate</linklist>
+					<table>
+						<tr>
+							<td><b>Beast Speech</b></td>
+							<td>-</td>
+							<td colspan="5">You can cast <i>speak with animals </i>at will, without expending a spell slot.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.speakwithanimals@DD PHB Deluxe"><b>Spell: </b></link>Speak with Animals</linklist>
+					<table>
+						<tr>
+							<td><b>Beguiling Influence</b></td>
+							<td>-</td>
+							<td colspan="5">You gain proficiency in the Deception and Persuasion skills.</td>
+						</tr>
+						<tr>
+							<td><b>Bewitching Whispers</b></td>
+							<td>7th level</td>
+							<td colspan="5">You can cast <i>compulsion </i>once using a warlock spell slot.You can't do so again until you finish a long rest.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.compulsion@DD PHB Deluxe"><b>Spell: </b></link>Compulsion</linklist>
+					<table>
+						<tr>
+							<td><b>Book of Ancient Secrets</b></td>
+							<td>Pact of the Tome feature</td>
+							<td colspan="5">You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The rituals needn't be from the same spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag. On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</td>
+						</tr>
+						<tr>
+							<td><b>Chains of Carceri</b></td>
+							<td>15th level, Pact of the Chain feature</td>
+							<td colspan="5">You can cast <i>hold monster </i>at will-targeting a celestial, fiend, or elemental-without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.holdmonster@DD PHB Deluxe"><b>Spell: </b></link>Hold Monster</linklist>
+					<table>
+						<tr>
+							<td><b>Devil's Sight</b></td>
+							<td>-</td>
+							<td colspan="5">You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</td>
+						</tr>
+						<tr>
+							<td><b>Dreadful Word</b></td>
+							<td>7th level</td>
+							<td colspan="5">You can cast <i>confusion </i>once using a warlock spell slot. You can't do so again until you finish a long rest.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.confusion@DD PHB Deluxe"><b>Spell: </b></link>Confusion</linklist>
+					<table>
+						<tr>
+							<td><b>Eldritch Sight</b></td>
+							<td>-</td>
+							<td colspan="5">You can cast <i>detect magic </i>at will, without expending a spell slot.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.detectmagic@DD PHB Deluxe"><b>Spell: </b></link>Detect Magic</linklist>
+					<table>
+						<tr>
+							<td><b>Eldritch Spear</b></td>
+							<td>eldritch blast cantrip</td>
+							<td colspan="5">When you cast eldritch blast, its range is 300 feet.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.eldritchblast@DD PHB Deluxe"><b>Spell: </b></link>Eldritch Blast</linklist>
+					<table>
+						<tr>
+							<td><b>Eyes of the Rune Keeper</b></td>
+							<td>-</td>
+							<td colspan="5">You can read all writing.</td>
+						</tr>
+						<tr>
+							<td><b>Fiendish Vigor</b></td>
+							<td>-</td>
+							<td colspan="5">You can cast <i>false life </i>on yourself at will as a 1st-level spell, without expending a spell slot or material components.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.falselife@DD PHB Deluxe"><b>Spell: </b></link>False Life</linklist>
+					<table>
+						<tr>
+							<td><b>Gaze of Two Minds</b></td>
+							<td>-</td>
+							<td colspan="5">You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.</td>
+						</tr>
+						<tr>
+							<td><b>Lifedrinker</b></td>
+							<td>12th level, Pact of the Blade feature</td>
+							<td colspan="5">When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).</td>
+						</tr>
+						<tr>
+							<td><b>Mask of Many Faces</b></td>
+							<td>-</td>
+							<td colspan="5">You can cast <i>disguise self </i>at will, without expending a spell slot.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.disguiseself@DD PHB Deluxe"><b>Spell: </b></link>Disguise Self</linklist>
+					<table>
+						<tr>
+							<td><b>Master of Myriad Forms</b></td>
+							<td>15th level</td>
+							<td colspan="5">You can cast <i>alter self </i>at will, without expending a spell slot.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.alterself@DD PHB Deluxe"><b>Spell: </b></link>Alter Self</linklist>
+					<table>
+						<tr>
+							<td><b>Minions of Chaos</b></td>
+							<td>9th level</td>
+							<td colspan="5">You can cast <i>conjure elemental </i>once using a warlock spell slot. You can't do so again until you finish a long rest.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.conjureelemental@DD PHB Deluxe"><b>Spell: </b></link>Conjure Elemental</linklist>
+					<table>
+						<tr>
+							<td><b>Mire the Mind</b></td>
+							<td>5th level</td>
+							<td colspan="5">You can cast <i>slow </i>once using a warlock spell slot. You can't do so again until you finish a long rest.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.slow@DD PHB Deluxe"><b>Spell: </b></link>Slow</linklist>
+					<table>
+						<tr>
+							<td><b>Misty Visions</b></td>
+							<td>-</td>
+							<td colspan="5">You can cast <i>silent image </i>at will, without expending a spell slot or material components.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.silentimage@DD PHB Deluxe"><b>Spell: </b></link>Silent Image</linklist>
+					<table>
+						<tr>
+							<td><b>One with Shadows</b></td>
+							<td>5th level</td>
+							<td colspan="5">When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</td>
+						</tr>
+						<tr>
+							<td><b>Otherworldly Leap</b></td>
+							<td>9th level</td>
+							<td colspan="5">You can cast <i>jump </i>on yourself at will, without expending a spell slot or material components.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.jump@DD PHB Deluxe"><b>Spell: </b></link>Jump</linklist>
+					<table>
+						<tr>
+							<td><b>Repelling Blast</b></td>
+							<td>eldritch blast cantrip</td>
+							<td colspan="5">When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.eldritchblast@DD PHB Deluxe"><b>Spell: </b></link>Eldritch Blast</linklist>
+					<table>
+						<tr>
+							<td><b>Sculptor of Flesh</b></td>
+							<td>7th level</td>
+							<td colspan="5">You can cast <i>polymorph </i>once using a warlock spell slot. You can't do so again until you finish a long rest.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.polymorph@DD PHB Deluxe"><b>Spell: </b></link>Polymorph</linklist>
+					<table>
+						<tr>
+							<td><b>Sign of Ill Omen</b></td>
+							<td>5th level</td>
+							<td colspan="5">You can cast <i>bestow curse </i>once using a warlock spell slot. You can't do so again until you finish a long rest.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.bestowcurse@DD PHB Deluxe"><b>Spell: </b></link>Bestow Curse</linklist>
+					<table>
+						<tr>
+							<td><b>Thief of Five Fates</b></td>
+							<td>-</td>
+							<td colspan="5">You can cast <i>bane </i>once using a warlock spell slot. You can't do so again until you finish a long rest.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.bane@DD PHB Deluxe"><b>Spell: </b></link>Bane</linklist>
+					<table>
+						<tr>
+							<td><b>Thirsting Blade</b></td>
+							<td>5th level, Pact of the Blade feature</td>
+							<td colspan="5">You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</td>
+						</tr>
+						<tr>
+							<td><b>Visions of Distant Realms</b></td>
+							<td>15th level</td>
+							<td colspan="5">You can cast <i>arcane eye </i>at will, without expending a spell slot.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.arcaneeye@DD PHB Deluxe"><b>Spell: </b></link>Arcane Eye</linklist>
+					<table>
+						<tr>
+							<td><b>Voice of the Chain Master</b></td>
+							<td>Pact of the Chain feature</td>
+							<td colspan="5">You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.</td>
+						</tr>
+						<tr>
+							<td><b>Whispers of the Grave</b></td>
+							<td>9th level</td>
+							<td colspan="5">You can cast <i>speak with dead </i>at will, without expending a spell slot.</td>
+						</tr>
+					</table>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.speakwithdead@DD PHB Deluxe"><b>Spell: </b></link>Speak with Dead</linklist>
+					<table>
+						<tr>
+							<td><b>Witch Sight</b></td>
+							<td>15th level</td>
+							<td colspan="5">You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.</td>
+						</tr>
+					</table>
+				</text>
+			</id-00011>
+		</featurelist>
+		<flaws type="string">I'm convinced that no one could ever fool me the way I fool others.</flaws>
+		<hp>
+			<temporary type="number">0</temporary>
+			<total type="number">19</total>
+			<wounds type="number">0</wounds>
+		</hp>
+		<ideals type="string">Charity. I distribute the money I acquire to the people who really need it. (Good)</ideals>
+		<initiative>
+			<misc type="number">0</misc>
+			<temporary type="number">0</temporary>
+			<total type="number">0</total>
+		</initiative>
+		<inventorylist>
+			<id-00001>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<carried type="number">2</carried>
+				<cost type="string">101 - 500 gp</cost>
+				<count type="number">1</count>
+				<damage type="string">1d4 piercing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<linklist>
+						<link class="imagewindow" recordname="image.img_trident_of_warning_jpg@*"><b>Image: </b></link>Trident of Warning</linklist>
+					<p>This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Dagger of Warning</name>
+				<nonid_name type="string">Exemplary Dagger</nonid_name>
+				<nonidentified type="string">This weapon is made of some rare materials and has engravings of watching eyes and rising suns all over it.</nonidentified>
+				<properties type="string">Finesse, light, thrown (range 20/60), magic</properties>
+				<rarity type="string">Uncommon (Requires Attunement)</rarity>
+				<spells>
+					<id-00001>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Weapon of Warning</name>
+					</id-00001>
+					<id-00002>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Dagger</name>
+					</id-00002>
+				</spells>
+				<subtype type="string">Dagger</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">1</weight>
+			</id-00001>
+		</inventorylist>
+		<languagelist>
+			<id-00001>
+				<name type="string">Common</name>
+			</id-00001>
+			<id-00002>
+				<name type="string">Orcs</name>
+			</id-00002>
+		</languagelist>
+		<level type="number">2</level>
+		<name type="string">Finnegan Halmarch</name>
+		<perception type="number">12</perception>
+		<perceptionmodifier type="number">0</perceptionmodifier>
+		<personalitytraits type="string">I'm a born gambler who can't resist taking a risk for a potential payoff.</personalitytraits>
+		<powergroup>
+			<id-00001>
+				<atkmod type="number">0</atkmod>
+				<atkprof type="number">1</atkprof>
+				<castertype type="string">memorization</castertype>
+				<name type="string">Spells</name>
+				<prepared type="number">0</prepared>
+				<savemod type="number">0</savemod>
+				<saveprof type="number">1</saveprof>
+				<stat type="string">intelligence</stat>
+				<uses type="number">0</uses>
+			</id-00001>
+			<id-00002>
+				<atkmod type="number">0</atkmod>
+				<atkprof type="number">1</atkprof>
+				<castertype type="string">memorization</castertype>
+				<name type="string">Spells (Warlock)</name>
+				<prepared type="number">0</prepared>
+				<savemod type="number">0</savemod>
+				<saveprof type="number">1</saveprof>
+				<stat type="string">charisma</stat>
+				<uses type="number">0</uses>
+			</id-00002>
+			<id-00003>
+				<name type="string">Eldritch Invocation</name>
+			</id-00003>
+		</powergroup>
+		<powermeta>
+			<pactmagicslots1>
+				<max type="number">2</max>
+			</pactmagicslots1>
+			<pactmagicslots2>
+				<max type="number">0</max>
+			</pactmagicslots2>
+			<pactmagicslots3>
+				<max type="number">0</max>
+			</pactmagicslots3>
+			<pactmagicslots4>
+				<max type="number">0</max>
+			</pactmagicslots4>
+			<pactmagicslots5>
+				<max type="number">0</max>
+			</pactmagicslots5>
+			<pactmagicslots6>
+				<max type="number">0</max>
+			</pactmagicslots6>
+			<pactmagicslots7>
+				<max type="number">0</max>
+			</pactmagicslots7>
+			<pactmagicslots8>
+				<max type="number">0</max>
+			</pactmagicslots8>
+			<pactmagicslots9>
+				<max type="number">0</max>
+			</pactmagicslots9>
+			<spellslots1>
+				<max type="number">2</max>
+			</spellslots1>
+			<spellslots2>
+				<max type="number">0</max>
+			</spellslots2>
+			<spellslots3>
+				<max type="number">0</max>
+			</spellslots3>
+			<spellslots4>
+				<max type="number">0</max>
+			</spellslots4>
+			<spellslots5>
+				<max type="number">0</max>
+			</spellslots5>
+			<spellslots6>
+				<max type="number">0</max>
+			</spellslots6>
+			<spellslots7>
+				<max type="number">0</max>
+			</spellslots7>
+			<spellslots8>
+				<max type="number">0</max>
+			</spellslots8>
+			<spellslots9>
+				<max type="number">0</max>
+			</spellslots9>
+		</powermeta>
+		<powermode type="string">standard</powermode>
+		<powers>
+			<id-00001>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">V, S</components>
+				<description type="formattedtext">
+					<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p>
+					<p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p>
+					<p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p>
+				</description>
+				<duration type="string">1 minute</duration>
+				<group type="string">Spells</group>
+				<level type="number">0</level>
+				<locked type="number">1</locked>
+				<name type="string">Mage Hand</name>
+				<prepared type="number">0</prepared>
+				<range type="string">30 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Conjuration</school>
+				<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+			</id-00001>
+			<id-00002>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">V, S</components>
+				<description type="formattedtext">
+					<p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p>
+					<list>
+						<li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li>
+						<li>You instantaneously light or snuff out a candle, a torch, or a small campfire.</li>
+						<li>You instantaneously clean or soil an object no larger than 1 cubic foot.</li>
+						<li>You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li>
+						<li>You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li>
+						<li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li>
+					</list>
+					<p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>
+				</description>
+				<duration type="string">Up to 1 hour</duration>
+				<group type="string">Spells</group>
+				<level type="number">0</level>
+				<locked type="number">1</locked>
+				<name type="string">Prestidigitation</name>
+				<prepared type="number">0</prepared>
+				<range type="string">10 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Transmutation</school>
+				<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+			</id-00002>
+			<id-00006>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 bonus action</castingtime>
+				<components type="string">V, S</components>
+				<description type="formattedtext">
+					<p>This spell allows you to move at an incredible pace.</p>
+					<p>When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.</p>
+				</description>
+				<duration type="string">Concentration, up to 10 minutes</duration>
+				<group type="string">Spells (Warlock)</group>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Expeditious Retreat</name>
+				<prepared type="number">0</prepared>
+				<range type="string">Self</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Transmutation</school>
+				<source type="string">Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+			</id-00006>
+			<id-00007>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 minute</castingtime>
+				<components type="string">S, M (a lead-based ink worth at least 10 gp, which the spell consumes)</components>
+				<description type="formattedtext">
+					<p>You write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration.</p>
+					<p>To you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.</p>
+					<p>Should the spell be dispelled, the original script and the illusion both disappear.</p>
+					<p>A creature with truesight can read the hidden message.</p>
+				</description>
+				<duration type="string">10 days</duration>
+				<group type="string">Spells (Warlock)</group>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Illusory Script</name>
+				<prepared type="number">0</prepared>
+				<range type="string">Touch</range>
+				<ritual type="number">1</ritual>
+				<school type="string">Illusion</school>
+				<source type="string">Bard, Eldritch Knight, Warlock, Wizard, Arcane Trickster</source>
+			</id-00007>
+			<id-00008>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">V, S, M (a piece of string and a bit of wood)</components>
+				<description type="formattedtext">
+					<p>This spell creates an invisible, mindless, shapeless force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends.</p>
+					<p>Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.</p>
+					<p>If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.</p>
+				</description>
+				<duration type="string">1 hour</duration>
+				<group type="string">Spells (Warlock)</group>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Unseen Servant</name>
+				<prepared type="number">0</prepared>
+				<range type="string">60 feet</range>
+				<ritual type="number">1</ritual>
+				<school type="string">Conjuration</school>
+				<source type="string">Bard, Eldritch Knight, Warlock, Wizard, Arcane Trickster</source>
+			</id-00008>
+			<id-00009>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">N/A</castingtime>
+				<components type="string">N/A</components>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<group type="string">Eldritch Invocation</group>
+				<level type="number">1</level>
+				<name type="string">Eyes of the Rune Keeper</name>
+				<prepared type="number">0</prepared>
+				<range type="string">N/A</range>
+				<ritual type="number">0</ritual>
+				<shortdescription type="string">You can read all writing.</shortdescription>
+				<source type="string">Eldritch Invocations | Warlock</source>
+			</id-00009>
+			<id-00010>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 Action</castingtime>
+				<components type="string">V, S</components>
+				<description type="formattedtext">
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.disguiseself@DD PHB Deluxe">Spell: Disguise Self</link>
+					</linklist>
+				</description>
+				<duration type="string">1 hour</duration>
+				<group type="string">Eldritch Invocation</group>
+				<level type="number">1</level>
+				<name type="string">Mask of Many Faces</name>
+				<prepared type="number">0</prepared>
+				<range type="string">Self</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Illusion</school>
+				<shortdescription type="string">You can cast disguise self at will, without expending a spell slot.</shortdescription>
+				<source type="string">Eldritch Invocation | Warlock</source>
+			</id-00010>
+		</powers>
+		<profbonus type="number">2</profbonus>
+		<proficiencylist>
+			<id-00003>
+				<name type="string">Armor: Light armor</name>
+			</id-00003>
+			<id-00004>
+				<name type="string">Tool: Disguise kit, forgery kit</name>
+			</id-00004>
+			<id-00006>
+				<name type="string">Weapon: Simple weapons</name>
+			</id-00006>
+		</proficiencylist>
+		<race type="string">Human</race>
+		<racelink type="windowreference">
+			<class>reference_race</class>
+			<recordname>reference.racedata.human@DD PHB Deluxe</recordname>
+		</racelink>
+		<size type="string">Medium</size>
+		<skilllist>
+			<id-00001>
+				<misc type="number">0</misc>
+				<name type="string">Perception</name>
+				<prof type="number">0</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">2</total>
+			</id-00001>
+			<id-00002>
+				<misc type="number">0</misc>
+				<name type="string">Insight</name>
+				<prof type="number">1</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">4</total>
+			</id-00002>
+			<id-00003>
+				<misc type="number">0</misc>
+				<name type="string">Investigation</name>
+				<prof type="number">0</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">-1</total>
+			</id-00003>
+			<id-00004>
+				<misc type="number">0</misc>
+				<name type="string">Performance</name>
+				<prof type="number">0</prof>
+				<stat type="string">charisma</stat>
+				<total type="number">3</total>
+			</id-00004>
+			<id-00005>
+				<misc type="number">0</misc>
+				<name type="string">Persuasion</name>
+				<prof type="number">0</prof>
+				<stat type="string">charisma</stat>
+				<total type="number">3</total>
+			</id-00005>
+			<id-00006>
+				<misc type="number">0</misc>
+				<name type="string">Deception</name>
+				<prof type="number">0</prof>
+				<stat type="string">charisma</stat>
+				<total type="number">3</total>
+			</id-00006>
+			<id-00007>
+				<misc type="number">0</misc>
+				<name type="string">Sleight of Hand</name>
+				<prof type="number">3</prof>
+				<stat type="string">dexterity</stat>
+				<total type="number">1</total>
+			</id-00007>
+			<id-00008>
+				<misc type="number">0</misc>
+				<name type="string">Arcana</name>
+				<prof type="number">0</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">-1</total>
+			</id-00008>
+			<id-00009>
+				<misc type="number">0</misc>
+				<name type="string">Nature</name>
+				<prof type="number">0</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">-1</total>
+			</id-00009>
+			<id-00010>
+				<misc type="number">0</misc>
+				<name type="string">Medicine</name>
+				<prof type="number">0</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">2</total>
+			</id-00010>
+			<id-00011>
+				<misc type="number">0</misc>
+				<name type="string">Survival</name>
+				<prof type="number">0</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">2</total>
+			</id-00011>
+			<id-00012>
+				<misc type="number">0</misc>
+				<name type="string">Acrobatics</name>
+				<prof type="number">0</prof>
+				<stat type="string">dexterity</stat>
+				<total type="number">0</total>
+			</id-00012>
+			<id-00013>
+				<misc type="number">0</misc>
+				<name type="string">Religion</name>
+				<prof type="number">0</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">-1</total>
+			</id-00013>
+			<id-00014>
+				<misc type="number">0</misc>
+				<name type="string">Athletics</name>
+				<prof type="number">0</prof>
+				<stat type="string">strength</stat>
+				<total type="number">3</total>
+			</id-00014>
+			<id-00015>
+				<misc type="number">0</misc>
+				<name type="string">Intimidation</name>
+				<prof type="number">0</prof>
+				<stat type="string">charisma</stat>
+				<total type="number">3</total>
+			</id-00015>
+			<id-00016>
+				<misc type="number">0</misc>
+				<name type="string">Stealth</name>
+				<prof type="number">0</prof>
+				<stat type="string">dexterity</stat>
+				<total type="number">0</total>
+			</id-00016>
+			<id-00017>
+				<misc type="number">0</misc>
+				<name type="string">History</name>
+				<prof type="number">1</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">1</total>
+			</id-00017>
+			<id-00018>
+				<misc type="number">0</misc>
+				<name type="string">Animal Handling</name>
+				<prof type="number">0</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">2</total>
+			</id-00018>
+		</skilllist>
+		<speed>
+			<armor type="number">0</armor>
+			<base type="number">30</base>
+			<misc type="number">0</misc>
+			<temporary type="number">0</temporary>
+			<total type="number">30</total>
+		</speed>
+		<temp>
+		</temp>
+		<token type="token">portrait_id-00001_token</token>
+		<traitlist>
+		</traitlist>
+		<weaponlist>
+			<id-00001>
+				<attackbonus type="number">0</attackbonus>
+				<carried type="number">2</carried>
+				<damagelist>
+					<id-00001>
+						<bonus type="number">0</bonus>
+						<dice type="dice">d4</dice>
+						<stat type="string">base</stat>
+						<type type="string">piercing,magic</type>
+					</id-00001>
+				</damagelist>
+				<isidentified type="number">1</isidentified>
+				<maxammo type="number">0</maxammo>
+				<name type="string">Dagger of Warning</name>
+				<prof type="number">1</prof>
+				<shortcut type="windowreference">
+					<class>item</class>
+					<recordname>....inventorylist.id-00001</recordname>
+				</shortcut>
+				<type type="number">0</type>
+			</id-00001>
+		</weaponlist>
+	</character>
+</root>
