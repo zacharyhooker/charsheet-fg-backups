@@ -46,6 +46,10 @@
 			</wisdom>
 		</abilities>
 		<adventurelist>
+			<id-00001>
+			</id-00001>
+			<id-00002>
+			</id-00002>
 		</adventurelist>
 		<age type="string">278</age>
 		<alignment type="string">Lawful Good</alignment>
@@ -76,11 +80,11 @@
 				<name type="string">CP</name>
 			</slot1>
 			<slot2>
-				<amount type="number">11</amount>
+				<amount type="number">17</amount>
 				<name type="string">GP</name>
 			</slot2>
 			<slot3>
-				<amount type="number">4</amount>
+				<amount type="number">37</amount>
 				<name type="string">SP</name>
 			</slot3>
 			<slot4>
@@ -110,7 +114,7 @@
 			<encumbered type="number">90</encumbered>
 			<encumberedheavy type="number">180</encumberedheavy>
 			<liftpushdrag type="number">540</liftpushdrag>
-			<load type="number">56</load>
+			<load type="number">54</load>
 			<max type="number">270</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -182,7 +186,7 @@
 			<hdmod type="number">0</hdmod>
 			<temporary type="number">0</temporary>
 			<total type="number">24</total>
-			<wounds type="number">9</wounds>
+			<wounds type="number">0</wounds>
 		</hp>
 		<ideals type="string">Self-Knowledge. If you know yourself, there's nothing left to know.</ideals>
 		<initiative>
@@ -220,7 +224,7 @@
 			<id-00003>
 				<carried type="number">1</carried>
 				<cost type="string">5 sp</cost>
-				<count type="number">6</count>
+				<count type="number">5</count>
 				<description type="formattedtext">
 					<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>
 				</description>
@@ -340,7 +344,7 @@
 				<carried type="number">1</carried>
 				<count type="number">1</count>
 				<isidentified type="number">1</isidentified>
-				<name type="string">Wooden pipe - short and stout </name>
+				<name type="string">Wooden pipe - short and stout</name>
 				<weight type="number">1</weight>
 			</id-00015>
 		</inventorylist>
@@ -476,7 +480,7 @@
 						<type type="string">effect</type>
 					</id-00001>
 				</actions>
-				<cast type="number">0</cast>
+				<cast type="number">1</cast>
 				<description type="formattedtext">
 					<p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
 					<list>

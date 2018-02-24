@@ -47,7 +47,7 @@
 		</abilities>
 		<adventurelist>
 		</adventurelist>
-		<age type="string">33</age>
+		<age type="string">37</age>
 		<alignment type="string">Chaotic Good</alignment>
 		<appearance type="string">Standing before you with a somber expression is a half elf of middling height, shoulder-length ratty oak-brown hair, pale skin and bright green eyes. Bags hang under the eyes, and his clothing appears worse for the wear. Clutching the patchwork robe around his bony body, you get the feeling of skin pulled taut across a skeleton and a life hard lived.</appearance>
 		<background type="string">Urchin</background>
@@ -62,7 +62,7 @@
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice">d6</hddie>
 				<hdused type="number">0</hdused>
-				<level type="number">2</level>
+				<level type="number">3</level>
 				<name type="string">Sorcerer</name>
 				<shortcut type="windowreference">
 					<class>reference_class</class>
@@ -76,7 +76,7 @@
 				<name type="string">pp</name>
 			</slot1>
 			<slot2>
-				<amount type="number">15</amount>
+				<amount type="number">48</amount>
 				<name type="string">SP</name>
 			</slot2>
 			<slot3>
@@ -92,7 +92,7 @@
 				<name type="string">ep</name>
 			</slot5>
 			<slot6>
-				<amount type="number">18</amount>
+				<amount type="number">24</amount>
 				<name type="string">GP</name>
 			</slot6>
 		</coins>
@@ -111,7 +111,7 @@
 			<encumbered type="number">50</encumbered>
 			<encumberedheavy type="number">100</encumberedheavy>
 			<liftpushdrag type="number">300</liftpushdrag>
-			<load type="number">4</load>
+			<load type="number">5</load>
 			<max type="number">150</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -236,6 +236,40 @@
 					<p>Converting a Spell Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</p>
 				</text>
 			</id-00006>
+			<id-00007>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">Metamagic</name>
+				<source type="string">Sorcerer</source>
+				<text type="formattedtext">
+					<p>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.</p>
+					<p>You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</p>
+					<p><b>Careful Spell</b></p>
+					<p>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</p>
+					<p><b>Distant Spell</b></p>
+					<p>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</p>
+					<p>When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</p>
+					<p><b>Empowered Spell</b></p>
+					<p>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</p>
+					<p>You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
+					<p><b>Extended Spell</b></p>
+					<p>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</p>
+					<p><b>Heightened Spell</b></p>
+					<p>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</p>
+					<p><b>Quickened Spell</b></p>
+					<p>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</p>
+					<p><b>Subtle Spell</b></p>
+					<p>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</p>
+					<p><b>Twinned Spell</b></p>
+					<p>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell's current level.</p>
+				</text>
+			</id-00007>
+			<id-00008>
+				<name type="string">Twinned Spell</name>
+			</id-00008>
+			<id-00009>
+				<name type="string">Heightened Spell</name>
+			</id-00009>
 		</featurelist>
 		<flaws type="string">People who can't take care of themselves get what they deserve.</flaws>
 		<gender type="string">M</gender>
@@ -243,9 +277,10 @@
 		<hp>
 			<deathsavefail type="number">0</deathsavefail>
 			<deathsavesuccess type="number">0</deathsavesuccess>
+			<hdmod type="number">0</hdmod>
 			<temporary type="number">0</temporary>
-			<total type="number">16</total>
-			<wounds type="number">10</wounds>
+			<total type="number">23</total>
+			<wounds type="number">4</wounds>
 		</hp>
 		<ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
 		<initiative>
@@ -309,6 +344,68 @@
 				<name type="string">Rotting Human Skull</name>
 				<weight type="number">0</weight>
 			</id-00005>
+			<id-00006>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<isidentified type="number">1</isidentified>
+				<name type="string">Ruined Wedding Dress</name>
+				<weight type="number">0</weight>
+			</id-00006>
+			<id-00007>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<carried type="number">1</carried>
+				<cost type="string">25 cp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p>Degrades 10% daily.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Bear Head w/ Leather Strap</name>
+				<rarity type="string">70%</rarity>
+				<subtype type="string">Standard</subtype>
+				<type type="string">Adventuring Gear</type>
+				<weight type="number">1</weight>
+			</id-00007>
+			<id-00009>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<carried type="number">1</carried>
+				<cost type="string">1 gp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p>This coin makes the weilder's body invisible to themselves. The invisibility is active when this is in a coinpurse with other coins.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Coin of &#34;Invisibility&#34;</name>
+				<rarity type="string">Rare</rarity>
+				<subtype type="string">Coin</subtype>
+				<type type="string">Wonderous Item</type>
+				<weight type="number">0</weight>
+			</id-00009>
+			<id-00010>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<carried type="number">1</carried>
+				<cost type="string">uncommon</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.img_wand_of_magic_missile_jpg@*"><b>Image: </b></link>Wand of Magic Missiles</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.magicmissile@*"><b>Spell: </b></link>Magic Missile
+					<p>This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</p>
+					<p>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>
+					<p><b>Wand Notes</b></p>
+					<p>An arcane focus is a special item-an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item-designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Wand of Magic Missiles</name>
+				<type type="string">Wand</type>
+				<weight type="number">0</weight>
+			</id-00010>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
@@ -321,7 +418,7 @@
 				<name type="string">Celestial</name>
 			</id-00003>
 		</languagelist>
-		<level type="number">2</level>
+		<level type="number">3</level>
 		<name type="string">Osfyr Shaeradim</name>
 		<notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult</notes>
 		<perception type="number">12</perception>
@@ -371,11 +468,11 @@
 				<used type="number">0</used>
 			</pactmagicslots9>
 			<spellslots1>
-				<max type="number">3</max>
+				<max type="number">4</max>
 				<used type="number">2</used>
 			</spellslots1>
 			<spellslots2>
-				<max type="number">0</max>
+				<max type="number">2</max>
 				<used type="number">0</used>
 			</spellslots2>
 			<spellslots3>
@@ -477,14 +574,6 @@
 						<order type="number">2</order>
 						<type type="string">damage</type>
 					</id-00002>
-					<id-00003>
-						<order type="number">3</order>
-						<type type="string">cast</type>
-					</id-00003>
-					<id-00004>
-						<order type="number">4</order>
-						<type type="string">cast</type>
-					</id-00004>
 				</actions>
 				<cast type="number">0</cast>
 				<castingtime type="string">1 action</castingtime>
@@ -548,10 +637,6 @@
 						<order type="number">2</order>
 						<type type="string">damage</type>
 					</id-00002>
-					<id-00003>
-						<order type="number">3</order>
-						<type type="string">cast</type>
-					</id-00003>
 				</actions>
 				<cast type="number">0</cast>
 				<castingtime type="string">1 action</castingtime>
@@ -574,10 +659,6 @@
 			</id-00005>
 			<id-00006>
 				<actions>
-					<id-00003>
-						<order type="number">1</order>
-						<type type="string">cast</type>
-					</id-00003>
 				</actions>
 				<cast type="number">0</cast>
 				<castingtime type="string">1 action</castingtime>
@@ -642,6 +723,42 @@
 				<school type="string">Necromancy</school>
 				<source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
 			</id-00007>
+			<id-00008>
+				<actions>
+					<id-00001>
+						<order type="number">1</order>
+						<savemagic type="number">1</savemagic>
+						<savetype type="string">wisdom</savetype>
+						<type type="string">cast</type>
+					</id-00001>
+					<id-00002>
+						<durmod type="number">1</durmod>
+						<durunit type="string">minute</durunit>
+						<label type="string">Charmed; NOTE: Save on end of round; (C)</label>
+						<order type="number">2</order>
+						<type type="string">effect</type>
+					</id-00002>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">V, S</components>
+				<description type="formattedtext">
+					<p>One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.</p>
+					<p>The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.</p>
+					<p>The target can act normally on its turn if you choose no creature or if none are within its reach.</p>
+					<p>On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.</p>
+				</description>
+				<duration type="string">Concentration, up to 1 minute</duration>
+				<group type="string">Spells</group>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Crown of Madness</name>
+				<prepared type="number">0</prepared>
+				<range type="string">120 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Enchantment</school>
+				<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+			</id-00008>
 		</powers>
 		<profbonus type="number">2</profbonus>
 		<proficiencylist>

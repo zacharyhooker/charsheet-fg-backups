@@ -62,7 +62,7 @@
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice">d8</hddie>
 				<hdused type="number">0</hdused>
-				<level type="number">2</level>
+				<level type="number">3</level>
 				<name type="string">Druid</name>
 				<shortcut type="windowreference">
 					<class>reference_class</class>
@@ -76,11 +76,11 @@
 				<name type="string">CP</name>
 			</slot1>
 			<slot2>
-				<amount type="number">15</amount>
+				<amount type="number">12</amount>
 				<name type="string">GP</name>
 			</slot2>
 			<slot3>
-				<amount type="number">5</amount>
+				<amount type="number">38</amount>
 				<name type="string">SP</name>
 			</slot3>
 			<slot4>
@@ -109,7 +109,7 @@
 			<encumbered type="number">60</encumbered>
 			<encumberedheavy type="number">120</encumberedheavy>
 			<liftpushdrag type="number">360</liftpushdrag>
-			<load type="number">123.01</load>
+			<load type="number">122.01</load>
 			<max type="number">180</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -260,6 +260,106 @@
 					<p>For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</p>
 				</text>
 			</id-00007>
+			<id-00008>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">Circle Spells</name>
+				<source type="string">Druid</source>
+				<specialization type="string">Circle of the Land</specialization>
+				<specializationchoice type="number">0</specializationchoice>
+				<text type="formattedtext">
+					<p>Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land-arctic, coast, desert, forest, grassland, mountain, or swamp-and consult the associated list of spells.</p>
+					<p>Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+					<h>Arctic</h>
+					<p><b>Druid Level - Spell</b></p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.holdperson@DD PHB Deluxe"><b>Spell: </b></link>3rd - Hold Person</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.spikegrowth@DD PHB Deluxe"><b>Spell: </b></link>3rd - Spike Growth
+						<link class="reference_spell" recordname="reference.spelldata.sleetstorm@DD PHB Deluxe"><b>Spell: </b></link>5th - Sleet Storm
+						<link class="reference_spell" recordname="reference.spelldata.slow@DD PHB Deluxe"><b>Spell: </b></link>5th - Slow
+						<link class="reference_spell" recordname="reference.spelldata.freedomofmovement@DD PHB Deluxe"><b>Spell: </b></link>7th - Freedom of Movement
+						<link class="reference_spell" recordname="reference.spelldata.icestorm@DD PHB Deluxe"><b>Spell: </b></link>7th - Ice Storm
+						<link class="reference_spell" recordname="reference.spelldata.communewithnature@DD PHB Deluxe"><b>Spell: </b></link>9th - Commune with Nature
+						<link class="reference_spell" recordname="reference.spelldata.coneofcold@DD PHB Deluxe"><b>Spell: </b></link>9th - Cone of Cold
+					<h>Coast</h>
+					<p><b>Druid Level - Spell</b></p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.mirrorimage@DD PHB Deluxe"><b>Spell: </b></link>3rd - Mirror Image</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.mistystep@DD PHB Deluxe"><b>Spell: </b></link>3rd - Misty Step
+						<link class="reference_spell" recordname="reference.spelldata.waterbreathing@DD PHB Deluxe"><b>Spell: </b></link>5th - Water Breathing
+						<link class="reference_spell" recordname="reference.spelldata.waterwalk@DD PHB Deluxe"><b>Spell: </b></link>5th - Water Walk
+						<link class="reference_spell" recordname="reference.spelldata.controlwater@DD PHB Deluxe"><b>Spell: </b></link>7th - Control Water
+						<link class="reference_spell" recordname="reference.spelldata.freedomofmovement@DD PHB Deluxe"><b>Spell: </b></link>7th - Freedom of Movement
+						<link class="reference_spell" recordname="reference.spelldata.conjureelemental@DD PHB Deluxe"><b>Spell: </b></link>9th - Conjure Elemental
+						<link class="reference_spell" recordname="reference.spelldata.scrying@DD PHB Deluxe"><b>Spell: </b></link>9th - Scrying
+					<h>Desert</h>
+					<p><b>Druid Level - Spell</b></p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.blur@DD PHB Deluxe"><b>Spell: </b></link>3rd - Blur</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.silence@DD PHB Deluxe"><b>Spell: </b></link>3rd - Silence
+						<link class="reference_spell" recordname="reference.spelldata.createfoodandwater@DD PHB Deluxe"><b>Spell: </b></link>5th - Create Food and Water
+						<link class="reference_spell" recordname="reference.spelldata.protectionfromenergy@DD PHB Deluxe"><b>Spell: </b></link>5th - Protection from Energy
+						<link class="reference_spell" recordname="reference.spelldata.blight@DD PHB Deluxe"><b>Spell: </b></link>7th - Blight
+						<link class="reference_spell" recordname="reference.spelldata.hallucinatoryterrain@DD PHB Deluxe"><b>Spell: </b></link>7th - Hallucinatory Terrain
+						<link class="reference_spell" recordname="reference.spelldata.insectplague@DD PHB Deluxe"><b>Spell: </b></link>9th - Insect Plague
+						<link class="reference_spell" recordname="reference.spelldata.wallofstone@DD PHB Deluxe"><b>Spell: </b></link>9th - Wall of Stone
+					<h>Forest</h>
+					<p><b>Druid Level - Spell</b></p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.barkskin@DD PHB Deluxe"><b>Spell: </b></link>3rd - Barkskin</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.spiderclimb@DD PHB Deluxe"><b>Spell: </b></link>3rd - Spider Climb
+						<link class="reference_spell" recordname="reference.spelldata.calllightning@DD PHB Deluxe"><b>Spell: </b></link>5th - Call Lightning
+						<link class="reference_spell" recordname="reference.spelldata.plantgrowth@DD PHB Deluxe"><b>Spell: </b></link>5th - Plant Growth
+						<link class="reference_spell" recordname="reference.spelldata.divination@DD PHB Deluxe"><b>Spell: </b></link>7th - Divination
+						<link class="reference_spell" recordname="reference.spelldata.freedomofmovement@DD PHB Deluxe"><b>Spell: </b></link>7th - Freedom of Movement
+						<link class="reference_spell" recordname="reference.spelldata.communewithnature@DD PHB Deluxe"><b>Spell: </b></link>9th - Commune with Nature
+						<link class="reference_spell" recordname="reference.spelldata.treestride@DD PHB Deluxe"><b>Spell: </b></link>9th - Tree Stride
+					<h>Grassland</h>
+					<p><b>Druid Level - Spell</b></p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.invisibility@DD PHB Deluxe"><b>Spell: </b></link>3rd - Invisibility</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.passwithouttrace@DD PHB Deluxe"><b>Spell: </b></link>3rd - Pass without Trace
+						<link class="reference_spell" recordname="reference.spelldata.daylight@DD PHB Deluxe"><b>Spell: </b></link>5th - Daylight
+						<link class="reference_spell" recordname="reference.spelldata.haste@DD PHB Deluxe"><b>Spell: </b></link>5th - Haste
+						<link class="reference_spell" recordname="reference.spelldata.freedomofmovement@DD PHB Deluxe"><b>Spell: </b></link>7th - Freedom of Movement
+						<link class="reference_spell" recordname="reference.spelldata.divination@DD PHB Deluxe"><b>Spell: </b></link>7th - Divination
+						<link class="reference_spell" recordname="reference.spelldata.dream@DD PHB Deluxe"><b>Spell: </b></link>9th - Dream
+						<link class="reference_spell" recordname="reference.spelldata.insectplague@DD PHB Deluxe"><b>Spell: </b></link>9th - Insect Plague
+					<h>Mountain</h>
+					<p><b>Druid Level - Spell</b></p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.spiderclimb@DD PHB Deluxe"><b>Spell: </b></link>3rd - Spider Climb</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.spikegrowth@DD PHB Deluxe"><b>Spell: </b></link>3rd - Spike Growth
+						<link class="reference_spell" recordname="reference.spelldata.lightningbolt@DD PHB Deluxe"><b>Spell: </b></link>5th - Lightning Bolt
+						<link class="reference_spell" recordname="reference.spelldata.meldintostone@DD PHB Deluxe"><b>Spell: </b></link>5th - Meld into Stone
+						<link class="reference_spell" recordname="reference.spelldata.stoneshape@DD PHB Deluxe"><b>Spell: </b></link>7th - Stone Shape
+						<link class="reference_spell" recordname="reference.spelldata.stoneskin@DD PHB Deluxe"><b>Spell: </b></link>7th - Stoneskin
+						<link class="reference_spell" recordname="reference.spelldata.passwall@DD PHB Deluxe"><b>Spell: </b></link>9th - Passwall
+						<link class="reference_spell" recordname="reference.spelldata.wallofstone@DD PHB Deluxe"><b>Spell: </b></link>9th - Wall of Stone
+					<h>Swamp</h>
+					<p><b>Druid Level - Spell</b></p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.darkness@DD PHB Deluxe"><b>Spell: </b></link>3rd - Darkness</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.melf_sacidarrow@DD PHB Deluxe"><b>Spell: </b></link>3rd - Melf's Acid Arrow
+						<link class="reference_spell" recordname="reference.spelldata.waterwalk@DD PHB Deluxe"><b>Spell: </b></link>5th - Water Walk
+						<link class="reference_spell" recordname="reference.spelldata.stinkingcloud@DD PHB Deluxe"><b>Spell: </b></link>5th - Stinking Cloud
+						<link class="reference_spell" recordname="reference.spelldata.freedomofmovement@DD PHB Deluxe"><b>Spell: </b></link>7th - Freedom of Movement
+						<link class="reference_spell" recordname="reference.spelldata.locatecreature@DD PHB Deluxe"><b>Spell: </b></link>7th - Locate Creature
+						<link class="reference_spell" recordname="reference.spelldata.insectplague@DD PHB Deluxe"><b>Spell: </b></link>9th - Insect Plague
+						<link class="reference_spell" recordname="reference.spelldata.scrying@DD PHB Deluxe"><b>Spell: </b></link>9th - Scrying
+					<h>Underdark</h>
+					<p><b>Druid Level - Spell</b></p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.spiderclimb@DD PHB Deluxe"><b>Spell: </b></link>3rd - Spider Climb</linklist>
+						<link class="reference_spell" recordname="reference.spelldata.web@DD PHB Deluxe"><b>Spell: </b></link>3rd - Web
+						<link class="reference_spell" recordname="reference.spelldata.gaseousform@DD PHB Deluxe"><b>Spell: </b></link>5th - Gaseous Form
+						<link class="reference_spell" recordname="reference.spelldata.stinkingcloud@DD PHB Deluxe"><b>Spell: </b></link>5th - Stinking Cloud
+						<link class="reference_spell" recordname="reference.spelldata.greaterinvisibility@DD PHB Deluxe"><b>Spell: </b></link>7th - Greater Invisibility
+						<link class="reference_spell" recordname="reference.spelldata.stoneshape@DD PHB Deluxe"><b>Spell: </b></link>7th - Stone Shape
+						<link class="reference_spell" recordname="reference.spelldata.cloudkill@DD PHB Deluxe"><b>Spell: </b></link>9th - Cloudkill
+						<link class="reference_spell" recordname="reference.spelldata.insectplague@DD PHB Deluxe"><b>Spell: </b></link>9th - Insect Plague
+				</text>
+			</id-00008>
 		</featurelist>
 		<flaws type="string">I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.</flaws>
 		<gender type="string">M</gender>
@@ -268,8 +368,8 @@
 			<deathsavefail type="number">0</deathsavefail>
 			<deathsavesuccess type="number">0</deathsavesuccess>
 			<temporary type="number">0</temporary>
-			<total type="number">19</total>
-			<wounds type="number">7</wounds>
+			<total type="number">27</total>
+			<wounds type="number">2</wounds>
 		</hp>
 		<ideals type="string">Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)</ideals>
 		<initiative>
@@ -389,7 +489,7 @@
 			<id-00008>
 				<carried type="number">1</carried>
 				<cost type="string">5 sp</cost>
-				<count type="number">10</count>
+				<count type="number">8</count>
 				<description type="formattedtext">
 					<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>
 				</description>
@@ -503,6 +603,13 @@
 				<type type="string">Adventuring Gear</type>
 				<weight type="number">35</weight>
 			</id-00016>
+			<id-00017>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<isidentified type="number">1</isidentified>
+				<name type="string">Adder Meat ?</name>
+				<weight type="number">0</weight>
+			</id-00017>
 			<id-00018>
 				<carried type="number">1</carried>
 				<count type="number">1</count>
@@ -521,7 +628,8 @@
 				<carried type="number">1</carried>
 				<count type="number">1</count>
 				<isidentified type="number">1</isidentified>
-				<weight type="number">0</weight>
+				<name type="string">Rhubarb Leaf</name>
+				<weight type="number">3</weight>
 			</id-00020>
 		</inventorylist>
 		<languagelist>
@@ -535,7 +643,7 @@
 				<name type="string">Orc</name>
 			</id-00004>
 		</languagelist>
-		<level type="number">2</level>
+		<level type="number">3</level>
 		<name type="string">Julius Julio</name>
 		<perception type="number">16</perception>
 		<perceptionmodifier type="number">0</perceptionmodifier>
@@ -555,6 +663,16 @@
 				<castertype type="string">memorization</castertype>
 				<name type="string">Spells</name>
 			</id-00002>
+			<id-00003>
+				<atkmod type="number">0</atkmod>
+				<atkprof type="number">1</atkprof>
+				<name type="string">Shapeshift</name>
+				<prepared type="number">0</prepared>
+				<savemod type="number">0</savemod>
+				<saveprof type="number">1</saveprof>
+				<uses type="number">2</uses>
+				<usesperiod type="string">enc</usesperiod>
+			</id-00003>
 		</powergroup>
 		<powermeta>
 			<pactmagicslots1>
@@ -594,11 +712,11 @@
 				<used type="number">0</used>
 			</pactmagicslots9>
 			<spellslots1>
-				<max type="number">3</max>
+				<max type="number">4</max>
 				<used type="number">0</used>
 			</spellslots1>
 			<spellslots2>
-				<max type="number">0</max>
+				<max type="number">2</max>
 				<used type="number">0</used>
 			</spellslots2>
 			<spellslots3>
@@ -630,7 +748,6 @@
 				<used type="number">0</used>
 			</spellslots9>
 		</powermeta>
-		<powermode type="string">standard</powermode>
 		<powers>
 			<id-00001>
 				<actions>
@@ -695,41 +812,6 @@
 				<school type="string">Conjuration</school>
 				<source type="string">Druid</source>
 			</id-00002>
-			<id-00003>
-				<actions>
-					<id-00001>
-						<heallist>
-							<id-00001>
-								<dice type="dice">d4</dice>
-								<stat type="string">base</stat>
-							</id-00001>
-						</heallist>
-						<order type="number">1</order>
-						<type type="string">heal</type>
-					</id-00001>
-					<id-00002>
-						<order type="number">2</order>
-						<type type="string">cast</type>
-					</id-00002>
-				</actions>
-				<cast type="number">0</cast>
-				<castingtime type="string">1 bonus action</castingtime>
-				<components type="string">V</components>
-				<description type="formattedtext">
-					<p>A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>
-					<p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</p>
-				</description>
-				<duration type="string">Instantaneous</duration>
-				<group type="string">Spells</group>
-				<level type="number">1</level>
-				<locked type="number">1</locked>
-				<name type="string">Healing Word</name>
-				<prepared type="number">0</prepared>
-				<range type="string">60 feet</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Evocation</school>
-				<source type="string">Bard, Cleric, Druid</source>
-			</id-00003>
 			<id-00004>
 				<actions>
 					<id-00001>
@@ -777,13 +859,28 @@
 				<school type="string">Evocation</school>
 				<source type="string">Bard, Cleric Tempest Domain, Druid, Eldritch Knight, Monk, Sorcerer, Wizard, Arcane Trickster</source>
 			</id-00004>
+			<id-00005>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<group type="string">Shapeshift</group>
+				<level type="number">0</level>
+				<locked type="number">1</locked>
+				<name type="string">Wild Shape</name>
+				<prepared type="number">0</prepared>
+				<ritual type="number">0</ritual>
+			</id-00005>
 			<id-00006>
 				<actions>
 					<id-00001>
 						<heallist>
 							<id-00001>
+								<bonus type="number">0</bonus>
 								<dice type="dice">d8</dice>
-								<stat type="string">base</stat>
+								<stat type="string">wisdom</stat>
 							</id-00001>
 						</heallist>
 						<order type="number">1</order>
@@ -837,6 +934,154 @@
 				<school type="string">Transmutation</school>
 				<source type="string">Druid</source>
 			</id-00007>
+			<id-00011>
+				<actions>
+					<id-00001>
+						<heallist>
+							<id-00001>
+								<dice type="dice">d4</dice>
+								<stat type="string">wisdom</stat>
+							</id-00001>
+						</heallist>
+						<order type="number">1</order>
+						<type type="string">heal</type>
+					</id-00001>
+					<id-00002>
+						<order type="number">2</order>
+						<type type="string">cast</type>
+					</id-00002>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 bonus action</castingtime>
+				<components type="string">V</components>
+				<description type="formattedtext">
+					<p>A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>
+					<p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.</p>
+				</description>
+				<duration type="string">Instantaneous</duration>
+				<group type="string">Spells</group>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Healing Word</name>
+				<prepared type="number">0</prepared>
+				<range type="string">60 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Evocation</school>
+				<source type="string">Bard, Cleric, Druid</source>
+			</id-00011>
+			<id-00014>
+				<actions>
+					<id-00001>
+						<onmissdamage type="string">half</onmissdamage>
+						<order type="number">1</order>
+						<savemagic type="number">1</savemagic>
+						<savetype type="string">constitution</savetype>
+						<type type="string">cast</type>
+					</id-00001>
+					<id-00002>
+						<damagelist>
+							<id-00001>
+								<dice type="dice">d10,d10</dice>
+								<type type="string">radiant</type>
+							</id-00001>
+						</damagelist>
+						<order type="number">2</order>
+						<type type="string">damage</type>
+					</id-00002>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)</components>
+				<description type="formattedtext">
+					<p>A silvery beam of pale light shines down in a 5-foot radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.</p>
+					<p>When a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much damage on a successful one.</p>
+					<p>A shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spell's light.</p>
+					<p>On each of your turns after you cast this spell, you can use an action to move the beam 60 feet in any direction.</p>
+					<p><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.</p>
+				</description>
+				<duration type="string">Concentration, up to 1 minute</duration>
+				<group type="string">Spells</group>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Moonbeam</name>
+				<prepared type="number">0</prepared>
+				<range type="string">120 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Evocation</school>
+				<source type="string">Druid</source>
+			</id-00014>
+			<id-00015>
+				<actions>
+					<id-00001>
+						<damagelist>
+							<id-00001>
+								<dice type="dice">d4,d4</dice>
+								<type type="string">piercing,magic</type>
+							</id-00001>
+						</damagelist>
+						<order type="number">1</order>
+						<type type="string">damage</type>
+					</id-00001>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">V, S, M (seven sharp thorns or seven small twigs, each sharpened to a point)</components>
+				<description type="formattedtext">
+					<p>The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.</p>
+					<p>The transformation of the ground is camouflaged to look natural. Any creature that can't see the area at the time the spell is cast must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.</p>
+				</description>
+				<duration type="string">Concentration, up to 10 minutes</duration>
+				<group type="string">Spells</group>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Spike Growth</name>
+				<prepared type="number">0</prepared>
+				<range type="string">150 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Transmutation</school>
+				<source type="string">Druid, Ranger</source>
+			</id-00015>
+			<id-00019>
+				<actions>
+					<id-00001>
+						<atktype type="string">ranged</atktype>
+						<order type="number">1</order>
+						<type type="string">cast</type>
+					</id-00001>
+					<id-00002>
+						<damagelist>
+							<id-00001>
+								<dice type="dice">d4,d4,d4,d4</dice>
+								<type type="string">acid</type>
+							</id-00001>
+						</damagelist>
+						<order type="number">2</order>
+						<type type="string">damage</type>
+					</id-00002>
+					<id-00003>
+						<label type="string">DMGO: 2d4 acid</label>
+						<order type="number">3</order>
+						<type type="string">effect</type>
+					</id-00003>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">V, S, M (powdered rhubarb leaf and an adder's stomach)</components>
+				<description type="formattedtext">
+					<p>A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.</p>
+					<p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.</p>
+				</description>
+				<duration type="string">Instantaneous</duration>
+				<group type="string">Spells</group>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Melf's Acid Arrow</name>
+				<prepared type="number">1</prepared>
+				<range type="string">90 feet</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Evocation</school>
+				<source type="string">Druid Swamp Circle, Eldritch Knight, Wizard, Arcane Trickster</source>
+			</id-00019>
 		</powers>
 		<profbonus type="number">2</profbonus>
 		<proficiencylist>
@@ -1072,6 +1317,7 @@
 				<type type="number">2</type>
 			</id-00002>
 			<id-00003>
+				<ammo type="number">7</ammo>
 				<attackbonus type="number">0</attackbonus>
 				<carried type="number">2</carried>
 				<damagelist>
@@ -1079,6 +1325,7 @@
 						<bonus type="number">0</bonus>
 						<dice type="dice">d6</dice>
 						<stat type="string">base</stat>
+						<statmult type="number">1</statmult>
 						<type type="string">piercing</type>
 					</id-00001>
 				</damagelist>
@@ -1101,6 +1348,7 @@
 						<bonus type="number">-2</bonus>
 						<dice type="dice">d8</dice>
 						<stat type="string">wisdom</stat>
+						<statmult type="number">1</statmult>
 					</id-00001>
 				</damagelist>
 				<maxammo type="number">0</maxammo>

@@ -62,7 +62,7 @@
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice">d10</hddie>
 				<hdused type="number">0</hdused>
-				<level type="number">2</level>
+				<level type="number">3</level>
 				<name type="string">Fighter</name>
 				<shortcut type="windowreference">
 					<class>reference_class</class>
@@ -79,14 +79,14 @@
 				<amount type="number">0</amount>
 			</slot2>
 			<slot3>
-				<amount type="number">12</amount>
+				<amount type="number">14</amount>
 				<name type="string">GP</name>
 			</slot3>
 			<slot4>
 				<amount type="number">0</amount>
 			</slot4>
 			<slot5>
-				<amount type="number">5</amount>
+				<amount type="number">38</amount>
 				<name type="string">SP</name>
 			</slot5>
 			<slot6>
@@ -111,7 +111,7 @@
 			<encumbered type="number">80</encumbered>
 			<encumberedheavy type="number">160</encumberedheavy>
 			<liftpushdrag type="number">480</liftpushdrag>
-			<load type="number">62.1</load>
+			<load type="number">63.1</load>
 			<max type="number">240</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -180,6 +180,33 @@
 					<p>You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused.</p>
 				</text>
 			</id-00004>
+			<id-00005>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Champion</name>
+				<source type="string">Fighter</source>
+				<text type="formattedtext">
+					<p>The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.</p>
+					<h>Features</h>
+					<linklist>
+						<link class="reference_classfeature" recordname="reference.classdata.fighter.features.improvedcritical3@DD 5E Basic Rules - Player">Improved Critical</link>
+						<link class="reference_classfeature" recordname="reference.classdata.fighter.features.remarkableathlete7@DD 5E Basic Rules - Player">Remarkable Athlete</link>
+						<link class="reference_classfeature" recordname="reference.classdata.fighter.features.additionalfightingstyle10@DD 5E Basic Rules - Player">Additional Fighting Style</link>
+						<link class="reference_classfeature" recordname="reference.classdata.fighter.features.superiorcritical15@DD 5E Basic Rules - Player">Superior Critical</link>
+						<link class="reference_classfeature" recordname="reference.classdata.fighter.features.survivor18@DD 5E Basic Rules - Player">Survivor</link>
+					</linklist>
+				</text>
+			</id-00005>
+			<id-00006>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">Improved Critical</name>
+				<source type="string">Fighter</source>
+				<specialization type="string">Champion</specialization>
+				<text type="formattedtext">
+					<p>Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.</p>
+				</text>
+			</id-00006>
 		</featurelist>
 		<flaws type="string">I hide a truly scandalous secret that could ruin my family forever.</flaws>
 		<gender type="string">Male</gender>
@@ -187,9 +214,10 @@
 		<hp>
 			<deathsavefail type="number">0</deathsavefail>
 			<deathsavesuccess type="number">0</deathsavesuccess>
+			<hdmod type="number">0</hdmod>
 			<temporary type="number">0</temporary>
-			<total type="number">22</total>
-			<wounds type="number">0</wounds>
+			<total type="number">31</total>
+			<wounds type="number">4</wounds>
 		</hp>
 		<ideals type="string">I must prove that I can handle myself without the coddling of my family.</ideals>
 		<initiative>
@@ -235,7 +263,7 @@
 				<carried type="number">1</carried>
 				<count type="number">1</count>
 				<isidentified type="number">1</isidentified>
-				<name type="string">crumble cake 1.5 loaves</name>
+				<name type="string">crumble cake 1 loaves</name>
 				<weight type="number">1</weight>
 			</id-00003>
 			<id-00004>
@@ -254,6 +282,38 @@
 				<type type="string">Adventuring Gear</type>
 				<weight type="number">0.1</weight>
 			</id-00004>
+			<id-00005>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<isidentified type="number">1</isidentified>
+				<name type="string">scrimshaw pipe</name>
+				<weight type="number">0</weight>
+			</id-00005>
+			<id-00006>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<isidentified type="number">1</isidentified>
+				<name type="string">torch, 3</name>
+				<weight type="number">0</weight>
+			</id-00006>
+			<id-00009>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<carried type="number">1</carried>
+				<cost type="string">2 gp</cost>
+				<count type="number">1</count>
+				<damage type="string">1d4 piercing</damage>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Dagger</name>
+				<properties type="string">Finesse, light, thrown (range 20/60)</properties>
+				<subtype type="string">Simple Melee Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">1</weight>
+			</id-00009>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
@@ -263,7 +323,7 @@
 				<name type="string">Elvish</name>
 			</id-00003>
 		</languagelist>
-		<level type="number">2</level>
+		<level type="number">3</level>
 		<name type="string">Crannock Helder</name>
 		<notes type="string">Growing up as the third son of a wealthy noble in Baldur's Gate, Crannock was often overlooked upon reaching adulthood. In order to make a name for himself, he set off to gain a landed title and become an anointed knight. His father, merely indulging his son, sent a retainer named Finnegan along with Crannock in order to make sure his son doesn't sully his good name.</notes>
 		<perception type="number">13</perception>
@@ -386,7 +446,7 @@
 			<id-00004>
 				<actions>
 				</actions>
-				<cast type="number">0</cast>
+				<cast type="number">1</cast>
 				<description type="formattedtext">
 					<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
 					<p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>
@@ -424,6 +484,7 @@
 				<locked type="number">1</locked>
 				<name type="string">Second Wind</name>
 				<prepared type="number">0</prepared>
+				<ritual type="number">0</ritual>
 				<source type="string">Fighter</source>
 			</id-00007>
 		</powers>
@@ -605,6 +666,48 @@
 				</shortcut>
 				<type type="number">0</type>
 			</id-00001>
+			<id-00004>
+				<attackbonus type="number">0</attackbonus>
+				<carried type="number">1</carried>
+				<damagelist>
+					<id-00001>
+						<bonus type="number">0</bonus>
+						<dice type="dice">d4</dice>
+						<stat type="string">base</stat>
+						<type type="string">piercing</type>
+					</id-00001>
+				</damagelist>
+				<isidentified type="number">1</isidentified>
+				<maxammo type="number">0</maxammo>
+				<name type="string">Dagger</name>
+				<prof type="number">1</prof>
+				<shortcut type="windowreference">
+					<class>item</class>
+					<recordname>....inventorylist.id-00009</recordname>
+				</shortcut>
+				<type type="number">0</type>
+			</id-00004>
+			<id-00005>
+				<attackbonus type="number">0</attackbonus>
+				<carried type="number">1</carried>
+				<damagelist>
+					<id-00001>
+						<bonus type="number">0</bonus>
+						<dice type="dice">d4</dice>
+						<stat type="string">base</stat>
+						<type type="string">piercing</type>
+					</id-00001>
+				</damagelist>
+				<isidentified type="number">1</isidentified>
+				<maxammo type="number">0</maxammo>
+				<name type="string">Dagger</name>
+				<prof type="number">1</prof>
+				<shortcut type="windowreference">
+					<class>item</class>
+					<recordname>....inventorylist.id-00009</recordname>
+				</shortcut>
+				<type type="number">2</type>
+			</id-00005>
 		</weaponlist>
 		<weight type="string">170 lb</weight>
 	</character>
