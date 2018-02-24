@@ -62,7 +62,7 @@
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice">d8</hddie>
 				<hdused type="number">0</hdused>
-				<level type="number">1</level>
+				<level type="number">2</level>
 				<name type="string">Druid</name>
 				<shortcut type="windowreference">
 					<class>reference_class</class>
@@ -80,7 +80,8 @@
 				<name type="string">GP</name>
 			</slot2>
 			<slot3>
-				<amount type="number">0</amount>
+				<amount type="number">5</amount>
+				<name type="string">SP</name>
 			</slot3>
 			<slot4>
 				<amount type="number">99</amount>
@@ -108,10 +109,10 @@
 			<encumbered type="number">60</encumbered>
 			<encumberedheavy type="number">120</encumberedheavy>
 			<liftpushdrag type="number">360</liftpushdrag>
-			<load type="number">119.335</load>
+			<load type="number">123.01</load>
 			<max type="number">180</max>
 		</encumbrance>
-		<exp type="number">0</exp>
+		<exp type="number">50</exp>
 		<expneeded type="number">0</expneeded>
 		<featlist>
 			<id-00002>
@@ -164,6 +165,25 @@
 					<p>You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</p>
 				</text>
 			</id-00002>
+			<id-00003>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Circle of the Land</name>
+				<source type="string">Druid</source>
+				<text type="formattedtext">
+					<p>The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or stone to whisper primal secrets in Druidic. The circle's wisest members serve as the chief priests of communities that hold to the Old Faith and as advisers to the rulers of those folk.</p>
+					<p>As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysteries.</p>
+					<h>Features</h>
+					<linklist>
+						<link class="reference_classfeature" recordname="reference.classdata.druid.features.bonuscantrip2@DD PHB Deluxe">Bonus Cantrip</link>
+						<link class="reference_classfeature" recordname="reference.classdata.druid.features.naturalrecovery2@DD PHB Deluxe">Natural Recovery</link>
+						<link class="reference_classfeature" recordname="reference.classdata.druid.features.circlespells3@DD PHB Deluxe">Circle Spells</link>
+						<link class="reference_classfeature" recordname="reference.classdata.druid.features.land_sstride6@DD PHB Deluxe">Land's Stride</link>
+						<link class="reference_classfeature" recordname="reference.classdata.druid.features.nature_sward10@DD PHB Deluxe">Nature's Ward</link>
+						<link class="reference_classfeature" recordname="reference.classdata.druid.features.nature_ssanctuary14@DD PHB Deluxe">Nature's Sanctuary</link>
+					</linklist>
+				</text>
+			</id-00003>
 			<id-00004>
 				<locked type="number">1</locked>
 				<name type="string">Discovery</name>
@@ -172,6 +192,74 @@
 					<p>The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people w ho or consigned you to exile, and hence the reason for your return to society. Work with your DM to determine the details of your discovery and its impact on the campaign.</p>
 				</text>
 			</id-00004>
+			<id-00005>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Wild Shape</name>
+				<source type="string">Druid</source>
+				<text type="formattedtext">
+					<p>Starting at 2nd level, you can use your action to magically assume the shape of a beast. You can use this feature twice, and you regain expended uses when you finish a short or long rest.</p>
+					<p>Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a Challenge Rating of 1/4 or lower that doesn't have a fly or swim speed.</p>
+					<p><b>Beast Shapes</b></p>
+					<table>
+						<tr>
+							<td><b>Level</b></td>
+							<td><b>Max. CR</b></td>
+							<td><b>Limitations</b></td>
+							<td><b>Example</b></td>
+						</tr>
+						<tr>
+							<td>2nd</td>
+							<td>1/4</td>
+							<td>No flying or swimming speed</td>
+							<td>Wolf</td>
+						</tr>
+						<tr>
+							<td>4th</td>
+							<td>1/2</td>
+							<td>No flying speed</td>
+							<td>Crocodile</td>
+						</tr>
+						<tr>
+							<td>8th</td>
+							<td>1</td>
+							<td>-</td>
+							<td>Giant eagle</td>
+						</tr>
+					</table>
+					<p>You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature.</p>
+					<p>You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert to your normal form if you fall unconscious, drop to 0 hit points, or die.</p>
+					<p>While you are transformed, the following rules apply:</p>
+					<list>
+						<li>Your game statistics are replaced by the statistics of the beast, but you retain your alignment and your Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If both you and the creature have the same proficiency, use only the higher bonus.</li>
+						<li>When you transform, you assume the beast's hit points. When you revert to your normal form, you return to the number of hit points you had before you transformed. If you revert as a result of dropping to 0 hit points, however, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert to your normal form and take 9 damage.</li>
+						<li>You can't cast spells, speak, or take any action that requires hands. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell you've already cast, such as call lightning.</li>
+						<li>You retain the benefit of any feature from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.</li>
+						<li>You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape or size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.</li>
+					</list>
+				</text>
+			</id-00005>
+			<id-00006>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Bonus Cantrip</name>
+				<source type="string">Druid</source>
+				<specialization type="string">Circle of the Land</specialization>
+				<text type="formattedtext">
+					<p>When you choose this circle at 2nd level, you learn one additional druid cantrip of your choice.</p>
+				</text>
+			</id-00006>
+			<id-00007>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Natural Recovery</name>
+				<source type="string">Druid</source>
+				<specialization type="string">Circle of the Land</specialization>
+				<text type="formattedtext">
+					<p>Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. Once per day during a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher.</p>
+					<p>For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</p>
+				</text>
+			</id-00007>
 		</featurelist>
 		<flaws type="string">I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.</flaws>
 		<gender type="string">M</gender>
@@ -180,7 +268,7 @@
 			<deathsavefail type="number">0</deathsavefail>
 			<deathsavesuccess type="number">0</deathsavesuccess>
 			<temporary type="number">0</temporary>
-			<total type="number">11</total>
+			<total type="number">19</total>
 			<wounds type="number">0</wounds>
 		</hp>
 		<ideals type="string">Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)</ideals>
@@ -209,7 +297,7 @@
 			<id-00002>
 				<ac type="number">0</ac>
 				<bonus type="number">0</bonus>
-				<carried type="number">2</carried>
+				<carried type="number">1</carried>
 				<cost type="string">5 gp</cost>
 				<count type="number">1</count>
 				<description type="formattedtext">
@@ -241,7 +329,7 @@
 				<bonus type="number">0</bonus>
 				<carried type="number">2</carried>
 				<cost type="string">75 gp</cost>
-				<count type="number">2</count>
+				<count type="number">1</count>
 				<damage type="string">1d6 piercing</damage>
 				<description type="formattedtext">
 					<p></p>
@@ -277,7 +365,7 @@
 			<id-00006>
 				<carried type="number">2</carried>
 				<cost type="string">5 sp</cost>
-				<count type="number">1</count>
+				<count type="number">2</count>
 				<damage type="string">1d6 piercing</damage>
 				<isidentified type="number">1</isidentified>
 				<locked type="number">1</locked>
@@ -415,17 +503,26 @@
 				<type type="string">Adventuring Gear</type>
 				<weight type="number">35</weight>
 			</id-00016>
-			<id-00017>
+			<id-00018>
 				<carried type="number">1</carried>
-				<cost type="string">5 cp</cost>
-				<count type="number">13</count>
+				<count type="number">1</count>
 				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Crossbow Bolt</name>
-				<subtype type="string">Ammunition</subtype>
-				<type type="string">Adventuring Gear</type>
-				<weight type="number">0.025</weight>
-			</id-00017>
+				<name type="string">Berry Seed (Explosive)</name>
+				<weight type="number">1</weight>
+			</id-00018>
+			<id-00019>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<isidentified type="number">1</isidentified>
+				<name type="string">Black Arrow</name>
+				<weight type="number">1</weight>
+			</id-00019>
+			<id-00020>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<isidentified type="number">1</isidentified>
+				<weight type="number">0</weight>
+			</id-00020>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
@@ -438,17 +535,21 @@
 				<name type="string">Orc</name>
 			</id-00004>
 		</languagelist>
-		<level type="number">1</level>
+		<level type="number">2</level>
 		<name type="string">Julius Julio</name>
 		<perception type="number">16</perception>
 		<perceptionmodifier type="number">0</perceptionmodifier>
 		<personalitytraits type="string">Quiet and Secluded I prefer to be alone and hidden in the darkness.</personalitytraits>
 		<powergroup>
 			<id-00001>
+				<atkmod type="number">0</atkmod>
 				<atkprof type="number">1</atkprof>
 				<castertype type="string">memorization</castertype>
 				<name type="string">Spells</name>
+				<prepared type="number">0</prepared>
+				<savemod type="number">0</savemod>
 				<saveprof type="number">1</saveprof>
+				<uses type="number">0</uses>
 			</id-00001>
 			<id-00002>
 				<castertype type="string">memorization</castertype>
@@ -493,7 +594,7 @@
 				<used type="number">0</used>
 			</pactmagicslots9>
 			<spellslots1>
-				<max type="number">2</max>
+				<max type="number">3</max>
 				<used type="number">0</used>
 			</spellslots1>
 			<spellslots2>
@@ -632,8 +733,10 @@
 			<id-00004>
 				<actions>
 					<id-00001>
+						<atkprof type="number">1</atkprof>
 						<onmissdamage type="string">half</onmissdamage>
 						<order type="number">1</order>
+						<savedcprof type="number">1</savedcprof>
 						<savemagic type="number">1</savemagic>
 						<savetype type="string">constitution</savetype>
 						<type type="string">cast</type>
@@ -649,7 +752,9 @@
 						<type type="string">damage</type>
 					</id-00002>
 					<id-00003>
+						<atkprof type="number">1</atkprof>
 						<order type="number">3</order>
+						<savedcprof type="number">1</savedcprof>
 						<type type="string">cast</type>
 					</id-00003>
 				</actions>
@@ -672,6 +777,66 @@
 				<school type="string">Evocation</school>
 				<source type="string">Bard, Cleric Tempest Domain, Druid, Eldritch Knight, Monk, Sorcerer, Wizard, Arcane Trickster</source>
 			</id-00004>
+			<id-00006>
+				<actions>
+					<id-00001>
+						<heallist>
+							<id-00001>
+								<dice type="dice">d8</dice>
+								<stat type="string">base</stat>
+							</id-00001>
+						</heallist>
+						<order type="number">1</order>
+						<type type="string">heal</type>
+					</id-00001>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">V, S</components>
+				<description type="formattedtext">
+					<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>
+					<p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>
+				</description>
+				<duration type="string">Instantaneous</duration>
+				<group type="string">Spells</group>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Cure Wounds</name>
+				<prepared type="number">0</prepared>
+				<range type="string">Touch</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Evocation</school>
+				<source type="string">Bard, Cleric, Cleric Life Domain, Druid, Paladin, Ranger</source>
+			</id-00006>
+			<id-00007>
+				<actions>
+					<id-00001>
+						<atkmod type="number">0</atkmod>
+						<atkprof type="number">1</atkprof>
+						<order type="number">1</order>
+						<savedcmod type="number">0</savedcmod>
+						<savedcprof type="number">1</savedcprof>
+						<savemagic type="number">0</savemagic>
+						<type type="string">cast</type>
+					</id-00001>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 bonus action</castingtime>
+				<components type="string">V, S, M (mistletoe, a shamrock leaf, and a club or quarterstaff)</components>
+				<description type="formattedtext">
+					<p>The wood of a club or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.</p>
+				</description>
+				<duration type="string">1 minute</duration>
+				<group type="string">Spells</group>
+				<level type="number">0</level>
+				<locked type="number">1</locked>
+				<name type="string">Shillelagh</name>
+				<prepared type="number">0</prepared>
+				<range type="string">Touch</range>
+				<ritual type="number">0</ritual>
+				<school type="string">Transmutation</school>
+				<source type="string">Druid</source>
+			</id-00007>
 		</powers>
 		<profbonus type="number">2</profbonus>
 		<proficiencylist>
@@ -887,25 +1052,6 @@
 			</id-00009>
 		</traitlist>
 		<weaponlist>
-			<id-00001>
-				<carried type="number">2</carried>
-				<damagelist>
-					<id-00001>
-						<dice type="dice">d6</dice>
-						<stat type="string">base</stat>
-						<type type="string">piercing</type>
-					</id-00001>
-				</damagelist>
-				<isidentified type="number">1</isidentified>
-				<maxammo type="number">0</maxammo>
-				<name type="string">Javelin</name>
-				<prof type="number">1</prof>
-				<shortcut type="windowreference">
-					<class>item</class>
-					<recordname>....inventorylist.id-00006</recordname>
-				</shortcut>
-				<type type="number">0</type>
-			</id-00001>
 			<id-00002>
 				<carried type="number">2</carried>
 				<damagelist>
@@ -916,7 +1062,7 @@
 					</id-00001>
 				</damagelist>
 				<isidentified type="number">1</isidentified>
-				<maxammo type="number">0</maxammo>
+				<maxammo type="number">2</maxammo>
 				<name type="string">Javelin</name>
 				<prof type="number">1</prof>
 				<shortcut type="windowreference">
@@ -926,16 +1072,18 @@
 				<type type="number">2</type>
 			</id-00002>
 			<id-00003>
-				<carried type="number">1</carried>
+				<attackbonus type="number">0</attackbonus>
+				<carried type="number">2</carried>
 				<damagelist>
 					<id-00001>
+						<bonus type="number">0</bonus>
 						<dice type="dice">d6</dice>
 						<stat type="string">base</stat>
 						<type type="string">piercing</type>
 					</id-00001>
 				</damagelist>
 				<isidentified type="number">1</isidentified>
-				<maxammo type="number">0</maxammo>
+				<maxammo type="number">15</maxammo>
 				<name type="string">Crossbow, Hand</name>
 				<prof type="number">1</prof>
 				<shortcut type="windowreference">
@@ -944,6 +1092,26 @@
 				</shortcut>
 				<type type="number">1</type>
 			</id-00003>
+			<id-00004>
+				<attackbonus type="number">0</attackbonus>
+				<attackstat type="string">wisdom</attackstat>
+				<carried type="number">1</carried>
+				<damagelist>
+					<id-00001>
+						<bonus type="number">-2</bonus>
+						<dice type="dice">d8</dice>
+						<stat type="string">wisdom</stat>
+					</id-00001>
+				</damagelist>
+				<maxammo type="number">0</maxammo>
+				<name type="string">Shilelagh [Staff]</name>
+				<prof type="number">0</prof>
+				<shortcut type="windowreference">
+					<class></class>
+					<recordname></recordname>
+				</shortcut>
+				<type type="number">0</type>
+			</id-00004>
 		</weaponlist>
 		<weight type="string">178</weight>
 	</character>

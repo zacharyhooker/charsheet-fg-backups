@@ -62,11 +62,11 @@
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice">d10</hddie>
 				<hdused type="number">0</hdused>
-				<level type="number">1</level>
+				<level type="number">2</level>
 				<name type="string">Fighter</name>
 				<shortcut type="windowreference">
 					<class>reference_class</class>
-					<recordname>reference.classdata.fighter@DD 5E Basic Rules - Player</recordname>
+					<recordname>reference.classdata.fighter@DD PHB Deluxe</recordname>
 				</shortcut>
 			</id-00007>
 		</classes>
@@ -79,14 +79,14 @@
 				<amount type="number">0</amount>
 			</slot2>
 			<slot3>
-				<amount type="number">20</amount>
+				<amount type="number">12</amount>
 				<name type="string">GP</name>
 			</slot3>
 			<slot4>
 				<amount type="number">0</amount>
 			</slot4>
 			<slot5>
-				<amount type="number">0</amount>
+				<amount type="number">5</amount>
 				<name type="string">SP</name>
 			</slot5>
 			<slot6>
@@ -114,7 +114,7 @@
 			<load type="number">62.1</load>
 			<max type="number">240</max>
 		</encumbrance>
-		<exp type="number">0</exp>
+		<exp type="number">50</exp>
 		<expneeded type="number">0</expneeded>
 		<featlist>
 			<id-00001>
@@ -153,6 +153,16 @@
 					<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>
 				</text>
 			</id-00001>
+			<id-00002>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Action Surge</name>
+				<source type="string">Fighter</source>
+				<text type="formattedtext">
+					<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
+					<p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>
+				</text>
+			</id-00002>
 			<id-00003>
 				<locked type="number">1</locked>
 				<name type="string">Position of Privilege</name>
@@ -178,7 +188,7 @@
 			<deathsavefail type="number">0</deathsavefail>
 			<deathsavesuccess type="number">0</deathsavesuccess>
 			<temporary type="number">0</temporary>
-			<total type="number">13</total>
+			<total type="number">22</total>
 			<wounds type="number">0</wounds>
 		</hp>
 		<ideals type="string">I must prove that I can handle myself without the coddling of my family.</ideals>
@@ -249,19 +259,32 @@
 			<id-00001>
 				<name type="string">Common</name>
 			</id-00001>
-			<id-00002>
-				<name type="string">Choice</name>
-			</id-00002>
 			<id-00003>
 				<name type="string">Elvish</name>
 			</id-00003>
 		</languagelist>
-		<level type="number">1</level>
+		<level type="number">2</level>
 		<name type="string">Crannock Helder</name>
 		<notes type="string">Growing up as the third son of a wealthy noble in Baldur's Gate, Crannock was often overlooked upon reaching adulthood. In order to make a name for himself, he set off to gain a landed title and become an anointed knight. His father, merely indulging his son, sent a retainer named Finnegan along with Crannock in order to make sure his son doesn't sully his good name.</notes>
 		<perception type="number">13</perception>
 		<perceptionmodifier type="number">0</perceptionmodifier>
 		<personalitytraits type="string">Despite my noble birth, I do not place myself above other folk. We all have the same blood.</personalitytraits>
+		<powergroup>
+			<id-00001>
+				<atkmod type="number">0</atkmod>
+				<atkprof type="number">1</atkprof>
+				<name type="string">Feature</name>
+				<prepared type="number">1</prepared>
+				<savemod type="number">0</savemod>
+				<saveprof type="number">1</saveprof>
+				<uses type="number">1</uses>
+				<usesperiod type="string">enc</usesperiod>
+			</id-00001>
+			<id-00002>
+				<castertype type="string">memorization</castertype>
+				<name type="string">Spells</name>
+			</id-00002>
+		</powergroup>
 		<powermeta>
 			<pactmagicslots1>
 				<max type="number">0</max>
@@ -360,6 +383,49 @@
 				<name type="string">Great Weapon Master</name>
 				<prepared type="number">0</prepared>
 			</id-00002>
+			<id-00004>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<description type="formattedtext">
+					<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
+					<p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>
+				</description>
+				<group type="string">Feature</group>
+				<level type="number">0</level>
+				<locked type="number">1</locked>
+				<name type="string">Action Surge</name>
+				<prepared type="number">0</prepared>
+				<ritual type="number">0</ritual>
+				<source type="string">Fighter</source>
+			</id-00004>
+			<id-00007>
+				<actions>
+					<id-00001>
+						<heallist>
+							<id-00001>
+								<bonus type="number">0</bonus>
+								<dice type="dice">d10</dice>
+								<stat type="string">fighter</stat>
+							</id-00001>
+						</heallist>
+						<healtargeting type="string">self</healtargeting>
+						<order type="number">1</order>
+						<type type="string">heal</type>
+					</id-00001>
+				</actions>
+				<cast type="number">0</cast>
+				<description type="formattedtext">
+					<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>
+					<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>
+				</description>
+				<group type="string">Spells</group>
+				<level type="number">0</level>
+				<locked type="number">1</locked>
+				<name type="string">Second Wind</name>
+				<prepared type="number">0</prepared>
+				<source type="string">Fighter</source>
+			</id-00007>
 		</powers>
 		<profbonus type="number">2</profbonus>
 		<proficiencylist>
@@ -495,9 +561,9 @@
 			<id-00017>
 				<misc type="number">0</misc>
 				<name type="string">History</name>
-				<prof type="number">3</prof>
+				<prof type="number">0</prof>
 				<stat type="string">intelligence</stat>
-				<total type="number">2</total>
+				<total type="number">1</total>
 			</id-00017>
 			<id-00018>
 				<misc type="number">0</misc>
