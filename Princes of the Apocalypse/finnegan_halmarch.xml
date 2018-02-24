@@ -104,7 +104,7 @@
 			<encumbered type="number">80</encumbered>
 			<encumberedheavy type="number">160</encumberedheavy>
 			<liftpushdrag type="number">480</liftpushdrag>
-			<load type="number">1</load>
+			<load type="number">1.5</load>
 			<max type="number">240</max>
 		</encumbrance>
 		<exp type="number">0</exp>
@@ -509,6 +509,8 @@
 		</featurelist>
 		<flaws type="string">I'm convinced that no one could ever fool me the way I fool others.</flaws>
 		<hp>
+			<deathsavefail type="number">0</deathsavefail>
+			<deathsavesuccess type="number">0</deathsavesuccess>
 			<temporary type="number">0</temporary>
 			<total type="number">19</total>
 			<wounds type="number">0</wounds>
@@ -560,6 +562,22 @@
 				<type type="string">Weapon</type>
 				<weight type="number">1</weight>
 			</id-00001>
+			<id-00002>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<carried type="number">1</carried>
+				<cost type="string">50 gp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p>A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Potion Of Healing</name>
+				<subtype type="string">Standard</subtype>
+				<type type="string">Adventuring Gear</type>
+				<weight type="number">0.5</weight>
+			</id-00002>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
@@ -598,7 +616,13 @@
 				<uses type="number">0</uses>
 			</id-00002>
 			<id-00003>
+				<atkmod type="number">0</atkmod>
+				<atkprof type="number">1</atkprof>
 				<name type="string">Eldritch Invocation</name>
+				<prepared type="number">0</prepared>
+				<savemod type="number">0</savemod>
+				<saveprof type="number">1</saveprof>
+				<uses type="number">0</uses>
 			</id-00003>
 		</powergroup>
 		<powermeta>
