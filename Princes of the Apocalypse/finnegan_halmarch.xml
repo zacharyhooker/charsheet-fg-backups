@@ -61,7 +61,7 @@
 				<casterpactmagic type="number">1</casterpactmagic>
 				<hddie type="dice">d8</hddie>
 				<hdused type="number">0</hdused>
-				<level type="number">2</level>
+				<level type="number">3</level>
 				<name type="string">Warlock</name>
 				<shortcut type="windowreference">
 					<class>reference_class</class>
@@ -112,6 +112,33 @@
 		<featlist>
 		</featlist>
 		<featurelist>
+			<id-00001>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">Pact Boon</name>
+				<source type="string">Warlock</source>
+				<text type="formattedtext">
+					<p>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.</p>
+					<h>Pact of the Chain</h>
+					<p>You learn the <i>find familiar </i>spell and can cast it as a ritual. The spell doesn't count against your number of spells known.</p>
+					<linklist>
+						<link class="reference_spell" recordname="reference.spelldata.findfamiliar@DD PHB Deluxe"><b>Spell: </b></link>Find Familiar</linklist>
+					<p>When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite. Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own. When you let your familiar attack, it does so with its reaction.</p>
+					<h>Pact of the Blade</h>
+					<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+					<p>Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</p>
+					<p>You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest.</p>
+					<p>You can then dismiss the weapon, shunting it into an extra dimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extra dimensional space when the bond breaks.</p>
+					<h>Pact of the Tome</h>
+					<p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. Any cantrip you cast with this feature is considered a warlock cantrip for you.</p>
+					<p>If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</p>
+					<h>Your Pact Boon</h>
+					<p>Each Pact Boon option produces a special creature or an object that reflects your patron's nature.</p>
+					<p><b>Pact of the Chain. </b>Your familiar is more cunning than a typical familiar. Its default form can be a reflection of your patron, with sprites and pseudodragons tied to the Archfey and imps and quasits tied to the Fiend. Because the Great Old One's nature is inscrutable, any familiar form is suitable for it.</p>
+					<p><b>Pact of the Blade. </b>If your patron is the Archfey, your weapon might be a slender blade wrapped in leafy vines. If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames. If your patron is the Great Old One, your weapon might be an ancient-looking spear, with a gemstone embedded in its head, carved to look like a terrible unblinking eye.</p>
+					<p><b>Pact of the Tome. </b>Your Book of Shadows might be a fine, gilt-edged tome with spells of enchantment and illusion, gifted to you by the lordly Archfey. It could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend. Or it could be the tattered diary of a lunatic driven mad by contact with the Great Old One, holding scraps of spells that only your own burgeoning insanity allows you to understand and cast.</p>
+				</text>
+			</id-00001>
 			<id-00004>
 				<locked type="number">1</locked>
 				<name type="string">False Identity</name>
@@ -512,7 +539,7 @@
 			<deathsavefail type="number">0</deathsavefail>
 			<deathsavesuccess type="number">0</deathsavesuccess>
 			<temporary type="number">0</temporary>
-			<total type="number">19</total>
+			<total type="number">23</total>
 			<wounds type="number">0</wounds>
 		</hp>
 		<ideals type="string">Charity. I distribute the money I acquire to the people who really need it. (Good)</ideals>
@@ -587,7 +614,7 @@
 				<name type="string">Orcs</name>
 			</id-00002>
 		</languagelist>
-		<level type="number">2</level>
+		<level type="number">3</level>
 		<name type="string">Finnegan Halmarch</name>
 		<perception type="number">12</perception>
 		<perceptionmodifier type="number">0</perceptionmodifier>
@@ -627,58 +654,76 @@
 		</powergroup>
 		<powermeta>
 			<pactmagicslots1>
-				<max type="number">2</max>
+				<max type="number">0</max>
+				<used type="number">0</used>
 			</pactmagicslots1>
 			<pactmagicslots2>
-				<max type="number">0</max>
+				<max type="number">2</max>
+				<used type="number">0</used>
 			</pactmagicslots2>
 			<pactmagicslots3>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</pactmagicslots3>
 			<pactmagicslots4>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</pactmagicslots4>
 			<pactmagicslots5>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</pactmagicslots5>
 			<pactmagicslots6>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</pactmagicslots6>
 			<pactmagicslots7>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</pactmagicslots7>
 			<pactmagicslots8>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</pactmagicslots8>
 			<pactmagicslots9>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</pactmagicslots9>
 			<spellslots1>
 				<max type="number">2</max>
+				<used type="number">0</used>
 			</spellslots1>
 			<spellslots2>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</spellslots2>
 			<spellslots3>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</spellslots3>
 			<spellslots4>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</spellslots4>
 			<spellslots5>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</spellslots5>
 			<spellslots6>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</spellslots6>
 			<spellslots7>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</spellslots7>
 			<spellslots8>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</spellslots8>
 			<spellslots9>
 				<max type="number">0</max>
+				<used type="number">0</used>
 			</spellslots9>
 		</powermeta>
 		<powermode type="string">standard</powermode>
@@ -734,6 +779,32 @@
 				<school type="string">Transmutation</school>
 				<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
 			</id-00002>
+			<id-00003>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 hour</castingtime>
+				<components type="string">V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)</components>
+				<description type="formattedtext">
+					<p>You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.</p>
+					<p>Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.</p>
+					<p>When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again</p>
+					<p>While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.</p>
+					<p>As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.</p>
+					<p>You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.</p>
+					<p>Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.</p>
+				</description>
+				<duration type="string">Instantaneous</duration>
+				<group type="string">Spells</group>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Find Familiar</name>
+				<prepared type="number">0</prepared>
+				<range type="string">10 feet</range>
+				<ritual type="number">1</ritual>
+				<school type="string">Conjuration</school>
+				<source type="string">Eldritch Knight, Wizard, Arcane Trickster</source>
+			</id-00003>
 			<id-00006>
 				<actions>
 				</actions>
@@ -811,6 +882,7 @@
 				</description>
 				<group type="string">Eldritch Invocation</group>
 				<level type="number">1</level>
+				<locked type="number">1</locked>
 				<name type="string">Eyes of the Rune Keeper</name>
 				<prepared type="number">0</prepared>
 				<range type="string">N/A</range>
@@ -832,6 +904,7 @@
 				<duration type="string">1 hour</duration>
 				<group type="string">Eldritch Invocation</group>
 				<level type="number">1</level>
+				<locked type="number">1</locked>
 				<name type="string">Mask of Many Faces</name>
 				<prepared type="number">0</prepared>
 				<range type="string">Self</range>

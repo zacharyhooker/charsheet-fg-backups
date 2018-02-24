@@ -76,11 +76,11 @@
 				<name type="string">CP</name>
 			</slot1>
 			<slot2>
-				<amount type="number">12</amount>
+				<amount type="number">13</amount>
 				<name type="string">GP</name>
 			</slot2>
 			<slot3>
-				<amount type="number">38</amount>
+				<amount type="number">34</amount>
 				<name type="string">SP</name>
 			</slot3>
 			<slot4>
@@ -109,7 +109,7 @@
 			<encumbered type="number">60</encumbered>
 			<encumberedheavy type="number">120</encumberedheavy>
 			<liftpushdrag type="number">360</liftpushdrag>
-			<load type="number">122.01</load>
+			<load type="number">123.51</load>
 			<max type="number">180</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -369,7 +369,7 @@
 			<deathsavesuccess type="number">0</deathsavesuccess>
 			<temporary type="number">0</temporary>
 			<total type="number">27</total>
-			<wounds type="number">2</wounds>
+			<wounds type="number">0</wounds>
 		</hp>
 		<ideals type="string">Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)</ideals>
 		<initiative>
@@ -631,13 +631,34 @@
 				<name type="string">Rhubarb Leaf</name>
 				<weight type="number">3</weight>
 			</id-00020>
+			<id-00021>
+				<carried type="number">1</carried>
+				<count type="number">3</count>
+				<isidentified type="number">1</isidentified>
+				<name type="string">Pickled Beet</name>
+				<weight type="number">0</weight>
+			</id-00021>
+			<id-00022>
+				<carried type="number">2</carried>
+				<cost type="string">1 gp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Crossbow Bolts (20)</name>
+				<subtype type="string">Ammunition</subtype>
+				<type type="string">Adventuring Gear</type>
+				<weight type="number">1.5</weight>
+			</id-00022>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
 				<name type="string">Common</name>
 			</id-00001>
 			<id-00002>
-				<name type="string">Elvish</name>
+				<name type="string">Elvishyes</name>
 			</id-00002>
 			<id-00004>
 				<name type="string">Orc</name>
@@ -748,6 +769,7 @@
 				<used type="number">0</used>
 			</spellslots9>
 		</powermeta>
+		<powermode type="string">combat</powermode>
 		<powers>
 			<id-00001>
 				<actions>
@@ -853,7 +875,7 @@
 				<level type="number">1</level>
 				<locked type="number">1</locked>
 				<name type="string">Thunderwave</name>
-				<prepared type="number">0</prepared>
+				<prepared type="number">1</prepared>
 				<range type="string">Self (15-foot cube)</range>
 				<ritual type="number">0</ritual>
 				<school type="string">Evocation</school>
@@ -941,6 +963,7 @@
 							<id-00001>
 								<dice type="dice">d4</dice>
 								<stat type="string">wisdom</stat>
+								<statmult type="number">1</statmult>
 							</id-00001>
 						</heallist>
 						<order type="number">1</order>
@@ -1004,7 +1027,7 @@
 				<level type="number">2</level>
 				<locked type="number">1</locked>
 				<name type="string">Moonbeam</name>
-				<prepared type="number">0</prepared>
+				<prepared type="number">1</prepared>
 				<range type="string">120 feet</range>
 				<ritual type="number">0</ritual>
 				<school type="string">Evocation</school>
@@ -1016,6 +1039,7 @@
 						<damagelist>
 							<id-00001>
 								<dice type="dice">d4,d4</dice>
+								<statmult type="number">1</statmult>
 								<type type="string">piercing,magic</type>
 							</id-00001>
 						</damagelist>
@@ -1035,7 +1059,7 @@
 				<level type="number">2</level>
 				<locked type="number">1</locked>
 				<name type="string">Spike Growth</name>
-				<prepared type="number">0</prepared>
+				<prepared type="number">1</prepared>
 				<range type="string">150 feet</range>
 				<ritual type="number">0</ritual>
 				<school type="string">Transmutation</school>
@@ -1086,7 +1110,7 @@
 		<profbonus type="number">2</profbonus>
 		<proficiencylist>
 			<id-00001>
-				<name type="string">Weapon: Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</name>
+				<name type="string">Weapon: Clubs, Crossbows, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</name>
 			</id-00001>
 			<id-00002>
 				<name type="string">Tool: Herbalism kit</name>
@@ -1317,7 +1341,7 @@
 				<type type="number">2</type>
 			</id-00002>
 			<id-00003>
-				<ammo type="number">7</ammo>
+				<ammo type="number">1</ammo>
 				<attackbonus type="number">0</attackbonus>
 				<carried type="number">2</carried>
 				<damagelist>
@@ -1330,7 +1354,7 @@
 					</id-00001>
 				</damagelist>
 				<isidentified type="number">1</isidentified>
-				<maxammo type="number">15</maxammo>
+				<maxammo type="number">20</maxammo>
 				<name type="string">Crossbow, Hand</name>
 				<prof type="number">1</prof>
 				<shortcut type="windowreference">

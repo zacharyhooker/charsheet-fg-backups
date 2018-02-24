@@ -66,7 +66,7 @@
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice"></hddie>
 				<hdused type="number">0</hdused>
-				<level type="number">2</level>
+				<level type="number">3</level>
 				<name type="string">Barbarian</name>
 				<shortcut type="windowreference">
 					<class>reference_class</class>
@@ -114,7 +114,7 @@
 			<encumbered type="number">90</encumbered>
 			<encumberedheavy type="number">180</encumberedheavy>
 			<liftpushdrag type="number">540</liftpushdrag>
-			<load type="number">54</load>
+			<load type="number">39</load>
 			<max type="number">270</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -176,6 +176,48 @@
 					<p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</p>
 				</text>
 			</id-00005>
+			<id-00006>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Path of the Totem Warrior</name>
+				<source type="string">Barbarian</source>
+				<text type="formattedtext">
+					<p>The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.</p>
+					<p>Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.</p>
+					<h>Features</h>
+					<linklist>
+						<link class="reference_classfeature" recordname="reference.classdata.barbarian.features.spiritseeker3@DD PHB Deluxe">Spirit Seeker</link>
+						<link class="reference_classfeature" recordname="reference.classdata.barbarian.features.totemspirit3@DD PHB Deluxe">Totem Spirit</link>
+						<link class="reference_classfeature" recordname="reference.classdata.barbarian.features.aspectofthebeast6@DD PHB Deluxe">Aspect of the Beast</link>
+						<link class="reference_classfeature" recordname="reference.classdata.barbarian.features.spiritwalker10@DD PHB Deluxe">Spirit Walker</link>
+						<link class="reference_classfeature" recordname="reference.classdata.barbarian.features.totemicattunement14@DD PHB Deluxe">Totemic Attunement</link>
+					</linklist>
+				</text>
+			</id-00006>
+			<id-00007>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">Totem Spirit</name>
+				<source type="string">Barbarian</source>
+				<specialization type="string">Path of the Totem Warrior</specialization>
+				<text type="formattedtext">
+					<p>At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object-an amulet or similar adornment-that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick-skinned, or if your totem is the eagle, your eyes turn bright yellow.</p>
+					<p>Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.</p>
+					<p><b>Bear. </b>While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.</p>
+					<p><b>Eagle. </b>While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</p>
+					<p><b>Wolf. </b>While you're raging, your friends have advantage on melee attack rolls against any hostile creature within 5 feet of you. The spirit of the wolf makes you a leader of hunters.</p>
+				</text>
+			</id-00007>
+			<id-00008>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">Spirit Seeker</name>
+				<source type="string">Barbarian</source>
+				<specialization type="string">Path of the Totem Warrior</specialization>
+				<text type="formattedtext">
+					<p>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals, as described in chapter 10. To cast a spell as a ritual, you must add 10 minutes to the spell's casting time.</p>
+				</text>
+			</id-00008>
 		</featurelist>
 		<flaws type="string">I am dogmatic in my thoughts and philosophy</flaws>
 		<gender type="string">Male</gender>
@@ -185,7 +227,7 @@
 			<deathsavesuccess type="number">0</deathsavesuccess>
 			<hdmod type="number">0</hdmod>
 			<temporary type="number">0</temporary>
-			<total type="number">24</total>
+			<total type="number">36</total>
 			<wounds type="number">0</wounds>
 		</hp>
 		<ideals type="string">Self-Knowledge. If you know yourself, there's nothing left to know.</ideals>
@@ -198,29 +240,11 @@
 		<inventorylist>
 			<id-00001>
 				<carried type="number">1</carried>
-				<cost type="string">5 gp</cost>
 				<count type="number">1</count>
-				<description type="formattedtext">
-					<p>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.</p>
-				</description>
 				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Herbalism Kit</name>
-				<subtype type="string">Kits / Sets</subtype>
-				<type type="string">Tools</type>
-				<weight type="number">3</weight>
+				<name type="string">Half Loaf of Bread</name>
+				<weight type="number">1</weight>
 			</id-00001>
-			<id-00002>
-				<carried type="number">1</carried>
-				<cost type="string">1 gp</cost>
-				<count type="number">1</count>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Bedroll</name>
-				<subtype type="string">Standard Adventuring Gear</subtype>
-				<type type="string">Adventuring Gear</type>
-				<weight type="number">7</weight>
-			</id-00002>
 			<id-00003>
 				<carried type="number">1</carried>
 				<cost type="string">5 sp</cost>
@@ -281,17 +305,6 @@
 				<type type="string">Adventuring Gear</type>
 				<weight type="number">10</weight>
 			</id-00008>
-			<id-00009>
-				<carried type="number">1</carried>
-				<cost type="string">2 gp</cost>
-				<count type="number">1</count>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Backpack (Empty)</name>
-				<subtype type="string">Standard</subtype>
-				<type type="string">Adventuring Gear</type>
-				<weight type="number">5</weight>
-			</id-00009>
 			<id-00010>
 				<ac type="number">0</ac>
 				<bonus type="number">0</bonus>
@@ -326,20 +339,6 @@
 				<type type="string">Adventuring Gear</type>
 				<weight type="number">4</weight>
 			</id-00011>
-			<id-00012>
-				<carried type="number">1</carried>
-				<cost type="string">2 gp</cost>
-				<count type="number">1</count>
-				<description type="formattedtext">
-					<p>Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in Part 3: The Rules of Magic, Casting a Spell. Each type of musical instrument requires a separate proficiency.</p>
-				</description>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Flute</name>
-				<subtype type="string">Musical Instrument</subtype>
-				<type type="string">Tools</type>
-				<weight type="number">1</weight>
-			</id-00012>
 			<id-00015>
 				<carried type="number">1</carried>
 				<count type="number">1</count>
@@ -361,12 +360,18 @@
 			<id-00004>
 			</id-00004>
 		</languagelist>
-		<level type="number">2</level>
+		<level type="number">3</level>
 		<name type="string">Krug</name>
 		<perception type="number">12</perception>
 		<perceptionmodifier type="number">0</perceptionmodifier>
 		<personalitytraits type="string">I feel tremendous empathy for all who suffer. I retreated from society after a life-altering event, the murder of my beloved wife, Hilda</personalitytraits>
 		<powergroup>
+			<id-00001>
+				<atkprof type="number">1</atkprof>
+				<castertype type="string">memorization</castertype>
+				<name type="string">Spells</name>
+				<saveprof type="number">1</saveprof>
+			</id-00001>
 			<id-00004>
 				<atkmod type="number">0</atkmod>
 				<atkprof type="number">1</atkprof>
@@ -469,6 +474,26 @@
 				<ritual type="number">0</ritual>
 				<source type="string">Barbarian</source>
 			</id-00001>
+			<id-00002>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">S</components>
+				<description type="formattedtext">
+					<p>You touch a willing beast. For the duration of the spell, you can use your action to see through the beast's eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the beast's senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings.</p>
+				</description>
+				<duration type="string">Concentration, up to 1 hour</duration>
+				<group type="string">Spells</group>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">Beast Sense</name>
+				<prepared type="number">0</prepared>
+				<range type="string">Touch</range>
+				<ritual type="number">1</ritual>
+				<school type="string">Divination</school>
+				<source type="string">Druid, Ranger</source>
+			</id-00002>
 			<id-00003>
 				<actions>
 					<id-00001>
@@ -480,7 +505,7 @@
 						<type type="string">effect</type>
 					</id-00001>
 				</actions>
-				<cast type="number">1</cast>
+				<cast type="number">0</cast>
 				<description type="formattedtext">
 					<p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
 					<list>
@@ -500,6 +525,26 @@
 				<ritual type="number">0</ritual>
 				<specializationchoice type="number">0</specializationchoice>
 			</id-00003>
+			<id-00004>
+				<actions>
+				</actions>
+				<cast type="number">0</cast>
+				<castingtime type="string">1 action</castingtime>
+				<components type="string">V, S</components>
+				<description type="formattedtext">
+					<p>You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion.</p>
+				</description>
+				<duration type="string">10 minutes</duration>
+				<group type="string">Spells</group>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Speak with Animals</name>
+				<prepared type="number">0</prepared>
+				<range type="string">Self</range>
+				<ritual type="number">1</ritual>
+				<school type="string">Divination</school>
+				<source type="string">Bard, Cleric Nature Domain, Druid, Eldritch Invocations, Ranger</source>
+			</id-00004>
 		</powers>
 		<profbonus type="number">2</profbonus>
 		<proficiencylist>
