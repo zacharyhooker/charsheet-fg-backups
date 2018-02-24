@@ -1,0 +1,790 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"etree",
+				"etree_to_dict\tfunction"
+			],
+			[
+				"get",
+				"getCampaign\tfunction"
+			],
+			[
+				"data",
+				"dataparse\tmodule"
+			],
+			[
+				"D",
+				"OrderedDict"
+			],
+			[
+				"Element",
+				"ElementTree"
+			],
+			[
+				"dict",
+				"dicttoxml\tmodule"
+			],
+			[
+				"getElemen",
+				"getElementsByTagName\tfunction"
+			],
+			[
+				"Query",
+				"QueryValueEx\tfunction"
+			],
+			[
+				"Quer",
+				"QueryInfoKey\tfunction"
+			],
+			[
+				"HKEY_CURRE",
+				"HKEY_CURRENT_USER\tinstance"
+			],
+			[
+				"Eleme",
+				"ElementTree\tfunction"
+			],
+			[
+				"zip",
+				"zipfile\tmodule"
+			],
+			[
+				"_get",
+				"_getDefinition\tfunction"
+			],
+			[
+				"rec",
+				"recv_data\tfunction"
+			],
+			[
+				"c",
+				"connect\tfunction"
+			],
+			[
+				"web",
+				"WebSocket\tclass"
+			],
+			[
+				"sen",
+				"sendmsg\tfunction"
+			],
+			[
+				"co",
+				"connection\tstatement"
+			],
+			[
+				"user",
+				"userlist\tstatement"
+			],
+			[
+				"wait_",
+				"wait_for_callbacks\tfunction"
+			],
+			[
+				"Surfs",
+				"SurfSideAPI"
+			],
+			[
+				"nonSecure",
+				"nonSecureSessId"
+			],
+			[
+				"surfside",
+				"SurfsideController"
+			],
+			[
+				"Robot",
+				"Roboto"
+			],
+			[
+				"sans",
+				"sans-serif"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Python Command Line",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Cytube",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Cytube",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Cytube Bot",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Cytube Bot",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Python Command Line",
+					""
+				],
+				[
+					"Python Command Line",
+					"Run.py"
+				]
+			],
+			[
+				"Python Command Line",
+				"Run.py"
+			]
+		],
+		[
+			[
+				[
+					"Python Command Line",
+					""
+				],
+				[
+					"Python Command Line",
+					"Run.py"
+				],
+				[
+					"Python Command Line",
+					"Tests"
+				]
+			],
+			[
+				"Python Command Line",
+				"Run.py"
+			]
+		],
+		[
+			[
+				[
+					"Python | cmd",
+					""
+				],
+				[
+					"Python | cmd",
+					"Python | cmd | run.py"
+				]
+			],
+			[
+				"Python | cmd",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "format",
+		"selected_items":
+		[
+			[
+				"format",
+				"ESLint Formatter: Format this file"
+			],
+			[
+				"info",
+				"ESLint Formatter: Format this file"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instal l",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"line e",
+				"Line Endings Unify"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"enable lint",
+				"Anaconda: Enable linting on this file"
+			],
+			[
+				"disable",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 442.0,
+		"history":
+		[
+			"exit",
+			"exit();",
+			"clear",
+			"sublime_jedi_signature()",
+			"sublime_jedi_signature",
+			"ls -la",
+			"dir",
+			"exit",
+			"python -u T:\\projects\\cytube\\cybot.py",
+			"python -u \"T:\\projects\\cytube\\cybot.py\"",
+			"python -u \"T:\\projects\\cytube\\cybot.py",
+			"py",
+			"chcp 65001",
+			"ls -la",
+			"help()",
+			"help",
+			"py",
+			"version()",
+			"exit()",
+			"eixt(*)",
+			"exit",
+			"url",
+			"client",
+			"cytube.py"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/projects/fantasygrounded/phantasy/utils.py",
+		"/G/projects/fantasygrounded/phantasy/campaign.py",
+		"/G/projects/fantasygrounded/phantasy/datahelper.py",
+		"/G/projects/fantasygrounded/tests/test.py",
+		"/G/projects/fantasygrounded/run.py",
+		"/G/projects/charsheet-fg-backups/Princes of the Apocalypse/README.md",
+		"/S/Fantasy Grounds/Data/campaigns/5E Sample Campaign/campaign.xml",
+		"/G/projects/fantasygrounded/backups/orym.xml",
+		"/G/projects/fantasygrounded/render/Princes of Apocalypse/Orym Shaeradim.xml",
+		"/G/projects/fantasygrounded/render/5E Sample Campaign/Krug.xml",
+		"/G/projects/fantasygrounded/phantasy/modules/character.py",
+		"/G/projects/fantasygrounded/phantasy/modules/__init__.py",
+		"/G/projects/fantasygrounded/render/temp.xml",
+		"/T/projects/cytube/cybot/bot.py",
+		"/G/projects/fantasygrounded/backups/forumpost.txt",
+		"/G/projects/fantasygrounded/render/.gitkeep",
+		"/G/projects/fantasygrounded/this.xml",
+		"/G/projects/fantasygrounded/render/charsheet.xml",
+		"/G/projects/fantasygrounded/.gitignore",
+		"/G/projects/fantasygrounded/forumpost.txt",
+		"/T/projects/FGModGen/MapModuleGen.py",
+		"/G/projects/fantasygrounded/phantasy/this.json",
+		"/G/projects/fantasygrounded/phantasy/this.xml",
+		"/G/projects/fantasygrounded/render/x.json",
+		"/G/projects/fantasygrounded/README.md",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/CampaignRegistry.lua",
+		"/G/projects/fantasygrounded/backups/.gitkeep",
+		"/T/projects/FGMods/MapModuleGen.py",
+		"/G/projects/fantasygrounded/phantasy/test.json",
+		"/G/projects/fantasygrounded/backups/db.xml",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/campaign.xml",
+		"/G/projects/fantasygrounded/phantasy/helpers/utils.py",
+		"/G/projects/fantasygrounded/phantasy/test.xml",
+		"/G/projects/fantasygrounded/phantasy/datahandler.py",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/chatlog.html",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/sublime_jedi.sublime-settings",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/Jedi - Python autocompletion/jedi/__init__.py",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/Jedi - Python autocompletion/__init__.py",
+		"/S/Python36/lib/unittest/case.py",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/G/projects/fantasygrounded/fantasygrounded.sublime-project",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/cpp.sublime-build",
+		"/G/projects/fantasygrounded/test.py",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/python-tests.py",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/py-tests.sublime-settings",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/python-cmd.sublime-build",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.user-ca-bundle",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/cmd.sublime-build",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/G/projects/fantasygrounded/phantasy/test.py",
+		"/G/projects/fantasygrounded/phantasy/__init__.py",
+		"/G/projects/fantasygrounded/services/campaign.py",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi/daemon.py",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/js.sublime-build",
+		"/G/Projects/Software/fantasygrounded/dataparse/__init__.py",
+		"/G/Projects/Software/fantasygrounded/dataparse/fxml.py",
+		"/G/Projects/fantasygrounded/xml-template.json",
+		"/G/Projects/fantasygrounded/services/campaign.py",
+		"/G/Projects/fantasygrounded/run.py",
+		"/G/Projects/Software/fantasygrounded/dataparse/lib/dicttoxml.py",
+		"/G/Projects/fantasygrounded/backups/db.xml",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/db.xml",
+		"/G/Princes of the Apocalypse/03022018/orym_shaeradim.xml",
+		"/G/Projects/fantasygrounded/backups/orym.xml",
+		"/G/Projects/Software/fantasygrounded/orym.xml",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/db.session.1517634000.xml",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/db.session.1518238800.xml",
+		"/G/Princes of the Apocalypse/03022018/osfyr_shaeradim.xml",
+		"/S/Fantasy Grounds/Data/characters/5E.xml",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/db.session.1511672400.xml",
+		"/G/Projects/Software/fantasygrounded/fantasygrounded.sublime-project",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/extensionstate.xml",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/moduledb/DD PHB Deluxe.xml",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/db.backup.1512244340.xml",
+		"/S/Fantasy Grounds/Data/campaigns/Princes of Apocalypse/db.session.1517374800.xml",
+		"/T/projects/cytube/cytube_bot.sublime-workspace",
+		"/T/projects/cytube/cytube_bot.sublime-project",
+		"/G/Projects/Software/fantasygrounded/datawrapper/datawrapper.py",
+		"/G/Projects/Software/fantasygrounded/characterExport.py",
+		"/G/Projects/Software/fantasygrounded/mod_data/datawrapper.py",
+		"/G/Projects/Software/fantasygrounded/mod_data/__init__.py",
+		"/G/Projects/Software/fantasygrounded/fantasygrounded.sublime-workspace",
+		"/T/projects/FGModGen/data/encounter/01.10 AFTERMATH.txt",
+		"/T/projects/FGModGen/.gitignore",
+		"/T/projects/FGModGen/MapModuleGen.sublime-workspace",
+		"/T/projects/FGModGen/data/encounter/.gitkeep",
+		"/T/projects/FGModGen/bin/.gitkeep",
+		"/T/projects/FGModGen/FGModGen.sublime-project",
+		"/T/projects/FGModGen/fantasy-grounds-mods.sublime-project",
+		"/T/projects/D2Stats/d2stats.sublime-workspace",
+		"/T/projects/FGModGen/hookermaps/maps/.gitkeep",
+		"/T/projects/socketio-bot/socketio-bot.sublime-project",
+		"/T/projects/FGMods/test.xml",
+		"/T/projects/FGMods/hookermaps/db.xml",
+		"/T/projects/FGMods/hookermaps/definition.xml",
+		"/T/projects/FGMods/definition.xml",
+		"/T/projects/FGMods/db.xml",
+		"/T/projects/FGMods/hookermaps/maps/definition.xml",
+		"/T/projects/cytube/cybot/msg.py",
+		"/T/projects/socketio-bot/transports.py",
+		"/T/projects/socketio-bot/socketio.py",
+		"/T/projects/cytube/cybot/users.py",
+		"/T/projects/cytube/cybot/config.py",
+		"/T/projects/cytube/cybot/functionWrapper.py",
+		"/T/projects/cytube/cybot/dbwrapper.py",
+		"/T/projects/cytube/working.config.py",
+		"/T/projects/cytube/cybot/msg-decode.py",
+		"/T/projects/cytube/cybot/botfuncs.py",
+		"/T/wzrd.txt",
+		"/S/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/config.cfg",
+		"/S/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg",
+		"/S/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/default.cfg",
+		"/T/projects/cytube/cybot/test.py",
+		"/C/Users/zach/6242C99A714FCF6A11CBB880099D0A6B1F070113.asc",
+		"/C/Users/zach/Desktop/temp/temp.txt",
+		"/C/Users/zach/Desktop/temp/temp.txt.out",
+		"/T/projects/cytube/cybot/wallet.py",
+		"/T/projects/cytube/cybot/timer.py",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/PyYapf Python Formatter/PyYapf.sublime-settings",
+		"/C/Users/zach/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"renderData",
+			"findKey",
+			"findKey.",
+			"self.data",
+			"data",
+			"rootdata",
+			"print",
+			"findkey",
+			"findKey",
+			"character",
+			"name",
+			"print",
+			"_dicttoxml",
+			"dict",
+			"getDBXML",
+			"this",
+			"getData",
+			"os",
+			"_dicttoxml",
+			"defaultdict",
+			"metadata",
+			"optional",
+			"print",
+			"_dicttoxml",
+			"xmltodict",
+			"print(",
+			"xmltodict",
+			"json",
+			"lxml",
+			"dbxml",
+			"isinst",
+			"print",
+			"print(",
+			"print",
+			"etree",
+			"xmltodict",
+			"etree",
+			"d ",
+			"t.",
+			"datadir",
+			"complete_call",
+			"get_function_parameters",
+			"auto_complete_function_params",
+			"funcargs",
+			"log",
+			"call_signatures",
+			"auto_complete_function_params",
+			"get_function_parameters",
+			"_complete_call_assigments",
+			"funcargs",
+			"make_valid_xml_name",
+			"key",
+			"make_valid_xml_name",
+			"xxx",
+			"the b",
+			"xxx",
+			"str",
+			"xxx",
+			"make_attrstring",
+			"type",
+			"17",
+			"00012",
+			"dct",
+			"fin",
+			"bear",
+			"charsheet",
+			"finnegan",
+			"character",
+			"format",
+			"Finn",
+			"finn",
+			"autoformat",
+			"'",
+			"<encounter>",
+			"<encounte>",
+			"<encounters>",
+			"<encounter>",
+			"token",
+			">\n",
+			"<images>",
+			"image",
+			"libdir",
+			"cate",
+			"out",
+			"self.out",
+			"category",
+			"\\\\",
+			"rename",
+			"os",
+			"os.",
+			"version",
+			"map",
+			"sukEET",
+			"sukeetsmapsvolume1",
+			"super",
+			"join",
+			"log",
+			"\"h\"",
+			"score",
+			"tan",
+			"trivi",
+			"random",
+			"request",
+			"self.userlistDebug()",
+			"self.userlist",
+			"self.userlistDebug()",
+			"self.userlist",
+			"userlist",
+			"self.userlist",
+			"userlist",
+			"user",
+			"userlist",
+			"Insuff",
+			"userlist",
+			"lint",
+			"auto",
+			"lint",
+			"timer",
+			"print",
+			"print(",
+			"now",
+			"timeout",
+			"creation",
+			"print",
+			"slots",
+			"$",
+			"bot",
+			"$"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"data",
+			"tree.",
+			"dict",
+			"\"",
+			"/",
+			"",
+			"Hooker",
+			"self.initcat",
+			"ename",
+			"eventname",
+			"event",
+			"signal",
+			"{}",
+			"/",
+			"{}",
+			"omsg",
+			"default",
+			":",
+			"data",
+			"surfside",
+			"=>",
+			"header"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 310.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Python Command Line",
+	"project": "fg-backups.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"T:\\projects\\auto-surfside\\surfside_auto.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
