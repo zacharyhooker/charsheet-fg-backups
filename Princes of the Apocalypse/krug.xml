@@ -72,10 +72,12 @@
 		</classes>
 		<coins>
 			<slot1>
-				<amount type="number">0</amount>
+				<amount type="number">2</amount>
+				<name type="string">CP</name>
 			</slot1>
 			<slot2>
-				<amount type="number">0</amount>
+				<amount type="number">16</amount>
+				<name type="string">GP</name>
 			</slot2>
 			<slot3>
 				<amount type="number">0</amount>
@@ -160,7 +162,7 @@
 			<total type="number">12</total>
 			<wounds type="number">0</wounds>
 		</hp>
-		<ideals type="string">Self-Knowledge. If you know yourself, there's nothing left to know. </ideals>
+		<ideals type="string">Self-Knowledge. If you know yourself, there's nothing left to know.</ideals>
 		<initiative>
 			<misc type="number">0</misc>
 			<temporary type="number">0</temporary>
@@ -329,7 +331,7 @@
 		</inventorylist>
 		<languagelist>
 			<id-00001>
-				<name type="string">Common </name>
+				<name type="string">Common</name>
 			</id-00001>
 			<id-00002>
 				<name type="string">Dwarvish</name>
@@ -517,9 +519,9 @@
 			<id-00009>
 				<misc type="number">0</misc>
 				<name type="string">Religion</name>
-				<prof type="number">1</prof>
+				<prof type="number">0</prof>
 				<stat type="string">intelligence</stat>
-				<total type="number">4</total>
+				<total type="number">2</total>
 			</id-00009>
 			<id-00010>
 				<misc type="number">0</misc>
@@ -652,7 +654,7 @@
 		</weapon>
 		<weaponlist>
 			<id-00001>
-				<carried type="number">1</carried>
+				<carried type="number">2</carried>
 				<damagelist>
 					<id-00001>
 						<dice type="dice">d8</dice>
