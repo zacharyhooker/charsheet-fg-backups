@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3" release="8|CoreRPG:3">
+	<character>
+		<abilities>
+			<charisma>
+				<bonus type="number">1</bonus>
+				<save type="number">1</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">0</saveprof>
+				<score type="number">12</score>
+			</charisma>
+			<constitution>
+				<bonus type="number">3</bonus>
+				<save type="number">5</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">1</saveprof>
+				<score type="number">16</score>
+			</constitution>
+			<dexterity>
+				<bonus type="number">2</bonus>
+				<save type="number">2</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">0</saveprof>
+				<score type="number">14</score>
+			</dexterity>
+			<intelligence>
+				<bonus type="number">1</bonus>
+				<save type="number">1</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">0</saveprof>
+				<score type="number">12</score>
+			</intelligence>
+			<strength>
+				<bonus type="number">3</bonus>
+				<save type="number">5</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">1</saveprof>
+				<score type="number">16</score>
+			</strength>
+			<wisdom>
+				<bonus type="number">1</bonus>
+				<save type="number">1</save>
+				<savemodifier type="number">0</savemodifier>
+				<saveprof type="number">0</saveprof>
+				<score type="number">12</score>
+			</wisdom>
+		</abilities>
+		<adventurelist>
+		</adventurelist>
+		<age type="string">22</age>
+		<alignment type="string">Chaotic Good</alignment>
+		<appearance type="string">Rusty brown close-cropped hair</appearance>
+		<background type="string">Noble Knight</background>
+		<backgroundlink type="windowreference">
+			<class>reference_background</class>
+			<recordname>reference.backgrounddata.nobleknight@DD PHB Deluxe</recordname>
+		</backgroundlink>
+		<bonds type="string">I will face any challenge to win the approval of my family.</bonds>
+		<classes>
+			<id-00007>
+				<casterlevelinvmult type="number">0</casterlevelinvmult>
+				<casterpactmagic type="number">0</casterpactmagic>
+				<hddie type="dice">d10</hddie>
+				<hdused type="number">0</hdused>
+				<level type="number">1</level>
+				<name type="string">Fighter</name>
+				<shortcut type="windowreference">
+					<class>reference_class</class>
+					<recordname>reference.classdata.fighter@DD 5E Basic Rules - Player</recordname>
+				</shortcut>
+			</id-00007>
+		</classes>
+		<coins>
+			<slot1>
+				<amount type="number">0</amount>
+				<name type="string">PP</name>
+			</slot1>
+			<slot2>
+				<amount type="number">0</amount>
+			</slot2>
+			<slot3>
+				<amount type="number">5</amount>
+				<name type="string">GP</name>
+			</slot3>
+			<slot4>
+				<amount type="number">0</amount>
+			</slot4>
+			<slot5>
+				<amount type="number">0</amount>
+				<name type="string">SP</name>
+			</slot5>
+			<slot6>
+				<amount type="number">0</amount>
+				<name type="string">CP</name>
+			</slot6>
+		</coins>
+		<defenses>
+			<ac>
+				<armor type="number">6</armor>
+				<dexbonus type="string">no</dexbonus>
+				<disstealth type="number">1</disstealth>
+				<misc type="number">0</misc>
+				<prof type="number">1</prof>
+				<shield type="number">0</shield>
+				<temporary type="number">0</temporary>
+				<total type="number">16</total>
+			</ac>
+		</defenses>
+		<deity type="string">Tempus</deity>
+		<encumbrance>
+			<encumbered type="number">80</encumbered>
+			<encumberedheavy type="number">160</encumberedheavy>
+			<liftpushdrag type="number">480</liftpushdrag>
+			<load type="number">61</load>
+			<max type="number">240</max>
+		</encumbrance>
+		<exp type="number">0</exp>
+		<expneeded type="number">0</expneeded>
+		<featlist>
+			<id-00001>
+				<locked type="number">1</locked>
+				<name type="string">Heavy Armor Master</name>
+				<prerequisite type="string">Proficiency with heavy armor</prerequisite>
+				<text type="formattedtext">
+					<p><i>Prerequisite: Proficiency with heavy armor</i></p>
+					<p>You can use your armor to deflect strikes that would kill others. You gain the following benefits:</p>
+					<list>
+						<li>Increase your Strength score by 1, to a maximum of 20.</li>
+						<li>While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from non magical weapons is reduced by 3.</li>
+					</list>
+				</text>
+			</id-00001>
+			<id-00003>
+				<locked type="number">1</locked>
+				<name type="string">Great Weapon Master</name>
+				<text type="formattedtext">
+					<p>You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:</p>
+					<list>
+						<li>On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.</li>
+						<li>Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a - 5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.</li>
+					</list>
+				</text>
+			</id-00003>
+		</featlist>
+		<featurelist>
+			<id-00001>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">Second Wind</name>
+				<source type="string">Fighter</source>
+				<text type="formattedtext">
+					<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>
+					<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>
+				</text>
+			</id-00001>
+			<id-00003>
+				<locked type="number">1</locked>
+				<name type="string">Position of Privilege</name>
+				<source type="string">Noble Knight</source>
+				<text type="formattedtext">
+					<p>Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to.</p>
+				</text>
+			</id-00003>
+			<id-00004>
+				<locked type="number">1</locked>
+				<name type="string">Retainers</name>
+				<source type="string">Noble Knight</source>
+				<text type="formattedtext">
+					<p>If your character has a noble background, you may select this background feature instead of Position of Privilege.</p>
+					<p>You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused.</p>
+				</text>
+			</id-00004>
+		</featurelist>
+		<flaws type="string">I hide a truly scandalous secret that could ruin my family forever.</flaws>
+		<gender type="string">Male</gender>
+		<height type="string">6' 1&#34; </height>
+		<hp>
+			<deathsavefail type="number">0</deathsavefail>
+			<deathsavesuccess type="number">0</deathsavesuccess>
+			<temporary type="number">0</temporary>
+			<total type="number">13</total>
+			<wounds type="number">13</wounds>
+		</hp>
+		<ideals type="string">I must prove that I can handle myself without the coddling of my family.</ideals>
+		<initiative>
+			<misc type="number">0</misc>
+			<temporary type="number">0</temporary>
+			<total type="number">2</total>
+		</initiative>
+		<inspiration type="number">0</inspiration>
+		<inventorylist>
+			<id-00001>
+				<ac type="number">16</ac>
+				<carried type="number">2</carried>
+				<cost type="string">75 gp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p>Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.</p>
+					<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>
+				</description>
+				<dexbonus type="string">-</dexbonus>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Chain Mail</name>
+				<stealth type="string">Disadvantage</stealth>
+				<strength type="string">Str 13</strength>
+				<subtype type="string">Heavy Armor</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">55</weight>
+			</id-00001>
+			<id-00002>
+				<carried type="number">2</carried>
+				<cost type="string">50 gp</cost>
+				<count type="number">1</count>
+				<damage type="string">2d6 slashing</damage>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Greatsword</name>
+				<properties type="string">Heavy, two-handed</properties>
+				<subtype type="string">Martial Melee Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">6</weight>
+			</id-00002>
+		</inventorylist>
+		<languagelist>
+			<id-00001>
+				<name type="string">Common </name>
+			</id-00001>
+			<id-00002>
+				<name type="string">Choice</name>
+			</id-00002>
+			<id-00003>
+				<name type="string">Elvish</name>
+			</id-00003>
+		</languagelist>
+		<level type="number">1</level>
+		<name type="string">Crannock Helder</name>
+		<notes type="string">Growing up as the third son of a wealthy noble in Baldur's Gate, Crannock was often overlooked upon reaching adulthood. In order to make a name for himself, he set off to gain a landed title and become an anointed knight. His father, merely indulging his son, sent a retainer named Finnegan along with Crannock in order to make sure his son doesn't sully his good name.</notes>
+		<perception type="number">13</perception>
+		<perceptionmodifier type="number">0</perceptionmodifier>
+		<personalitytraits type="string">Despite my noble birth, I do not place myself above other folk. We all have the same blood.</personalitytraits>
+		<powermeta>
+			<pactmagicslots1>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</pactmagicslots1>
+			<pactmagicslots2>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</pactmagicslots2>
+			<pactmagicslots3>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</pactmagicslots3>
+			<pactmagicslots4>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</pactmagicslots4>
+			<pactmagicslots5>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</pactmagicslots5>
+			<pactmagicslots6>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</pactmagicslots6>
+			<pactmagicslots7>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</pactmagicslots7>
+			<pactmagicslots8>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</pactmagicslots8>
+			<pactmagicslots9>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</pactmagicslots9>
+			<spellslots1>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</spellslots1>
+			<spellslots2>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</spellslots2>
+			<spellslots3>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</spellslots3>
+			<spellslots4>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</spellslots4>
+			<spellslots5>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</spellslots5>
+			<spellslots6>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</spellslots6>
+			<spellslots7>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</spellslots7>
+			<spellslots8>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</spellslots8>
+			<spellslots9>
+				<max type="number">0</max>
+				<used type="number">0</used>
+			</spellslots9>
+		</powermeta>
+		<powermode type="string">standard</powermode>
+		<powers>
+			<id-00002>
+				<actions>
+					<id-00001>
+						<atkbase type="string">fixed</atkbase>
+						<atktype type="string">melee</atktype>
+						<order type="number">1</order>
+						<type type="string">cast</type>
+					</id-00001>
+				</actions>
+				<cast type="number">0</cast>
+				<description type="formattedtext">
+					<p>You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:</p>
+					<list>
+						<li>On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.</li>
+						<li>Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a - 5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.</li>
+					</list>
+				</description>
+				<locked type="number">1</locked>
+				<name type="string">Great Weapon Master</name>
+				<prepared type="number">0</prepared>
+			</id-00002>
+		</powers>
+		<profbonus type="number">2</profbonus>
+		<proficiencylist>
+			<id-00001>
+				<name type="string">Weapon: Simple weapons, martial weapons</name>
+			</id-00001>
+			<id-00002>
+				<name type="string">Armor: All armor, shields</name>
+			</id-00002>
+			<id-00003>
+				<name type="string">Tool: Dragonchess set</name>
+			</id-00003>
+		</proficiencylist>
+		<race type="string">Human</race>
+		<racelink type="windowreference">
+			<class>reference_race</class>
+			<recordname>reference.racedata.human@DD PHB Deluxe</recordname>
+		</racelink>
+		<size type="string">Medium</size>
+		<skilllist>
+			<id-00001>
+				<misc type="number">0</misc>
+				<name type="string">Perception</name>
+				<prof type="number">1</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">3</total>
+			</id-00001>
+			<id-00002>
+				<misc type="number">0</misc>
+				<name type="string">Arcana</name>
+				<prof type="number">0</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">1</total>
+			</id-00002>
+			<id-00003>
+				<misc type="number">0</misc>
+				<name type="string">Persuasion</name>
+				<prof type="number">1</prof>
+				<stat type="string">charisma</stat>
+				<total type="number">3</total>
+			</id-00003>
+			<id-00004>
+				<misc type="number">0</misc>
+				<name type="string">Nature</name>
+				<prof type="number">0</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">1</total>
+			</id-00004>
+			<id-00005>
+				<misc type="number">0</misc>
+				<name type="string">Medicine</name>
+				<prof type="number">0</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">1</total>
+			</id-00005>
+			<id-00006>
+				<misc type="number">0</misc>
+				<name type="string">Survival</name>
+				<prof type="number">0</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">1</total>
+			</id-00006>
+			<id-00007>
+				<misc type="number">0</misc>
+				<name type="string">Performance</name>
+				<prof type="number">0</prof>
+				<stat type="string">charisma</stat>
+				<total type="number">1</total>
+			</id-00007>
+			<id-00008>
+				<misc type="number">0</misc>
+				<name type="string">Acrobatics</name>
+				<prof type="number">0</prof>
+				<stat type="string">dexterity</stat>
+				<total type="number">2</total>
+			</id-00008>
+			<id-00009>
+				<misc type="number">0</misc>
+				<name type="string">Religion</name>
+				<prof type="number">0</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">1</total>
+			</id-00009>
+			<id-00010>
+				<misc type="number">0</misc>
+				<name type="string">Athletics</name>
+				<prof type="number">1</prof>
+				<stat type="string">strength</stat>
+				<total type="number">5</total>
+			</id-00010>
+			<id-00011>
+				<misc type="number">0</misc>
+				<name type="string">Sleight of Hand</name>
+				<prof type="number">0</prof>
+				<stat type="string">dexterity</stat>
+				<total type="number">2</total>
+			</id-00011>
+			<id-00012>
+				<misc type="number">0</misc>
+				<name type="string">Insight</name>
+				<prof type="number">0</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">1</total>
+			</id-00012>
+			<id-00013>
+				<misc type="number">0</misc>
+				<name type="string">Intimidation</name>
+				<prof type="number">0</prof>
+				<stat type="string">charisma</stat>
+				<total type="number">1</total>
+			</id-00013>
+			<id-00014>
+				<misc type="number">0</misc>
+				<name type="string">Deception</name>
+				<prof type="number">0</prof>
+				<stat type="string">charisma</stat>
+				<total type="number">1</total>
+			</id-00014>
+			<id-00015>
+				<misc type="number">0</misc>
+				<name type="string">Investigation</name>
+				<prof type="number">0</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">1</total>
+			</id-00015>
+			<id-00016>
+				<misc type="number">0</misc>
+				<name type="string">Stealth</name>
+				<prof type="number">0</prof>
+				<stat type="string">dexterity</stat>
+				<total type="number">2</total>
+			</id-00016>
+			<id-00017>
+				<misc type="number">0</misc>
+				<name type="string">History</name>
+				<prof type="number">3</prof>
+				<stat type="string">intelligence</stat>
+				<total type="number">2</total>
+			</id-00017>
+			<id-00018>
+				<misc type="number">0</misc>
+				<name type="string">Animal Handling</name>
+				<prof type="number">0</prof>
+				<stat type="string">wisdom</stat>
+				<total type="number">1</total>
+			</id-00018>
+		</skilllist>
+		<speed>
+			<armor type="number">0</armor>
+			<base type="number">30</base>
+			<misc type="number">0</misc>
+			<temporary type="number">0</temporary>
+			<total type="number">30</total>
+		</speed>
+		<temp>
+		</temp>
+		<token type="token">portrait_id-00008_token</token>
+		<traitlist>
+		</traitlist>
+		<weaponlist>
+			<id-00001>
+				<carried type="number">2</carried>
+				<damagelist>
+					<id-00001>
+						<dice type="dice">d6,d6</dice>
+						<stat type="string">base</stat>
+						<type type="string">slashing</type>
+					</id-00001>
+				</damagelist>
+				<isidentified type="number">1</isidentified>
+				<maxammo type="number">0</maxammo>
+				<name type="string">Greatsword</name>
+				<prof type="number">1</prof>
+				<shortcut type="windowreference">
+					<class>item</class>
+					<recordname>....inventorylist.id-00002</recordname>
+				</shortcut>
+				<type type="number">0</type>
+			</id-00001>
+		</weaponlist>
+		<weight type="string">170 lb</weight>
+	</character>
+</root>
