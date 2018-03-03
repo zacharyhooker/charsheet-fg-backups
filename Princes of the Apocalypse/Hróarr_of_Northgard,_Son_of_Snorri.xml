@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<root version="3.3" release="8|CoreRPG:3">
+  <charsheet>
+    <abilities>
+      <charisma>
+        <bonus type="number">0</bonus>
+        <save type="number">0</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">0</saveprof>
+        <score type="number">10</score>
+      </charisma>
+      <constitution>
+        <bonus type="number">1</bonus>
+        <save type="number">1</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">0</saveprof>
+        <score type="number">12</score>
+      </constitution>
+      <dexterity>
+        <bonus type="number">1</bonus>
+        <save type="number">3</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">1</saveprof>
+        <score type="number">13</score>
+      </dexterity>
+      <intelligence>
+        <bonus type="number">-1</bonus>
+        <save type="number">-1</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">0</saveprof>
+        <score type="number">8</score>
+      </intelligence>
+      <strength>
+        <bonus type="number">2</bonus>
+        <save type="number">4</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">1</saveprof>
+        <score type="number">15</score>
+      </strength>
+      <wisdom>
+        <bonus type="number">0</bonus>
+        <save type="number">0</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">0</saveprof>
+        <score type="number">11</score>
+      </wisdom>
+    </abilities>
+    <adventurelist/>
+    <age type="string">273</age>
+    <alignment type="string">Chaotic Good</alignment>
+    <appearance type="string">Gruff, HUSKY, and weathered</appearance>
+    <background type="string">Folk Hero</background>
+    <backgroundlink type="windowreference">
+      <class>reference_background</class>
+      <recordname>reference.backgrounddata.folkhero@DD PHB Deluxe</recordname>
+    </backgroundlink>
+    <bonds type="string">I have a friend &amp; family, but I have no idea where they are. One day, I hope to see them again.</bonds>
+    <classes>
+      <id-00003>
+        <casterlevelinvmult type="number">0</casterlevelinvmult>
+        <casterpactmagic type="number">0</casterpactmagic>
+        <hddie type="dice">d10</hddie>
+        <hdused type="number">0</hdused>
+        <level type="number">1</level>
+        <name type="string">Ranger</name>
+        <shortcut type="windowreference">
+          <class>reference_class</class>
+          <recordname>reference.classdata.ranger@DD PHB Deluxe</recordname>
+        </shortcut>
+      </id-00003>
+    </classes>
+    <coins>
+      <slot1>
+        <amount type="number">0</amount>
+      </slot1>
+      <slot2>
+        <amount type="number">0</amount>
+      </slot2>
+      <slot3>
+        <amount type="number">0</amount>
+      </slot3>
+      <slot4>
+        <amount type="number">0</amount>
+      </slot4>
+      <slot5>
+        <amount type="number">0</amount>
+      </slot5>
+      <slot6>
+        <amount type="number">0</amount>
+      </slot6>
+    </coins>
+    <defenses>
+      <ac>
+        <armor type="number">1</armor>
+        <disstealth type="number">0</disstealth>
+        <misc type="number">0</misc>
+        <prof type="number">1</prof>
+        <shield type="number">0</shield>
+        <temporary type="number">0</temporary>
+        <total type="number">12</total>
+      </ac>
+    </defenses>
+    <deity type="string">Skadi -- God of Mountains</deity>
+    <encumbrance>
+      <encumbered type="number">75</encumbered>
+      <encumberedheavy type="number">150</encumberedheavy>
+      <liftpushdrag type="number">450</liftpushdrag>
+      <load type="number">12</load>
+      <max type="number">225</max>
+    </encumbrance>
+    <exp type="number">0</exp>
+    <expneeded type="number">0</expneeded>
+    <featlist/>
+    <featurelist>
+      <id-00001>
+        <level type="number">1</level>
+        <locked type="number">1</locked>
+        <name type="string">Natural Explorer - Arctic</name>
+        <source type="string">Ranger</source>
+        <text type="formattedtext">
+          <p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.</p>
+          <p>While traveling for an hour or m ore in your favored terrain, you gain the following benefits:</p>
+          <p>You choose additional favored terrain types at 6th and 10th level.</p>
+          <list>
+            <li>Difficult terrain doesn't slow your group's travel.</li>
+            <li>Your group can't become lost except by magical means.</li>
+            <li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+            <li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+            <li>When you forage, you find twice as much food as you normally would.</li>
+            <li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+          </list>
+        </text>
+      </id-00001>
+      <id-00002>
+        <level type="number">1</level>
+        <locked type="number">1</locked>
+        <name type="string">Favored Enemy - Giants/Titans</name>
+        <source type="string">Ranger</source>
+        <text type="formattedtext">
+          <p>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.</p>
+          <p>Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.</p>
+          <p>You have advantage on Wisdom(Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.</p>
+          <p>When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.</p>
+          <p>You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.</p>
+        </text>
+      </id-00002>
+      <id-00003>
+        <locked type="number">1</locked>
+        <name type="string">Rustic Hospitality</name>
+        <source type="string">Folk Hero</source>
+        <text type="formattedtext">
+          <p>Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.</p>
+        </text>
+      </id-00003>
+    </featurelist>
+    <flaws type="string">I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.</flaws>
+    <gender type="string">Male</gender>
+    <height type="string">6'3"</height>
+    <hp>
+      <deathsavefail type="number">0</deathsavefail>
+      <deathsavesuccess type="number">0</deathsavesuccess>
+      <temporary type="number">0</temporary>
+      <total type="number">20</total>
+      <wounds type="number">3</wounds>
+    </hp>
+    <ideals type="string">Might. If I become strong, train hard, and find a way back. I can stop the Frost Titan from happening again.</ideals>
+    <initiative>
+      <misc type="number">0</misc>
+      <temporary type="number">0</temporary>
+      <total type="number">1</total>
+    </initiative>
+    <inventorylist>
+      <id-00001>
+        <ac type="number">11</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">10 gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p>Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.</p>
+          <p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>
+        </description>
+        <dexbonus type="string">Yes</dexbonus>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Leather</name>
+        <stealth type="string">-</stealth>
+        <strength type="string">-</strength>
+        <subtype type="string">Light Armor</subtype>
+        <type type="string">Armor</type>
+        <weight type="number">10</weight>
+      </id-00001>
+      <id-00002>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">5 gp</cost>
+        <count type="number">1</count>
+        <damage type="string">1d8 piercing</damage>
+        <description type="formattedtext">
+          <p/>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Climbing Pick</name>
+        <properties type="string">-</properties>
+        <subtype type="string">Martial Weapons</subtype>
+        <type type="string">Weapon</type>
+        <weight type="number">2</weight>
+      </id-00002>
+    </inventorylist>
+    <languagelist>
+      <id-00001>
+        <name type="string">Common</name>
+      </id-00001>
+      <id-00002>
+        <name type="string">Primordial</name>
+      </id-00002>
+    </languagelist>
+    <level type="number">1</level>
+    <name type="string">Hróarr of Northgard, Son of Snorri</name>
+    <perception type="number">10</perception>
+    <perceptionmodifier type="number">0</perceptionmodifier>
+    <personalitytraits type="string">Thinking is for other people. I prefer action.</personalitytraits>
+    <powermeta>
+      <pactmagicslots1>
+        <max type="number">0</max>
+      </pactmagicslots1>
+      <pactmagicslots2>
+        <max type="number">0</max>
+      </pactmagicslots2>
+      <pactmagicslots3>
+        <max type="number">0</max>
+      </pactmagicslots3>
+      <pactmagicslots4>
+        <max type="number">0</max>
+      </pactmagicslots4>
+      <pactmagicslots5>
+        <max type="number">0</max>
+      </pactmagicslots5>
+      <pactmagicslots6>
+        <max type="number">0</max>
+      </pactmagicslots6>
+      <pactmagicslots7>
+        <max type="number">0</max>
+      </pactmagicslots7>
+      <pactmagicslots8>
+        <max type="number">0</max>
+      </pactmagicslots8>
+      <pactmagicslots9>
+        <max type="number">0</max>
+      </pactmagicslots9>
+      <spellslots1>
+        <max type="number">0</max>
+      </spellslots1>
+      <spellslots2>
+        <max type="number">0</max>
+      </spellslots2>
+      <spellslots3>
+        <max type="number">0</max>
+      </spellslots3>
+      <spellslots4>
+        <max type="number">0</max>
+      </spellslots4>
+      <spellslots5>
+        <max type="number">0</max>
+      </spellslots5>
+      <spellslots6>
+        <max type="number">0</max>
+      </spellslots6>
+      <spellslots7>
+        <max type="number">0</max>
+      </spellslots7>
+      <spellslots8>
+        <max type="number">0</max>
+      </spellslots8>
+      <spellslots9>
+        <max type="number">0</max>
+      </spellslots9>
+    </powermeta>
+    <powers/>
+    <profbonus type="number">2</profbonus>
+    <proficiencylist>
+      <id-00001>
+        <name type="string">Weapon: Simple weapons, martial weapons</name>
+      </id-00001>
+      <id-00003>
+        <name type="string">Tool: One type of artisan's tools, vehicles (land)</name>
+      </id-00003>
+      <id-00005>
+        <name type="string">Armor: Light armor, medium armor, shields</name>
+      </id-00005>
+    </proficiencylist>
+    <race type="string">Human</race>
+    <racelink type="windowreference">
+      <class>reference_race</class>
+      <recordname>reference.racedata.human@DD PHB Deluxe</recordname>
+    </racelink>
+    <size type="string">Medium</size>
+    <skilllist>
+      <id-00001>
+        <misc type="number">0</misc>
+        <name type="string">Perception</name>
+        <prof type="number">0</prof>
+        <stat type="string">wisdom</stat>
+        <total type="number">0</total>
+      </id-00001>
+      <id-00002>
+        <misc type="number">0</misc>
+        <name type="string">Animal Handling</name>
+        <prof type="number">1</prof>
+        <stat type="string">wisdom</stat>
+        <total type="number">2</total>
+      </id-00002>
+      <id-00003>
+        <misc type="number">0</misc>
+        <name type="string">Athletics</name>
+        <prof type="number">1</prof>
+        <stat type="string">strength</stat>
+        <total type="number">4</total>
+      </id-00003>
+      <id-00004>
+        <misc type="number">0</misc>
+        <name type="string">Survival</name>
+        <prof type="number">1</prof>
+        <stat type="string">wisdom</stat>
+        <total type="number">2</total>
+      </id-00004>
+      <id-00005>
+        <misc type="number">0</misc>
+        <name type="string">Insight</name>
+        <prof type="number">1</prof>
+        <stat type="string">wisdom</stat>
+        <total type="number">2</total>
+      </id-00005>
+      <id-00006>
+        <misc type="number">0</misc>
+        <name type="string">Nature</name>
+        <prof type="number">1</prof>
+        <stat type="string">intelligence</stat>
+        <total type="number">1</total>
+      </id-00006>
+      <id-00007>
+        <misc type="number">0</misc>
+        <name type="string">Arcana</name>
+        <prof type="number">0</prof>
+        <stat type="string">intelligence</stat>
+        <total type="number">-1</total>
+      </id-00007>
+      <id-00008>
+        <misc type="number">0</misc>
+        <name type="string">Persuasion</name>
+        <prof type="number">0</prof>
+        <stat type="string">charisma</stat>
+        <total type="number">0</total>
+      </id-00008>
+      <id-00009>
+        <misc type="number">0</misc>
+        <name type="string">Medicine</name>
+        <prof type="number">0</prof>
+        <stat type="string">wisdom</stat>
+        <total type="number">0</total>
+      </id-00009>
+      <id-00010>
+        <misc type="number">0</misc>
+        <name type="string">Performance</name>
+        <prof type="number">0</prof>
+        <stat type="string">charisma</stat>
+        <total type="number">0</total>
+      </id-00010>
+      <id-00011>
+        <misc type="number">0</misc>
+        <name type="string">Acrobatics</name>
+        <prof type="number">0</prof>
+        <stat type="string">dexterity</stat>
+        <total type="number">1</total>
+      </id-00011>
+      <id-00012>
+        <misc type="number">0</misc>
+        <name type="string">Religion</name>
+        <prof type="number">0</prof>
+        <stat type="string">intelligence</stat>
+        <total type="number">-1</total>
+      </id-00012>
+      <id-00013>
+        <misc type="number">0</misc>
+        <name type="string">Sleight of Hand</name>
+        <prof type="number">0</prof>
+        <stat type="string">dexterity</stat>
+        <total type="number">1</total>
+      </id-00013>
+      <id-00014>
+        <misc type="number">0</misc>
+        <name type="string">Intimidation</name>
+        <prof type="number">0</prof>
+        <stat type="string">charisma</stat>
+        <total type="number">0</total>
+      </id-00014>
+      <id-00015>
+        <misc type="number">0</misc>
+        <name type="string">Deception</name>
+        <prof type="number">0</prof>
+        <stat type="string">charisma</stat>
+        <total type="number">0</total>
+      </id-00015>
+      <id-00016>
+        <misc type="number">0</misc>
+        <name type="string">Investigation</name>
+        <prof type="number">0</prof>
+        <stat type="string">intelligence</stat>
+        <total type="number">-1</total>
+      </id-00016>
+      <id-00017>
+        <misc type="number">0</misc>
+        <name type="string">Stealth</name>
+        <prof type="number">0</prof>
+        <stat type="string">dexterity</stat>
+        <total type="number">1</total>
+      </id-00017>
+      <id-00018>
+        <misc type="number">0</misc>
+        <name type="string">History</name>
+        <prof type="number">0</prof>
+        <stat type="string">intelligence</stat>
+        <total type="number">-1</total>
+      </id-00018>
+    </skilllist>
+    <speed>
+      <armor type="number">0</armor>
+      <base type="number">30</base>
+      <misc type="number">0</misc>
+      <temporary type="number">0</temporary>
+      <total type="number">30</total>
+    </speed>
+    <temp/>
+    <token type="token">portrait_id-00002_token</token>
+    <traitlist/>
+    <weaponlist>
+      <id-00001>
+        <attackbonus type="number">0</attackbonus>
+        <carried type="number">1</carried>
+        <damagelist>
+          <id-00001>
+            <bonus type="number">0</bonus>
+            <dice type="dice">d8</dice>
+            <stat type="string">base</stat>
+            <type type="string">piercing</type>
+          </id-00001>
+        </damagelist>
+        <isidentified type="number">1</isidentified>
+        <maxammo type="number">0</maxammo>
+        <name type="string">Climbing Pick</name>
+        <prof type="number">1</prof>
+        <shortcut type="windowreference">
+          <class>item</class>
+          <recordname>....inventorylist.id-00002</recordname>
+        </shortcut>
+        <type type="number">0</type>
+      </id-00001>
+    </weaponlist>
+    <weight type="string">225</weight>
+  </charsheet>
+</root>
