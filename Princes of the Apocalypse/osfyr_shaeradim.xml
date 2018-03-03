@@ -1,965 +1,965 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.3" release="8|CoreRPG:3">
-	<character>
-		<abilities>
-			<charisma>
-				<bonus type="number">3</bonus>
-				<save type="number">5</save>
-				<savemodifier type="number">0</savemodifier>
-				<saveprof type="number">1</saveprof>
-				<score type="number">17</score>
-			</charisma>
-			<constitution>
-				<bonus type="number">3</bonus>
-				<save type="number">5</save>
-				<savemodifier type="number">0</savemodifier>
-				<saveprof type="number">1</saveprof>
-				<score type="number">16</score>
-			</constitution>
-			<dexterity>
-				<bonus type="number">1</bonus>
-				<save type="number">1</save>
-				<savemodifier type="number">0</savemodifier>
-				<saveprof type="number">0</saveprof>
-				<score type="number">13</score>
-			</dexterity>
-			<intelligence>
-				<bonus type="number">2</bonus>
-				<save type="number">2</save>
-				<savemodifier type="number">0</savemodifier>
-				<saveprof type="number">0</saveprof>
-				<score type="number">15</score>
-			</intelligence>
-			<strength>
-				<bonus type="number">0</bonus>
-				<save type="number">0</save>
-				<savemodifier type="number">0</savemodifier>
-				<saveprof type="number">0</saveprof>
-				<score type="number">10</score>
-			</strength>
-			<wisdom>
-				<bonus type="number">2</bonus>
-				<save type="number">2</save>
-				<savemodifier type="number">0</savemodifier>
-				<saveprof type="number">0</saveprof>
-				<score type="number">14</score>
-			</wisdom>
-		</abilities>
-		<adventurelist>
-		</adventurelist>
-		<age type="string">37</age>
-		<alignment type="string">Chaotic Good</alignment>
-		<appearance type="string">Standing before you with a somber expression is a half elf of middling height, shoulder-length ratty oak-brown hair, pale skin and bright green eyes. Bags hang under the eyes, and his clothing appears worse for the wear. Clutching the patchwork robe around his bony body, you get the feeling of skin pulled taut across a skeleton and a life hard lived.</appearance>
-		<background type="string">Urchin</background>
-		<backgroundlink type="windowreference">
-			<class>reference_background</class>
-			<recordname>reference.backgrounddata.urchin@DD PHB Deluxe</recordname>
-		</backgroundlink>
-		<bonds type="string">Close bond with my twin, who is my only known surviving family. Owe my life to him, as he helped me survive the streets.</bonds>
-		<classes>
-			<id-00001>
-				<casterlevelinvmult type="number">1</casterlevelinvmult>
-				<casterpactmagic type="number">0</casterpactmagic>
-				<hddie type="dice">d6</hddie>
-				<hdused type="number">0</hdused>
-				<level type="number">3</level>
-				<name type="string">Sorcerer</name>
-				<shortcut type="windowreference">
-					<class>reference_class</class>
-					<recordname>reference.classdata.sorcerer@DD PHB Deluxe</recordname>
-				</shortcut>
-			</id-00001>
-		</classes>
-		<coins>
-			<slot1>
-				<amount type="number">0</amount>
-				<name type="string">pp</name>
-			</slot1>
-			<slot2>
-				<amount type="number">48</amount>
-				<name type="string">SP</name>
-			</slot2>
-			<slot3>
-				<amount type="number">0</amount>
-				<name type="string">gold</name>
-			</slot3>
-			<slot4>
-				<amount type="number">90</amount>
-				<name type="string">CP</name>
-			</slot4>
-			<slot5>
-				<amount type="number">0</amount>
-				<name type="string">ep</name>
-			</slot5>
-			<slot6>
-				<amount type="number">24</amount>
-				<name type="string">GP</name>
-			</slot6>
-		</coins>
-		<defenses>
-			<ac>
-				<armor type="number">0</armor>
-				<misc type="number">0</misc>
-				<prof type="number">1</prof>
-				<shield type="number">0</shield>
-				<temporary type="number">0</temporary>
-				<total type="number">11</total>
-			</ac>
-		</defenses>
-		<deity type="string">Tymora</deity>
-		<encumbrance>
-			<encumbered type="number">50</encumbered>
-			<encumberedheavy type="number">100</encumberedheavy>
-			<liftpushdrag type="number">300</liftpushdrag>
-			<load type="number">7</load>
-			<max type="number">150</max>
-		</encumbrance>
-		<exp type="number">50</exp>
-		<expneeded type="number">0</expneeded>
-		<featlist>
-		</featlist>
-		<featurelist>
-			<id-00001>
-				<level type="number">1</level>
-				<locked type="number">1</locked>
-				<name type="string">Wild Magic</name>
-				<source type="string">Sorcerer</source>
-				<text type="formattedtext">
-					<p>Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.</p>
-					<h>Features</h>
-					<linklist>
-						<link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.wildmagicsurge1@DD PHB Deluxe">Wild Magic Surge</link>
-						<link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.tidesofchaos1@DD PHB Deluxe">Tides of Chaos</link>
-						<link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.bendluck6@DD PHB Deluxe">Bend Luck</link>
-						<link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.controlledchaos14@DD PHB Deluxe">Controlled Chaos</link>
-						<link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.spellbombardment18@DD PHB Deluxe">Spell Bombardment</link>
-					</linklist>
-				</text>
-			</id-00001>
-			<id-00002>
-				<level type="number">1</level>
-				<locked type="number">1</locked>
-				<name type="string">Wild Magic Surge</name>
-				<source type="string">Sorcerer</source>
-				<specialization type="string">Wild Magic</specialization>
-				<text type="formattedtext">
-					<p>Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic.</p>
-					<p>Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a d20. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect. If a Wild Magic effect is a spell, it's too wild to be affected by Metamagic. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.</p>
-					<linklist>
-						<link class="table" recordname="tables.tab_wildmagicsurge@DD PHB Deluxe"><b>Table: </b></link>Wild Magic Surge Table</linklist>
-				</text>
-			</id-00002>
-			<id-00003>
-				<level type="number">1</level>
-				<locked type="number">1</locked>
-				<name type="string">Spellcasting</name>
-				<source type="string">Sorcerer</source>
-				<text type="formattedtext">
-					<p>An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the sorcerer spell list.</p>
-					<linklist>
-						<link class="reference_colindex" recordname="reference.spelllists.sorcerer@DD PHB Deluxe">Sorcerer Spells</link>
-					</linklist>
-					<p><b>Cantrips</b></p>
-					<p>At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.</p>
-					<p><b>Spell Slots</b></p>
-					<p>The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
-					<p>For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot.</p>
-					<p><b>Spells Known of 1st Level and Higher</b></p>
-					<p>You know two 1st-level spells of your choice from the sorcerer spell list.</p>
-					<p>The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>
-					<p>Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.</p>
-					<p><b>Spellcasting Ability</b></p>
-					<p>Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.</p>
-					<p><b>Spell save DC </b>= 8 + your proficiency bonus + your Charisma modifier</p>
-					<p><b>Spell attack modifier </b>= your proficiency bonus + your Charisma modifier</p>
-					<p><b>Spellcasting Focus</b></p>
-					<p>You can use an arcane focus (found in chapter 5) as a spellcasting focus for your sorcerer spells.</p>
-				</text>
-			</id-00003>
-			<id-00004>
-				<level type="number">1</level>
-				<locked type="number">1</locked>
-				<name type="string">Tides of Chaos</name>
-				<source type="string">Sorcerer</source>
-				<specialization type="string">Wild Magic</specialization>
-				<text type="formattedtext">
-					<p>Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again. Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.</p>
-				</text>
-			</id-00004>
-			<id-00005>
-				<locked type="number">1</locked>
-				<name type="string">City Secrets</name>
-				<source type="string">Urchin</source>
-				<text type="formattedtext">
-					<p>You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.</p>
-				</text>
-			</id-00005>
-			<id-00006>
-				<level type="number">2</level>
-				<locked type="number">1</locked>
-				<name type="string">Font of Magic</name>
-				<source type="string">Sorcerer</source>
-				<text type="formattedtext">
-					<p>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p>
-					<p><b>Sorcery Points</b></p>
-					<p>You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.</p>
-					<p><b>Flexible Casting</b></p>
-					<p>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels. The created spell slots vanish at the end of a long rest.</p>
-					<p><b>Creating Spell Slots. </b>You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</p>
-					<p><b>Creating Spell Slots</b></p>
-					<table>
-						<tr>
-							<td><b>Spell Slot Sorcery Level</b></td>
-							<td><b>Point Cost</b></td>
-						</tr>
-						<tr>
-							<td>1st</td>
-							<td>2</td>
-						</tr>
-						<tr>
-							<td>2nd</td>
-							<td>3</td>
-						</tr>
-						<tr>
-							<td>3rd</td>
-							<td>5</td>
-						</tr>
-						<tr>
-							<td>4th</td>
-							<td>6</td>
-						</tr>
-						<tr>
-							<td>5th</td>
-							<td>7</td>
-						</tr>
-					</table>
-					<p>Converting a Spell Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</p>
-				</text>
-			</id-00006>
-			<id-00007>
-				<level type="number">3</level>
-				<locked type="number">1</locked>
-				<name type="string">Metamagic</name>
-				<source type="string">Sorcerer</source>
-				<text type="formattedtext">
-					<p>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.</p>
-					<p>You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</p>
-					<p><b>Careful Spell</b></p>
-					<p>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</p>
-					<p><b>Distant Spell</b></p>
-					<p>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</p>
-					<p>When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</p>
-					<p><b>Empowered Spell</b></p>
-					<p>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</p>
-					<p>You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
-					<p><b>Extended Spell</b></p>
-					<p>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</p>
-					<p><b>Heightened Spell</b></p>
-					<p>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</p>
-					<p><b>Quickened Spell</b></p>
-					<p>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</p>
-					<p><b>Subtle Spell</b></p>
-					<p>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</p>
-					<p><b>Twinned Spell</b></p>
-					<p>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell's current level.</p>
-				</text>
-			</id-00007>
-			<id-00008>
-				<name type="string">Twinned Spell</name>
-			</id-00008>
-			<id-00009>
-				<name type="string">Heightened Spell</name>
-			</id-00009>
-		</featurelist>
-		<flaws type="string">People who can't take care of themselves get what they deserve.</flaws>
-		<gender type="string">M</gender>
-		<height type="string">5'11</height>
-		<hp>
-			<deathsavefail type="number">0</deathsavefail>
-			<deathsavesuccess type="number">0</deathsavesuccess>
-			<hdmod type="number">0</hdmod>
-			<temporary type="number">0</temporary>
-			<total type="number">23</total>
-			<wounds type="number">0</wounds>
-		</hp>
-		<ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
-		<initiative>
-			<misc type="number">0</misc>
-			<temporary type="number">0</temporary>
-			<total type="number">1</total>
-		</initiative>
-		<inventorylist>
-			<id-00001>
-				<carried type="number">2</carried>
-				<cost type="string">1 gp</cost>
-				<count type="number">1</count>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Robes</name>
-				<subtype type="string">Standard</subtype>
-				<type type="string">Adventuring Gear</type>
-				<weight type="number">4</weight>
-			</id-00001>
-			<id-00002>
-				<carried type="number">1</carried>
-				<count type="number">1</count>
-				<isidentified type="number">1</isidentified>
-				<name type="string">Thieves Tools</name>
-				<weight type="number">0</weight>
-			</id-00002>
-			<id-00003>
-				<ac type="number">0</ac>
-				<bonus type="number">0</bonus>
-				<carried type="number">1</carried>
-				<cost type="string">100 gp</cost>
-				<count type="number">1</count>
-				<description type="formattedtext">
-					<p>Within is a gold chain and locket with a portrait of a lovely half-elf female etched in profile.</p>
-				</description>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Gold Chain And Locket</name>
-				<subtype type="string">Standard</subtype>
-				<type type="string">Adventuring Gear</type>
-				<weight type="number">0</weight>
-			</id-00003>
-			<id-00004>
-				<ac type="number">0</ac>
-				<bonus type="number">0</bonus>
-				<carried type="number">1</carried>
-				<cost type="string">25 gp</cost>
-				<count type="number">1</count>
-				<description type="formattedtext">
-					<p></p>
-				</description>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Braided Silver and Electrum Ring</name>
-				<weight type="number">0</weight>
-			</id-00004>
-			<id-00005>
-				<ac type="number">0</ac>
-				<bonus type="number">0</bonus>
-				<carried type="number">1</carried>
-				<count type="number">1</count>
-				<description type="formattedtext">
-					<p></p>
-				</description>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Rotting Human Skull</name>
-				<weight type="number">0</weight>
-			</id-00005>
-			<id-00006>
-				<carried type="number">1</carried>
-				<count type="number">1</count>
-				<isidentified type="number">1</isidentified>
-				<name type="string">Ruined Wedding Dress</name>
-				<weight type="number">0</weight>
-			</id-00006>
-			<id-00007>
-				<ac type="number">0</ac>
-				<bonus type="number">0</bonus>
-				<carried type="number">1</carried>
-				<cost type="string">25 cp</cost>
-				<count type="number">1</count>
-				<description type="formattedtext">
-					<p>Degrades 10% daily.</p>
-				</description>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Bear Head w/ Leather Strap</name>
-				<rarity type="string">60%</rarity>
-				<subtype type="string">Standard</subtype>
-				<type type="string">Adventuring Gear</type>
-				<weight type="number">1</weight>
-			</id-00007>
-			<id-00009>
-				<ac type="number">0</ac>
-				<bonus type="number">0</bonus>
-				<carried type="number">1</carried>
-				<cost type="string">1 gp</cost>
-				<count type="number">1</count>
-				<description type="formattedtext">
-					<p>This coin makes the weilder's body invisible to themselves. The invisibility is active when this is in a coinpurse with other coins.</p>
-				</description>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Coin of &#34;Invisibility&#34;</name>
-				<rarity type="string">Rare</rarity>
-				<subtype type="string">Coin</subtype>
-				<type type="string">Wonderous Item</type>
-				<weight type="number">0</weight>
-			</id-00009>
-			<id-00010>
-				<ac type="number">0</ac>
-				<bonus type="number">0</bonus>
-				<carried type="number">1</carried>
-				<cost type="string">uncommon</cost>
-				<count type="number">1</count>
-				<description type="formattedtext">
-					<linklist>
-						<link class="imagewindow" recordname="image.img_wand_of_magic_missile_jpg@*"><b>Image: </b></link>Wand of Magic Missiles</linklist>
-						<link class="reference_spell" recordname="reference.spelldata.magicmissile@*"><b>Spell: </b></link>Magic Missile
-					<p>This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</p>
-					<p>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>
-					<p><b>Wand Notes</b></p>
-					<p>An arcane focus is a special item-an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item-designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10.</p>
-				</description>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Wand of Magic Missiles</name>
-				<type type="string">Wand</type>
-				<weight type="number">0</weight>
-			</id-00010>
-			<id-00011>
-				<carried type="number">2</carried>
-				<cost type="string">3 gp</cost>
-				<count type="number">1</count>
-				<description type="formattedtext">
-					<p></p>
-				</description>
-				<isidentified type="number">1</isidentified>
-				<locked type="number">1</locked>
-				<name type="string">Cloak</name>
-				<subtype type="string">Standard</subtype>
-				<type type="string">Adventuring Gear</type>
-				<weight type="number">2</weight>
-			</id-00011>
-		</inventorylist>
-		<languagelist>
-			<id-00001>
-				<name type="string">Common</name>
-			</id-00001>
-			<id-00002>
-				<name type="string">Elvish</name>
-			</id-00002>
-			<id-00003>
-				<name type="string">Celestial</name>
-			</id-00003>
-		</languagelist>
-		<level type="number">3</level>
-		<name type="string">Osfyr Shaeradim</name>
-		<notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult</notes>
-		<perception type="number">12</perception>
-		<perceptionmodifier type="number">0</perceptionmodifier>
-		<personalitytraits type="string">I think anyone who's nice to me is hiding evil intent.</personalitytraits>
-		<powergroup>
-			<id-00002>
-				<castertype type="string">memorization</castertype>
-				<name type="string">Spells</name>
-			</id-00002>
-		</powergroup>
-		<powermeta>
-			<pactmagicslots1>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</pactmagicslots1>
-			<pactmagicslots2>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</pactmagicslots2>
-			<pactmagicslots3>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</pactmagicslots3>
-			<pactmagicslots4>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</pactmagicslots4>
-			<pactmagicslots5>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</pactmagicslots5>
-			<pactmagicslots6>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</pactmagicslots6>
-			<pactmagicslots7>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</pactmagicslots7>
-			<pactmagicslots8>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</pactmagicslots8>
-			<pactmagicslots9>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</pactmagicslots9>
-			<spellslots1>
-				<max type="number">4</max>
-				<used type="number">0</used>
-			</spellslots1>
-			<spellslots2>
-				<max type="number">2</max>
-				<used type="number">0</used>
-			</spellslots2>
-			<spellslots3>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</spellslots3>
-			<spellslots4>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</spellslots4>
-			<spellslots5>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</spellslots5>
-			<spellslots6>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</spellslots6>
-			<spellslots7>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</spellslots7>
-			<spellslots8>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</spellslots8>
-			<spellslots9>
-				<max type="number">0</max>
-				<used type="number">0</used>
-			</spellslots9>
-		</powermeta>
-		<powermode type="string">standard</powermode>
-		<powers>
-			<id-00001>
-				<actions>
-				</actions>
-				<cast type="number">0</cast>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">V, S</components>
-				<description type="formattedtext">
-					<p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p>
-					<list>
-						<li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li>
-						<li>You instantaneously light or snuff out a candle, a torch, or a small campfire.</li>
-						<li>You instantaneously clean or soil an object no larger than 1 cubic foot.</li>
-						<li>You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li>
-						<li>You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li>
-						<li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li>
-					</list>
-					<p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>
-				</description>
-				<duration type="string">Up to 1 hour</duration>
-				<group type="string">Spells</group>
-				<level type="number">0</level>
-				<locked type="number">1</locked>
-				<name type="string">Prestidigitation</name>
-				<prepared type="number">0</prepared>
-				<range type="string">10 feet</range>
-				<school type="string">Transmutation</school>
-				<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
-			</id-00001>
-			<id-00002>
-				<actions>
-				</actions>
-				<cast type="number">0</cast>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">S, M (a bit of fleece)</components>
-				<description type="formattedtext">
-					<p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p>
-					<p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p>
-					<p>If you create an image of an object-such as a chair, muddy footprints, or a small chest-it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p>
-					<p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>
-				</description>
-				<duration type="string">1 minute</duration>
-				<group type="string">Spells</group>
-				<level type="number">0</level>
-				<locked type="number">1</locked>
-				<name type="string">Minor Illusion</name>
-				<prepared type="number">0</prepared>
-				<range type="string">30 feet</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Illusion</school>
-				<source type="string">Bard, Eldritch Knight, Monk, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
-			</id-00002>
-			<id-00003>
-				<actions>
-					<id-00001>
-						<atktype type="string">ranged</atktype>
-						<order type="number">1</order>
-						<type type="string">cast</type>
-					</id-00001>
-					<id-00002>
-						<damagelist>
-							<id-00001>
-								<dice type="dice">d10</dice>
-								<type type="string">fire</type>
-							</id-00001>
-						</damagelist>
-						<order type="number">2</order>
-						<type type="string">damage</type>
-					</id-00002>
-				</actions>
-				<cast type="number">0</cast>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">V, S</components>
-				<description type="formattedtext">
-					<p>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</p>
-					<p>This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
-				</description>
-				<duration type="string">Instantaneous</duration>
-				<group type="string">Spells</group>
-				<level type="number">0</level>
-				<locked type="number">1</locked>
-				<name type="string">Fire Bolt</name>
-				<prepared type="number">0</prepared>
-				<range type="string">120 feet</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Evocation</school>
-				<source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
-			</id-00003>
-			<id-00004>
-				<actions>
-					<id-00001>
-						<order type="number">1</order>
-						<type type="string">cast</type>
-					</id-00001>
-				</actions>
-				<cast type="number">0</cast>
-				<castingtime type="string">1 minute</castingtime>
-				<components type="string">V, S, M (two lodestones)</components>
-				<description type="formattedtext">
-					<p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it. leaving no trace of the former damage.</p>
-					<p>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</p>
-				</description>
-				<duration type="string">Instantaneous</duration>
-				<group type="string">Spells</group>
-				<level type="number">0</level>
-				<locked type="number">1</locked>
-				<name type="string">Mending</name>
-				<prepared type="number">0</prepared>
-				<range type="string">Touch</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Transmutation</school>
-				<source type="string">Bard, Cleric, Druid, Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
-			</id-00004>
-			<id-00005>
-				<actions>
-					<id-00001>
-						<onmissdamage type="string">half</onmissdamage>
-						<order type="number">1</order>
-						<savemagic type="number">1</savemagic>
-						<savetype type="string">dexterity</savetype>
-						<type type="string">cast</type>
-					</id-00001>
-					<id-00002>
-						<damagelist>
-							<id-00001>
-								<dice type="dice">d6,d6,d6</dice>
-								<type type="string">fire</type>
-							</id-00001>
-						</damagelist>
-						<order type="number">2</order>
-						<type type="string">damage</type>
-					</id-00002>
-				</actions>
-				<cast type="number">0</cast>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">V, S</components>
-				<description type="formattedtext">
-					<p>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.</p>
-					<p>The fire ignites any flammable objects in the area that aren't being worn or carried.</p>
-					<p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
-				</description>
-				<duration type="string">Instantaneous</duration>
-				<group type="string">Spells</group>
-				<level type="number">1</level>
-				<locked type="number">1</locked>
-				<name type="string">Burning Hands</name>
-				<prepared type="number">0</prepared>
-				<range type="string">Self (15-foot cone)</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Evocation</school>
-				<source type="string">Cleric Light Domain, Eldritch Knight, Warlock (Fiend), Monk, Sorcerer, Wizard, Arcane Trickster</source>
-			</id-00005>
-			<id-00006>
-				<actions>
-				</actions>
-				<cast type="number">0</cast>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">V, S</components>
-				<description type="formattedtext">
-					<p>You make yourself-including your clothing, armor, weapons, and other belongings on your person-look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</p>
-					<p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p>
-					<p>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</p>
-				</description>
-				<duration type="string">1 hour</duration>
-				<group type="string">Spells</group>
-				<level type="number">1</level>
-				<locked type="number">1</locked>
-				<name type="string">Disguise Self</name>
-				<prepared type="number">0</prepared>
-				<range type="string">Self</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Illusion</school>
-				<source type="string">Bard, Cleric Trickery Domain, Eldritch Knight, Eldritch Invocations, Sorcerer, Wizard, Arcane Trickster</source>
-			</id-00006>
-			<id-00007>
-				<actions>
-					<id-00001>
-						<atktype type="string">ranged</atktype>
-						<order type="number">1</order>
-						<savemagic type="number">1</savemagic>
-						<savetype type="string">constitution</savetype>
-						<type type="string">cast</type>
-					</id-00001>
-					<id-00002>
-						<damagelist>
-							<id-00001>
-								<dice type="dice">d8,d8</dice>
-								<type type="string">poison</type>
-							</id-00001>
-						</damagelist>
-						<order type="number">2</order>
-						<type type="string">damage</type>
-					</id-00002>
-					<id-00003>
-						<label type="string">Poisoned</label>
-						<order type="number">3</order>
-						<type type="string">effect</type>
-					</id-00003>
-				</actions>
-				<cast type="number">0</cast>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">V, S</components>
-				<description type="formattedtext">
-					<p>A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw.</p>
-					<p>On a failed save, it is also poisoned until the end of your next turn.</p>
-					<p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
-				</description>
-				<duration type="string">Instantaneous</duration>
-				<group type="string">Spells</group>
-				<level type="number">1</level>
-				<locked type="number">1</locked>
-				<name type="string">Ray of Sickness</name>
-				<prepared type="number">0</prepared>
-				<range type="string">60 feet</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Necromancy</school>
-				<source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
-			</id-00007>
-			<id-00008>
-				<actions>
-					<id-00001>
-						<order type="number">1</order>
-						<savemagic type="number">1</savemagic>
-						<savetype type="string">wisdom</savetype>
-						<type type="string">cast</type>
-					</id-00001>
-					<id-00002>
-						<durmod type="number">1</durmod>
-						<durunit type="string">minute</durunit>
-						<label type="string">Charmed; NOTE: Save on end of round; (C)</label>
-						<order type="number">2</order>
-						<type type="string">effect</type>
-					</id-00002>
-					<id-00003>
-						<order type="number">3</order>
-						<type type="string">cast</type>
-					</id-00003>
-				</actions>
-				<cast type="number">0</cast>
-				<castingtime type="string">1 action</castingtime>
-				<components type="string">V, S</components>
-				<description type="formattedtext">
-					<p>One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.</p>
-					<p>The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.</p>
-					<p>The target can act normally on its turn if you choose no creature or if none are within its reach.</p>
-					<p>On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.</p>
-				</description>
-				<duration type="string">Concentration, up to 1 minute</duration>
-				<group type="string">Spells</group>
-				<level type="number">2</level>
-				<locked type="number">1</locked>
-				<name type="string">Crown of Madness</name>
-				<prepared type="number">0</prepared>
-				<range type="string">120 feet</range>
-				<ritual type="number">0</ritual>
-				<school type="string">Enchantment</school>
-				<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
-			</id-00008>
-		</powers>
-		<profbonus type="number">2</profbonus>
-		<proficiencylist>
-			<id-00001>
-				<name type="string">Weapon: Daggers, darts, slings, quarterstaffs, light crossbows</name>
-			</id-00001>
-			<id-00002>
-				<name type="string">Tool: Disguise kit, thieves' tools</name>
-			</id-00002>
-		</proficiencylist>
-		<race type="string">Half-Elf</race>
-		<racelink type="windowreference">
-			<class>reference_race</class>
-			<recordname>reference.racedata.half_elf@DD PHB Deluxe</recordname>
-		</racelink>
-		<senses type="string">Darkvision 60</senses>
-		<size type="string">Medium</size>
-		<skilllist>
-			<id-00001>
-				<misc type="number">0</misc>
-				<name type="string">Perception</name>
-				<prof type="number">0</prof>
-				<stat type="string">wisdom</stat>
-				<total type="number">2</total>
-			</id-00001>
-			<id-00002>
-				<misc type="number">0</misc>
-				<name type="string">Arcana</name>
-				<prof type="number">1</prof>
-				<stat type="string">intelligence</stat>
-				<total type="number">4</total>
-			</id-00002>
-			<id-00003>
-				<misc type="number">0</misc>
-				<name type="string">Deception</name>
-				<prof type="number">1</prof>
-				<stat type="string">charisma</stat>
-				<total type="number">5</total>
-			</id-00003>
-			<id-00004>
-				<misc type="number">0</misc>
-				<name type="string">Sleight of Hand</name>
-				<prof type="number">1</prof>
-				<stat type="string">dexterity</stat>
-				<total type="number">3</total>
-			</id-00004>
-			<id-00005>
-				<misc type="number">0</misc>
-				<name type="string">Stealth</name>
-				<prof type="number">1</prof>
-				<stat type="string">dexterity</stat>
-				<total type="number">3</total>
-			</id-00005>
-			<id-00006>
-				<misc type="number">0</misc>
-				<name type="string">Survival</name>
-				<prof type="number">1</prof>
-				<stat type="string">wisdom</stat>
-				<total type="number">4</total>
-			</id-00006>
-			<id-00007>
-				<misc type="number">0</misc>
-				<name type="string">Persuasion</name>
-				<prof type="number">0</prof>
-				<stat type="string">charisma</stat>
-				<total type="number">3</total>
-			</id-00007>
-			<id-00008>
-				<misc type="number">0</misc>
-				<name type="string">Nature</name>
-				<prof type="number">0</prof>
-				<stat type="string">intelligence</stat>
-				<total type="number">2</total>
-			</id-00008>
-			<id-00009>
-				<misc type="number">0</misc>
-				<name type="string">Medicine</name>
-				<prof type="number">0</prof>
-				<stat type="string">wisdom</stat>
-				<total type="number">2</total>
-			</id-00009>
-			<id-00010>
-				<misc type="number">0</misc>
-				<name type="string">Performance</name>
-				<prof type="number">0</prof>
-				<stat type="string">charisma</stat>
-				<total type="number">3</total>
-			</id-00010>
-			<id-00011>
-				<misc type="number">0</misc>
-				<name type="string">Acrobatics</name>
-				<prof type="number">0</prof>
-				<stat type="string">dexterity</stat>
-				<total type="number">1</total>
-			</id-00011>
-			<id-00012>
-				<misc type="number">0</misc>
-				<name type="string">Religion</name>
-				<prof type="number">0</prof>
-				<stat type="string">intelligence</stat>
-				<total type="number">2</total>
-			</id-00012>
-			<id-00013>
-				<misc type="number">0</misc>
-				<name type="string">Athletics</name>
-				<prof type="number">0</prof>
-				<stat type="string">strength</stat>
-				<total type="number">0</total>
-			</id-00013>
-			<id-00014>
-				<misc type="number">0</misc>
-				<name type="string">Insight</name>
-				<prof type="number">0</prof>
-				<stat type="string">wisdom</stat>
-				<total type="number">2</total>
-			</id-00014>
-			<id-00015>
-				<misc type="number">0</misc>
-				<name type="string">Intimidation</name>
-				<prof type="number">0</prof>
-				<stat type="string">charisma</stat>
-				<total type="number">3</total>
-			</id-00015>
-			<id-00016>
-				<misc type="number">0</misc>
-				<name type="string">Investigation</name>
-				<prof type="number">0</prof>
-				<stat type="string">intelligence</stat>
-				<total type="number">2</total>
-			</id-00016>
-			<id-00017>
-				<misc type="number">0</misc>
-				<name type="string">History</name>
-				<prof type="number">0</prof>
-				<stat type="string">intelligence</stat>
-				<total type="number">2</total>
-			</id-00017>
-			<id-00018>
-				<misc type="number">0</misc>
-				<name type="string">Animal Handling</name>
-				<prof type="number">0</prof>
-				<stat type="string">wisdom</stat>
-				<total type="number">2</total>
-			</id-00018>
-		</skilllist>
-		<speed>
-			<armor type="number">0</armor>
-			<base type="number">30</base>
-			<misc type="number">0</misc>
-			<temporary type="number">0</temporary>
-			<total type="number">30</total>
-		</speed>
-		<temp>
-		</temp>
-		<token type="token">portrait_id-00010_token</token>
-		<traitlist>
-			<id-00001>
-				<locked type="number">1</locked>
-				<name type="string">Skill Versatility</name>
-				<source type="string">Half-Elf</source>
-				<text type="formattedtext">
-					<p>You gain proficiency in two skills of your choice.</p>
-				</text>
-				<type type="string">racial</type>
-			</id-00001>
-			<id-00002>
-				<locked type="number">1</locked>
-				<name type="string">Fey Ancestry</name>
-				<source type="string">Half-Elf</source>
-				<text type="formattedtext">
-					<p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
-				</text>
-				<type type="string">racial</type>
-			</id-00002>
-		</traitlist>
-		<weaponlist>
-		</weaponlist>
-		<weight type="string">150</weight>
-	</character>
+    <character>
+        <abilities>
+            <charisma>
+                <bonus type="number">3</bonus>
+                <save type="number">5</save>
+                <savemodifier type="number">0</savemodifier>
+                <saveprof type="number">1</saveprof>
+                <score type="number">17</score>
+            </charisma>
+            <constitution>
+                <bonus type="number">3</bonus>
+                <save type="number">5</save>
+                <savemodifier type="number">0</savemodifier>
+                <saveprof type="number">1</saveprof>
+                <score type="number">16</score>
+            </constitution>
+            <dexterity>
+                <bonus type="number">1</bonus>
+                <save type="number">1</save>
+                <savemodifier type="number">0</savemodifier>
+                <saveprof type="number">0</saveprof>
+                <score type="number">13</score>
+            </dexterity>
+            <intelligence>
+                <bonus type="number">2</bonus>
+                <save type="number">2</save>
+                <savemodifier type="number">0</savemodifier>
+                <saveprof type="number">0</saveprof>
+                <score type="number">15</score>
+            </intelligence>
+            <strength>
+                <bonus type="number">0</bonus>
+                <save type="number">0</save>
+                <savemodifier type="number">0</savemodifier>
+                <saveprof type="number">0</saveprof>
+                <score type="number">10</score>
+            </strength>
+            <wisdom>
+                <bonus type="number">2</bonus>
+                <save type="number">2</save>
+                <savemodifier type="number">0</savemodifier>
+                <saveprof type="number">0</saveprof>
+                <score type="number">14</score>
+            </wisdom>
+        </abilities>
+        <adventurelist>
+        </adventurelist>
+        <age type="string">37</age>
+        <alignment type="string">Chaotic Good</alignment>
+        <appearance type="string">Standing before you with a somber expression is a half elf of middling height, shoulder-length ratty oak-brown hair, pale skin and bright green eyes. Bags hang under the eyes, and his clothing appears worse for the wear. Clutching the patchwork robe around his bony body, you get the feeling of skin pulled taut across a skeleton and a life hard lived.</appearance>
+        <background type="string">Urchin</background>
+        <backgroundlink type="windowreference">
+            <class>reference_background</class>
+            <recordname>reference.backgrounddata.urchin@DD PHB Deluxe</recordname>
+        </backgroundlink>
+        <bonds type="string">Close bond with my twin, who is my only known surviving family. Owe my life to him, as he helped me survive the streets.</bonds>
+        <classes>
+            <id-00001>
+                <casterlevelinvmult type="number">1</casterlevelinvmult>
+                <casterpactmagic type="number">0</casterpactmagic>
+                <hddie type="dice">d6</hddie>
+                <hdused type="number">0</hdused>
+                <level type="number">3</level>
+                <name type="string">Sorcerer</name>
+                <shortcut type="windowreference">
+                    <class>reference_class</class>
+                    <recordname>reference.classdata.sorcerer@DD PHB Deluxe</recordname>
+                </shortcut>
+            </id-00001>
+        </classes>
+        <coins>
+            <slot1>
+                <amount type="number">0</amount>
+                <name type="string">pp</name>
+            </slot1>
+            <slot2>
+                <amount type="number">48</amount>
+                <name type="string">SP</name>
+            </slot2>
+            <slot3>
+                <amount type="number">0</amount>
+                <name type="string">gold</name>
+            </slot3>
+            <slot4>
+                <amount type="number">90</amount>
+                <name type="string">CP</name>
+            </slot4>
+            <slot5>
+                <amount type="number">0</amount>
+                <name type="string">ep</name>
+            </slot5>
+            <slot6>
+                <amount type="number">24</amount>
+                <name type="string">GP</name>
+            </slot6>
+        </coins>
+        <defenses>
+            <ac>
+                <armor type="number">0</armor>
+                <misc type="number">0</misc>
+                <prof type="number">1</prof>
+                <shield type="number">0</shield>
+                <temporary type="number">0</temporary>
+                <total type="number">11</total>
+            </ac>
+        </defenses>
+        <deity type="string">Tymora</deity>
+        <encumbrance>
+            <encumbered type="number">50</encumbered>
+            <encumberedheavy type="number">100</encumberedheavy>
+            <liftpushdrag type="number">300</liftpushdrag>
+            <load type="number">7</load>
+            <max type="number">150</max>
+        </encumbrance>
+        <exp type="number">50</exp>
+        <expneeded type="number">0</expneeded>
+        <featlist>
+        </featlist>
+        <featurelist>
+            <id-00001>
+                <level type="number">1</level>
+                <locked type="number">1</locked>
+                <name type="string">Wild Magic</name>
+                <source type="string">Sorcerer</source>
+                <text type="formattedtext">
+                    <p>Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.</p>
+                    <h>Features</h>
+                    <linklist>
+                        <link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.wildmagicsurge1@DD PHB Deluxe">Wild Magic Surge</link>
+                        <link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.tidesofchaos1@DD PHB Deluxe">Tides of Chaos</link>
+                        <link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.bendluck6@DD PHB Deluxe">Bend Luck</link>
+                        <link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.controlledchaos14@DD PHB Deluxe">Controlled Chaos</link>
+                        <link class="reference_classfeature" recordname="reference.classdata.sorcerer.features.spellbombardment18@DD PHB Deluxe">Spell Bombardment</link>
+                    </linklist>
+                </text>
+            </id-00001>
+            <id-00002>
+                <level type="number">1</level>
+                <locked type="number">1</locked>
+                <name type="string">Wild Magic Surge</name>
+                <source type="string">Sorcerer</source>
+                <specialization type="string">Wild Magic</specialization>
+                <text type="formattedtext">
+                    <p>Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic.</p>
+                    <p>Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a d20. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect. If a Wild Magic effect is a spell, it's too wild to be affected by Metamagic. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.</p>
+                    <linklist>
+                        <link class="table" recordname="tables.tab_wildmagicsurge@DD PHB Deluxe"><b>Table: </b></link>Wild Magic Surge Table</linklist>
+                </text>
+            </id-00002>
+            <id-00003>
+                <level type="number">1</level>
+                <locked type="number">1</locked>
+                <name type="string">Spellcasting</name>
+                <source type="string">Sorcerer</source>
+                <text type="formattedtext">
+                    <p>An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the sorcerer spell list.</p>
+                    <linklist>
+                        <link class="reference_colindex" recordname="reference.spelllists.sorcerer@DD PHB Deluxe">Sorcerer Spells</link>
+                    </linklist>
+                    <p><b>Cantrips</b></p>
+                    <p>At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.</p>
+                    <p><b>Spell Slots</b></p>
+                    <p>The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+                    <p>For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot.</p>
+                    <p><b>Spells Known of 1st Level and Higher</b></p>
+                    <p>You know two 1st-level spells of your choice from the sorcerer spell list.</p>
+                    <p>The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>
+                    <p>Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.</p>
+                    <p><b>Spellcasting Ability</b></p>
+                    <p>Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.</p>
+                    <p><b>Spell save DC </b>= 8 + your proficiency bonus + your Charisma modifier</p>
+                    <p><b>Spell attack modifier </b>= your proficiency bonus + your Charisma modifier</p>
+                    <p><b>Spellcasting Focus</b></p>
+                    <p>You can use an arcane focus (found in chapter 5) as a spellcasting focus for your sorcerer spells.</p>
+                </text>
+            </id-00003>
+            <id-00004>
+                <level type="number">1</level>
+                <locked type="number">1</locked>
+                <name type="string">Tides of Chaos</name>
+                <source type="string">Sorcerer</source>
+                <specialization type="string">Wild Magic</specialization>
+                <text type="formattedtext">
+                    <p>Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again. Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.</p>
+                </text>
+            </id-00004>
+            <id-00005>
+                <locked type="number">1</locked>
+                <name type="string">City Secrets</name>
+                <source type="string">Urchin</source>
+                <text type="formattedtext">
+                    <p>You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.</p>
+                </text>
+            </id-00005>
+            <id-00006>
+                <level type="number">2</level>
+                <locked type="number">1</locked>
+                <name type="string">Font of Magic</name>
+                <source type="string">Sorcerer</source>
+                <text type="formattedtext">
+                    <p>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p>
+                    <p><b>Sorcery Points</b></p>
+                    <p>You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.</p>
+                    <p><b>Flexible Casting</b></p>
+                    <p>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels. The created spell slots vanish at the end of a long rest.</p>
+                    <p><b>Creating Spell Slots. </b>You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</p>
+                    <p><b>Creating Spell Slots</b></p>
+                    <table>
+                        <tr>
+                            <td><b>Spell Slot Sorcery Level</b></td>
+                            <td><b>Point Cost</b></td>
+                        </tr>
+                        <tr>
+                            <td>1st</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>2nd</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3rd</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>4th</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>5th</td>
+                            <td>7</td>
+                        </tr>
+                    </table>
+                    <p>Converting a Spell Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</p>
+                </text>
+            </id-00006>
+            <id-00007>
+                <level type="number">3</level>
+                <locked type="number">1</locked>
+                <name type="string">Metamagic</name>
+                <source type="string">Sorcerer</source>
+                <text type="formattedtext">
+                    <p>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.</p>
+                    <p>You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</p>
+                    <p><b>Careful Spell</b></p>
+                    <p>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</p>
+                    <p><b>Distant Spell</b></p>
+                    <p>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</p>
+                    <p>When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</p>
+                    <p><b>Empowered Spell</b></p>
+                    <p>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</p>
+                    <p>You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
+                    <p><b>Extended Spell</b></p>
+                    <p>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</p>
+                    <p><b>Heightened Spell</b></p>
+                    <p>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</p>
+                    <p><b>Quickened Spell</b></p>
+                    <p>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</p>
+                    <p><b>Subtle Spell</b></p>
+                    <p>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</p>
+                    <p><b>Twinned Spell</b></p>
+                    <p>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell's current level.</p>
+                </text>
+            </id-00007>
+            <id-00008>
+                <name type="string">Twinned Spell</name>
+            </id-00008>
+            <id-00009>
+                <name type="string">Heightened Spell</name>
+            </id-00009>
+        </featurelist>
+        <flaws type="string">People who can't take care of themselves get what they deserve.</flaws>
+        <gender type="string">M</gender>
+        <height type="string">5'11</height>
+        <hp>
+            <deathsavefail type="number">0</deathsavefail>
+            <deathsavesuccess type="number">0</deathsavesuccess>
+            <hdmod type="number">0</hdmod>
+            <temporary type="number">0</temporary>
+            <total type="number">23</total>
+            <wounds type="number">0</wounds>
+        </hp>
+        <ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
+        <initiative>
+            <misc type="number">0</misc>
+            <temporary type="number">0</temporary>
+            <total type="number">1</total>
+        </initiative>
+        <inventorylist>
+            <id-00001>
+                <carried type="number">2</carried>
+                <cost type="string">1 gp</cost>
+                <count type="number">1</count>
+                <isidentified type="number">1</isidentified>
+                <locked type="number">1</locked>
+                <name type="string">Robes</name>
+                <subtype type="string">Standard</subtype>
+                <type type="string">Adventuring Gear</type>
+                <weight type="number">4</weight>
+            </id-00001>
+            <id-00002>
+                <carried type="number">1</carried>
+                <count type="number">1</count>
+                <isidentified type="number">1</isidentified>
+                <name type="string">Thieves Tools</name>
+                <weight type="number">0</weight>
+            </id-00002>
+            <id-00003>
+                <ac type="number">0</ac>
+                <bonus type="number">0</bonus>
+                <carried type="number">1</carried>
+                <cost type="string">100 gp</cost>
+                <count type="number">1</count>
+                <description type="formattedtext">
+                    <p>Within is a gold chain and locket with a portrait of a lovely half-elf female etched in profile.</p>
+                </description>
+                <isidentified type="number">1</isidentified>
+                <locked type="number">1</locked>
+                <name type="string">Gold Chain And Locket</name>
+                <subtype type="string">Standard</subtype>
+                <type type="string">Adventuring Gear</type>
+                <weight type="number">0</weight>
+            </id-00003>
+            <id-00004>
+                <ac type="number">0</ac>
+                <bonus type="number">0</bonus>
+                <carried type="number">1</carried>
+                <cost type="string">25 gp</cost>
+                <count type="number">1</count>
+                <description type="formattedtext">
+                    <p></p>
+                </description>
+                <isidentified type="number">1</isidentified>
+                <locked type="number">1</locked>
+                <name type="string">Braided Silver and Electrum Ring</name>
+                <weight type="number">0</weight>
+            </id-00004>
+            <id-00005>
+                <ac type="number">0</ac>
+                <bonus type="number">0</bonus>
+                <carried type="number">1</carried>
+                <count type="number">1</count>
+                <description type="formattedtext">
+                    <p></p>
+                </description>
+                <isidentified type="number">1</isidentified>
+                <locked type="number">1</locked>
+                <name type="string">Rotting Human Skull</name>
+                <weight type="number">0</weight>
+            </id-00005>
+            <id-00006>
+                <carried type="number">1</carried>
+                <count type="number">1</count>
+                <isidentified type="number">1</isidentified>
+                <name type="string">Ruined Wedding Dress</name>
+                <weight type="number">0</weight>
+            </id-00006>
+            <id-00007>
+                <ac type="number">0</ac>
+                <bonus type="number">0</bonus>
+                <carried type="number">1</carried>
+                <cost type="string">25 cp</cost>
+                <count type="number">1</count>
+                <description type="formattedtext">
+                    <p>Degrades 10% daily.</p>
+                </description>
+                <isidentified type="number">1</isidentified>
+                <locked type="number">1</locked>
+                <name type="string">Bear Head w/ Leather Strap</name>
+                <rarity type="string">60%</rarity>
+                <subtype type="string">Standard</subtype>
+                <type type="string">Adventuring Gear</type>
+                <weight type="number">1</weight>
+            </id-00007>
+            <id-00009>
+                <ac type="number">0</ac>
+                <bonus type="number">0</bonus>
+                <carried type="number">1</carried>
+                <cost type="string">1 gp</cost>
+                <count type="number">1</count>
+                <description type="formattedtext">
+                    <p>This coin makes the weilder's body invisible to themselves. The invisibility is active when this is in a coinpurse with other coins.</p>
+                </description>
+                <isidentified type="number">1</isidentified>
+                <locked type="number">1</locked>
+                <name type="string">Coin of &#34;Invisibility&#34;</name>
+                <rarity type="string">Rare</rarity>
+                <subtype type="string">Coin</subtype>
+                <type type="string">Wonderous Item</type>
+                <weight type="number">0</weight>
+            </id-00009>
+            <id-00010>
+                <ac type="number">0</ac>
+                <bonus type="number">0</bonus>
+                <carried type="number">1</carried>
+                <cost type="string">uncommon</cost>
+                <count type="number">1</count>
+                <description type="formattedtext">
+                    <linklist>
+                        <link class="imagewindow" recordname="image.img_wand_of_magic_missile_jpg@*"><b>Image: </b></link>Wand of Magic Missiles</linklist>
+                        <link class="reference_spell" recordname="reference.spelldata.magicmissile@*"><b>Spell: </b></link>Magic Missile
+                    <p>This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.</p>
+                    <p>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>
+                    <p><b>Wand Notes</b></p>
+                    <p>An arcane focus is a special item-an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item-designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10.</p>
+                </description>
+                <isidentified type="number">1</isidentified>
+                <locked type="number">1</locked>
+                <name type="string">Wand of Magic Missiles</name>
+                <type type="string">Wand</type>
+                <weight type="number">0</weight>
+            </id-00010>
+            <id-00011>
+                <carried type="number">2</carried>
+                <cost type="string">3 gp</cost>
+                <count type="number">1</count>
+                <description type="formattedtext">
+                    <p></p>
+                </description>
+                <isidentified type="number">1</isidentified>
+                <locked type="number">1</locked>
+                <name type="string">Cloak</name>
+                <subtype type="string">Standard</subtype>
+                <type type="string">Adventuring Gear</type>
+                <weight type="number">2</weight>
+            </id-00011>
+        </inventorylist>
+        <languagelist>
+            <id-00001>
+                <name type="string">Common</name>
+            </id-00001>
+            <id-00002>
+                <name type="string">Elvish</name>
+            </id-00002>
+            <id-00003>
+                <name type="string">Celestial</name>
+            </id-00003>
+        </languagelist>
+        <level type="number">3</level>
+        <name type="string">Osfyr Shaeradim</name>
+        <notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult</notes>
+        <perception type="number">12</perception>
+        <perceptionmodifier type="number">0</perceptionmodifier>
+        <personalitytraits type="string">I think anyone who's nice to me is hiding evil intent.</personalitytraits>
+        <powergroup>
+            <id-00002>
+                <castertype type="string">memorization</castertype>
+                <name type="string">Spells</name>
+            </id-00002>
+        </powergroup>
+        <powermeta>
+            <pactmagicslots1>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </pactmagicslots1>
+            <pactmagicslots2>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </pactmagicslots2>
+            <pactmagicslots3>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </pactmagicslots3>
+            <pactmagicslots4>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </pactmagicslots4>
+            <pactmagicslots5>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </pactmagicslots5>
+            <pactmagicslots6>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </pactmagicslots6>
+            <pactmagicslots7>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </pactmagicslots7>
+            <pactmagicslots8>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </pactmagicslots8>
+            <pactmagicslots9>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </pactmagicslots9>
+            <spellslots1>
+                <max type="number">4</max>
+                <used type="number">0</used>
+            </spellslots1>
+            <spellslots2>
+                <max type="number">2</max>
+                <used type="number">0</used>
+            </spellslots2>
+            <spellslots3>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </spellslots3>
+            <spellslots4>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </spellslots4>
+            <spellslots5>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </spellslots5>
+            <spellslots6>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </spellslots6>
+            <spellslots7>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </spellslots7>
+            <spellslots8>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </spellslots8>
+            <spellslots9>
+                <max type="number">0</max>
+                <used type="number">0</used>
+            </spellslots9>
+        </powermeta>
+        <powermode type="string">standard</powermode>
+        <powers>
+            <id-00001>
+                <actions>
+                </actions>
+                <cast type="number">0</cast>
+                <castingtime type="string">1 action</castingtime>
+                <components type="string">V, S</components>
+                <description type="formattedtext">
+                    <p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p>
+                    <list>
+                        <li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li>
+                        <li>You instantaneously light or snuff out a candle, a torch, or a small campfire.</li>
+                        <li>You instantaneously clean or soil an object no larger than 1 cubic foot.</li>
+                        <li>You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li>
+                        <li>You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li>
+                        <li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li>
+                    </list>
+                    <p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>
+                </description>
+                <duration type="string">Up to 1 hour</duration>
+                <group type="string">Spells</group>
+                <level type="number">0</level>
+                <locked type="number">1</locked>
+                <name type="string">Prestidigitation</name>
+                <prepared type="number">0</prepared>
+                <range type="string">10 feet</range>
+                <school type="string">Transmutation</school>
+                <source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+            </id-00001>
+            <id-00002>
+                <actions>
+                </actions>
+                <cast type="number">0</cast>
+                <castingtime type="string">1 action</castingtime>
+                <components type="string">S, M (a bit of fleece)</components>
+                <description type="formattedtext">
+                    <p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p>
+                    <p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p>
+                    <p>If you create an image of an object-such as a chair, muddy footprints, or a small chest-it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p>
+                    <p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>
+                </description>
+                <duration type="string">1 minute</duration>
+                <group type="string">Spells</group>
+                <level type="number">0</level>
+                <locked type="number">1</locked>
+                <name type="string">Minor Illusion</name>
+                <prepared type="number">0</prepared>
+                <range type="string">30 feet</range>
+                <ritual type="number">0</ritual>
+                <school type="string">Illusion</school>
+                <source type="string">Bard, Eldritch Knight, Monk, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+            </id-00002>
+            <id-00003>
+                <actions>
+                    <id-00001>
+                        <atktype type="string">ranged</atktype>
+                        <order type="number">1</order>
+                        <type type="string">cast</type>
+                    </id-00001>
+                    <id-00002>
+                        <damagelist>
+                            <id-00001>
+                                <dice type="dice">d10</dice>
+                                <type type="string">fire</type>
+                            </id-00001>
+                        </damagelist>
+                        <order type="number">2</order>
+                        <type type="string">damage</type>
+                    </id-00002>
+                </actions>
+                <cast type="number">0</cast>
+                <castingtime type="string">1 action</castingtime>
+                <components type="string">V, S</components>
+                <description type="formattedtext">
+                    <p>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</p>
+                    <p>This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>
+                </description>
+                <duration type="string">Instantaneous</duration>
+                <group type="string">Spells</group>
+                <level type="number">0</level>
+                <locked type="number">1</locked>
+                <name type="string">Fire Bolt</name>
+                <prepared type="number">0</prepared>
+                <range type="string">120 feet</range>
+                <ritual type="number">0</ritual>
+                <school type="string">Evocation</school>
+                <source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
+            </id-00003>
+            <id-00004>
+                <actions>
+                    <id-00001>
+                        <order type="number">1</order>
+                        <type type="string">cast</type>
+                    </id-00001>
+                </actions>
+                <cast type="number">0</cast>
+                <castingtime type="string">1 minute</castingtime>
+                <components type="string">V, S, M (two lodestones)</components>
+                <description type="formattedtext">
+                    <p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it. leaving no trace of the former damage.</p>
+                    <p>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</p>
+                </description>
+                <duration type="string">Instantaneous</duration>
+                <group type="string">Spells</group>
+                <level type="number">0</level>
+                <locked type="number">1</locked>
+                <name type="string">Mending</name>
+                <prepared type="number">0</prepared>
+                <range type="string">Touch</range>
+                <ritual type="number">0</ritual>
+                <school type="string">Transmutation</school>
+                <source type="string">Bard, Cleric, Druid, Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
+            </id-00004>
+            <id-00005>
+                <actions>
+                    <id-00001>
+                        <onmissdamage type="string">half</onmissdamage>
+                        <order type="number">1</order>
+                        <savemagic type="number">1</savemagic>
+                        <savetype type="string">dexterity</savetype>
+                        <type type="string">cast</type>
+                    </id-00001>
+                    <id-00002>
+                        <damagelist>
+                            <id-00001>
+                                <dice type="dice">d6,d6,d6</dice>
+                                <type type="string">fire</type>
+                            </id-00001>
+                        </damagelist>
+                        <order type="number">2</order>
+                        <type type="string">damage</type>
+                    </id-00002>
+                </actions>
+                <cast type="number">0</cast>
+                <castingtime type="string">1 action</castingtime>
+                <components type="string">V, S</components>
+                <description type="formattedtext">
+                    <p>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.</p>
+                    <p>The fire ignites any flammable objects in the area that aren't being worn or carried.</p>
+                    <p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
+                </description>
+                <duration type="string">Instantaneous</duration>
+                <group type="string">Spells</group>
+                <level type="number">1</level>
+                <locked type="number">1</locked>
+                <name type="string">Burning Hands</name>
+                <prepared type="number">0</prepared>
+                <range type="string">Self (15-foot cone)</range>
+                <ritual type="number">0</ritual>
+                <school type="string">Evocation</school>
+                <source type="string">Cleric Light Domain, Eldritch Knight, Warlock (Fiend), Monk, Sorcerer, Wizard, Arcane Trickster</source>
+            </id-00005>
+            <id-00006>
+                <actions>
+                </actions>
+                <cast type="number">0</cast>
+                <castingtime type="string">1 action</castingtime>
+                <components type="string">V, S</components>
+                <description type="formattedtext">
+                    <p>You make yourself-including your clothing, armor, weapons, and other belongings on your person-look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</p>
+                    <p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p>
+                    <p>To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</p>
+                </description>
+                <duration type="string">1 hour</duration>
+                <group type="string">Spells</group>
+                <level type="number">1</level>
+                <locked type="number">1</locked>
+                <name type="string">Disguise Self</name>
+                <prepared type="number">0</prepared>
+                <range type="string">Self</range>
+                <ritual type="number">0</ritual>
+                <school type="string">Illusion</school>
+                <source type="string">Bard, Cleric Trickery Domain, Eldritch Knight, Eldritch Invocations, Sorcerer, Wizard, Arcane Trickster</source>
+            </id-00006>
+            <id-00007>
+                <actions>
+                    <id-00001>
+                        <atktype type="string">ranged</atktype>
+                        <order type="number">1</order>
+                        <savemagic type="number">1</savemagic>
+                        <savetype type="string">constitution</savetype>
+                        <type type="string">cast</type>
+                    </id-00001>
+                    <id-00002>
+                        <damagelist>
+                            <id-00001>
+                                <dice type="dice">d8,d8</dice>
+                                <type type="string">poison</type>
+                            </id-00001>
+                        </damagelist>
+                        <order type="number">2</order>
+                        <type type="string">damage</type>
+                    </id-00002>
+                    <id-00003>
+                        <label type="string">Poisoned</label>
+                        <order type="number">3</order>
+                        <type type="string">effect</type>
+                    </id-00003>
+                </actions>
+                <cast type="number">0</cast>
+                <castingtime type="string">1 action</castingtime>
+                <components type="string">V, S</components>
+                <description type="formattedtext">
+                    <p>A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw.</p>
+                    <p>On a failed save, it is also poisoned until the end of your next turn.</p>
+                    <p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+                </description>
+                <duration type="string">Instantaneous</duration>
+                <group type="string">Spells</group>
+                <level type="number">1</level>
+                <locked type="number">1</locked>
+                <name type="string">Ray of Sickness</name>
+                <prepared type="number">0</prepared>
+                <range type="string">60 feet</range>
+                <ritual type="number">0</ritual>
+                <school type="string">Necromancy</school>
+                <source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
+            </id-00007>
+            <id-00008>
+                <actions>
+                    <id-00001>
+                        <order type="number">1</order>
+                        <savemagic type="number">1</savemagic>
+                        <savetype type="string">wisdom</savetype>
+                        <type type="string">cast</type>
+                    </id-00001>
+                    <id-00002>
+                        <durmod type="number">1</durmod>
+                        <durunit type="string">minute</durunit>
+                        <label type="string">Charmed; NOTE: Save on end of round; (C)</label>
+                        <order type="number">2</order>
+                        <type type="string">effect</type>
+                    </id-00002>
+                    <id-00003>
+                        <order type="number">3</order>
+                        <type type="string">cast</type>
+                    </id-00003>
+                </actions>
+                <cast type="number">0</cast>
+                <castingtime type="string">1 action</castingtime>
+                <components type="string">V, S</components>
+                <description type="formattedtext">
+                    <p>One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.</p>
+                    <p>The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.</p>
+                    <p>The target can act normally on its turn if you choose no creature or if none are within its reach.</p>
+                    <p>On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.</p>
+                </description>
+                <duration type="string">Concentration, up to 1 minute</duration>
+                <group type="string">Spells</group>
+                <level type="number">2</level>
+                <locked type="number">1</locked>
+                <name type="string">Crown of Madness</name>
+                <prepared type="number">0</prepared>
+                <range type="string">120 feet</range>
+                <ritual type="number">0</ritual>
+                <school type="string">Enchantment</school>
+                <source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+            </id-00008>
+        </powers>
+        <profbonus type="number">2</profbonus>
+        <proficiencylist>
+            <id-00001>
+                <name type="string">Weapon: Daggers, darts, slings, quarterstaffs, light crossbows</name>
+            </id-00001>
+            <id-00002>
+                <name type="string">Tool: Disguise kit, thieves' tools</name>
+            </id-00002>
+        </proficiencylist>
+        <race type="string">Half-Elf</race>
+        <racelink type="windowreference">
+            <class>reference_race</class>
+            <recordname>reference.racedata.half_elf@DD PHB Deluxe</recordname>
+        </racelink>
+        <senses type="string">Darkvision 60</senses>
+        <size type="string">Medium</size>
+        <skilllist>
+            <id-00001>
+                <misc type="number">0</misc>
+                <name type="string">Perception</name>
+                <prof type="number">0</prof>
+                <stat type="string">wisdom</stat>
+                <total type="number">2</total>
+            </id-00001>
+            <id-00002>
+                <misc type="number">0</misc>
+                <name type="string">Arcana</name>
+                <prof type="number">1</prof>
+                <stat type="string">intelligence</stat>
+                <total type="number">4</total>
+            </id-00002>
+            <id-00003>
+                <misc type="number">0</misc>
+                <name type="string">Deception</name>
+                <prof type="number">1</prof>
+                <stat type="string">charisma</stat>
+                <total type="number">5</total>
+            </id-00003>
+            <id-00004>
+                <misc type="number">0</misc>
+                <name type="string">Sleight of Hand</name>
+                <prof type="number">1</prof>
+                <stat type="string">dexterity</stat>
+                <total type="number">3</total>
+            </id-00004>
+            <id-00005>
+                <misc type="number">0</misc>
+                <name type="string">Stealth</name>
+                <prof type="number">1</prof>
+                <stat type="string">dexterity</stat>
+                <total type="number">3</total>
+            </id-00005>
+            <id-00006>
+                <misc type="number">0</misc>
+                <name type="string">Survival</name>
+                <prof type="number">1</prof>
+                <stat type="string">wisdom</stat>
+                <total type="number">4</total>
+            </id-00006>
+            <id-00007>
+                <misc type="number">0</misc>
+                <name type="string">Persuasion</name>
+                <prof type="number">0</prof>
+                <stat type="string">charisma</stat>
+                <total type="number">3</total>
+            </id-00007>
+            <id-00008>
+                <misc type="number">0</misc>
+                <name type="string">Nature</name>
+                <prof type="number">0</prof>
+                <stat type="string">intelligence</stat>
+                <total type="number">2</total>
+            </id-00008>
+            <id-00009>
+                <misc type="number">0</misc>
+                <name type="string">Medicine</name>
+                <prof type="number">0</prof>
+                <stat type="string">wisdom</stat>
+                <total type="number">2</total>
+            </id-00009>
+            <id-00010>
+                <misc type="number">0</misc>
+                <name type="string">Performance</name>
+                <prof type="number">0</prof>
+                <stat type="string">charisma</stat>
+                <total type="number">3</total>
+            </id-00010>
+            <id-00011>
+                <misc type="number">0</misc>
+                <name type="string">Acrobatics</name>
+                <prof type="number">0</prof>
+                <stat type="string">dexterity</stat>
+                <total type="number">1</total>
+            </id-00011>
+            <id-00012>
+                <misc type="number">0</misc>
+                <name type="string">Religion</name>
+                <prof type="number">0</prof>
+                <stat type="string">intelligence</stat>
+                <total type="number">2</total>
+            </id-00012>
+            <id-00013>
+                <misc type="number">0</misc>
+                <name type="string">Athletics</name>
+                <prof type="number">0</prof>
+                <stat type="string">strength</stat>
+                <total type="number">0</total>
+            </id-00013>
+            <id-00014>
+                <misc type="number">0</misc>
+                <name type="string">Insight</name>
+                <prof type="number">0</prof>
+                <stat type="string">wisdom</stat>
+                <total type="number">2</total>
+            </id-00014>
+            <id-00015>
+                <misc type="number">0</misc>
+                <name type="string">Intimidation</name>
+                <prof type="number">0</prof>
+                <stat type="string">charisma</stat>
+                <total type="number">3</total>
+            </id-00015>
+            <id-00016>
+                <misc type="number">0</misc>
+                <name type="string">Investigation</name>
+                <prof type="number">0</prof>
+                <stat type="string">intelligence</stat>
+                <total type="number">2</total>
+            </id-00016>
+            <id-00017>
+                <misc type="number">0</misc>
+                <name type="string">History</name>
+                <prof type="number">0</prof>
+                <stat type="string">intelligence</stat>
+                <total type="number">2</total>
+            </id-00017>
+            <id-00018>
+                <misc type="number">0</misc>
+                <name type="string">Animal Handling</name>
+                <prof type="number">0</prof>
+                <stat type="string">wisdom</stat>
+                <total type="number">2</total>
+            </id-00018>
+        </skilllist>
+        <speed>
+            <armor type="number">0</armor>
+            <base type="number">30</base>
+            <misc type="number">0</misc>
+            <temporary type="number">0</temporary>
+            <total type="number">30</total>
+        </speed>
+        <temp>
+        </temp>
+        <token type="token">portrait_id-00010_token</token>
+        <traitlist>
+            <id-00001>
+                <locked type="number">1</locked>
+                <name type="string">Skill Versatility</name>
+                <source type="string">Half-Elf</source>
+                <text type="formattedtext">
+                    <p>You gain proficiency in two skills of your choice.</p>
+                </text>
+                <type type="string">racial</type>
+            </id-00001>
+            <id-00002>
+                <locked type="number">1</locked>
+                <name type="string">Fey Ancestry</name>
+                <source type="string">Half-Elf</source>
+                <text type="formattedtext">
+                    <p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
+                </text>
+                <type type="string">racial</type>
+            </id-00002>
+        </traitlist>
+        <weaponlist>
+        </weaponlist>
+        <weight type="string">150</weight>
+    </character>
 </root>
