@@ -78,15 +78,16 @@
         <name type="string">CP</name>
       </slot1>
       <slot2>
-        <amount type="number">17</amount>
+        <amount type="number">39</amount>
         <name type="string">GP</name>
       </slot2>
       <slot3>
-        <amount type="number">37</amount>
+        <amount type="number">53</amount>
         <name type="string">SP</name>
       </slot3>
       <slot4>
-        <amount type="number">0</amount>
+        <amount type="number">2</amount>
+        <name type="string">PP</name>
       </slot4>
       <slot5>
         <amount type="number">0</amount>
@@ -230,7 +231,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">36</total>
-      <wounds type="number">35</wounds>
+      <wounds type="number">0</wounds>
     </hp>
     <ideals type="string">Self-Knowledge. If you know yourself, there's nothing left to know.</ideals>
     <initiative>
@@ -493,7 +494,7 @@
             <type type="string">effect</type>
           </id-00001>
         </actions>
-        <cast type="number">1</cast>
+        <cast type="number">0</cast>
         <description type="formattedtext">
           <p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
           <p>If you are able to cast spells, you can't cast them while raging.</p>

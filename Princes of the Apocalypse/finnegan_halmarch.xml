@@ -734,7 +734,7 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
       <total type="number">23</total>
-      <wounds type="number">5</wounds>
+      <wounds type="number">0</wounds>
     </hp>
     <ideals type="string">Charity. I distribute the money I acquire to the people who really need it. (Good)</ideals>
     <initiative>

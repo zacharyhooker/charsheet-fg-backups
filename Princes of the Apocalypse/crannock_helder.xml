@@ -71,21 +71,21 @@
     </classes>
     <coins>
       <slot1>
-        <amount type="number">0</amount>
+        <amount type="number">2</amount>
         <name type="string">PP</name>
       </slot1>
       <slot2>
         <amount type="number">0</amount>
       </slot2>
       <slot3>
-        <amount type="number">24</amount>
+        <amount type="number">46</amount>
         <name type="string">GP</name>
       </slot3>
       <slot4>
         <amount type="number">0</amount>
       </slot4>
       <slot5>
-        <amount type="number">38</amount>
+        <amount type="number">64</amount>
         <name type="string">SP</name>
       </slot5>
       <slot6>
@@ -110,7 +110,7 @@
       <encumbered type="number">80</encumbered>
       <encumberedheavy type="number">160</encumberedheavy>
       <liftpushdrag type="number">480</liftpushdrag>
-      <load type="number">64.1</load>
+      <load type="number">64.6</load>
       <max type="number">240</max>
     </encumbrance>
     <exp type="number">50</exp>
@@ -213,9 +213,9 @@
     <height type="string">6' 1"</height>
     <hp>
       <deathsavefail type="number">0</deathsavefail>
-      <deathsavesuccess type="number">2</deathsavesuccess>
+      <deathsavesuccess type="number">0</deathsavesuccess>
       <hdmod type="number">0</hdmod>
-      <temporary type="number">19</temporary>
+      <temporary type="number">0</temporary>
       <total type="number">31</total>
       <wounds type="number">0</wounds>
     </hp>
@@ -335,6 +335,31 @@
         <type type="string">Potion</type>
         <weight type="number">0.5</weight>
       </id-00007>
+      <id-00008>
+        <carried type="number">1</carried>
+        <cost type="string">uncommon</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <linklist>
+            <link class="reference_spell" recordname="reference.spelldata.haste@*">
+              <b>Spell:</b>
+            </link>
+          </linklist>
+          <link class="imagewindow" recordname="image.img_spell_scroll_jpg@*">
+            <b>Image:</b>
+          </link>
+          <p>This spell scroll bears the words of a single spell,<i>Haste</i></p>
+          <p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect.</p>
+          <p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>
+          <p>This spell scroll's saving throw DC 15 and attack bonus +7.</p>
+          <p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Scroll of Haste</name>
+        <type type="string">Scroll</type>
+        <weight type="number">0</weight>
+      </id-00008>
       <id-00009>
         <ac type="number">0</ac>
         <bonus type="number">0</bonus>
@@ -353,6 +378,71 @@
         <type type="string">Weapon</type>
         <weight type="number">1</weight>
       </id-00009>
+      <id-00010>
+        <carried type="number">1</carried>
+        <cost type="string">uncommon</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <linklist>
+            <link class="reference_spell" recordname="reference.spelldata.wallofwater@*">
+              <b>Spell:</b>
+            </link>
+          </linklist>
+          <p>A spell scroll bears the words of a single spell<i>Wall of Water</i></p>
+          <p>Otherwise, the scroll is unintelligible.</p>
+          <p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect.</p>
+          <p>Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.</p>
+          <p>This spell scroll's saving throw DC 15 and attack bonus +7.</p>
+          <p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Scroll of Wall of Water</name>
+        <type type="string">Scroll</type>
+        <weight type="number">0</weight>
+      </id-00010>
+      <id-00011>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">25 gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p/>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Book</name>
+        <weight type="number">0</weight>
+      </id-00011>
+      <id-00012>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">70 gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p/>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Excellent Jaspers</name>
+        <weight type="number">0</weight>
+      </id-00012>
+      <id-00013>
+        <carried type="number">1</carried>
+        <cost type="string">1 gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p>A silk cloth pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things.</p>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Pouch, Silk</name>
+        <subtype type="string">Standard</subtype>
+        <type type="string">Adventuring Gear</type>
+        <weight type="number">0.5</weight>
+      </id-00013>
     </inventorylist>
     <languagelist>
       <id-00001>
@@ -484,7 +574,7 @@
       </id-00002>
       <id-00004>
         <actions/>
-        <cast type="number">1</cast>
+        <cast type="number">0</cast>
         <description type="formattedtext">
           <p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
           <p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>

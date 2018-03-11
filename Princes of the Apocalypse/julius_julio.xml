@@ -75,18 +75,19 @@
         <name type="string">CP</name>
       </slot1>
       <slot2>
-        <amount type="number">13</amount>
+        <amount type="number">35</amount>
         <name type="string">GP</name>
       </slot2>
       <slot3>
-        <amount type="number">34</amount>
+        <amount type="number">50</amount>
         <name type="string">SP</name>
       </slot3>
       <slot4>
         <amount type="number">99</amount>
       </slot4>
       <slot5>
-        <amount type="number">0</amount>
+        <amount type="number">2</amount>
+        <name type="string">PP</name>
       </slot5>
       <slot6>
         <amount type="number">0</amount>
@@ -535,7 +536,7 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
       <total type="number">27</total>
-      <wounds type="number">12</wounds>
+      <wounds type="number">0</wounds>
     </hp>
     <ideals type="string">Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)</ideals>
     <initiative>
@@ -818,6 +819,20 @@
         <type type="string">Adventuring Gear</type>
         <weight type="number">1.5</weight>
       </id-00022>
+      <id-00023>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">10 gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p/>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Agate</name>
+        <weight type="number">0</weight>
+      </id-00023>
     </inventorylist>
     <languagelist>
       <id-00001>
@@ -900,11 +915,11 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">2</used>
+        <used type="number">0</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
-        <used type="number">2</used>
+        <used type="number">0</used>
       </spellslots2>
       <spellslots3>
         <max type="number">0</max>
@@ -1049,7 +1064,7 @@
       </id-00004>
       <id-00005>
         <actions/>
-        <cast type="number">1</cast>
+        <cast type="number">0</cast>
         <description type="formattedtext">
           <p/>
         </description>

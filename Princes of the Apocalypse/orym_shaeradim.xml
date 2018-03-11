@@ -75,17 +75,18 @@
         <name type="string">CP</name>
       </slot1>
       <slot2>
-        <amount type="number">0</amount>
+        <amount type="number">2</amount>
+        <name type="string">PP</name>
       </slot2>
       <slot3>
-        <amount type="number">116</amount>
+        <amount type="number">132</amount>
         <name type="string">SP</name>
       </slot3>
       <slot4>
         <amount type="number">0</amount>
       </slot4>
       <slot5>
-        <amount type="number">88</amount>
+        <amount type="number">110</amount>
         <name type="string">GP</name>
       </slot5>
       <slot6>
@@ -107,7 +108,7 @@
       <encumbered type="number">50</encumbered>
       <encumberedheavy type="number">100</encumberedheavy>
       <liftpushdrag type="number">300</liftpushdrag>
-      <load type="number">34.625</load>
+      <load type="number">47.625</load>
       <max type="number">150</max>
     </encumbrance>
     <exp type="number">50</exp>
@@ -420,6 +421,22 @@
         <type type="string">Adventuring Gear</type>
         <weight type="number">1.5</weight>
       </id-00010>
+      <id-00011>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">0</carried>
+        <cost type="string">4 gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p/>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Saddlebag, Leather</name>
+        <subtype type="string">Tack And Harness</subtype>
+        <type type="string">Tack, Harness, And Drawn Vehicles</type>
+        <weight type="number">8</weight>
+      </id-00011>
       <id-00012>
         <carried type="number">1</carried>
         <cost type="string">100gp</cost>
@@ -532,6 +549,25 @@
         <name type="string">Black Surcoat with a Red Axe</name>
         <weight type="number">5</weight>
       </id-00016>
+      <id-00017>
+        <ac type="number">12</ac>
+        <carried type="number">1</carried>
+        <cost type="string">45 gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p>Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.</p>
+          <p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
+        </description>
+        <dexbonus type="string">Yes</dexbonus>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Studded Leather</name>
+        <stealth type="string">-</stealth>
+        <strength type="string">-</strength>
+        <subtype type="string">Light Armor</subtype>
+        <type type="string">Armor</type>
+        <weight type="number">13</weight>
+      </id-00017>
     </inventorylist>
     <languagelist>
       <id-00001>
@@ -1177,7 +1213,7 @@
       </id-00002>
       <id-00003>
         <attackbonus type="number">0</attackbonus>
-        <carried type="number">2</carried>
+        <carried type="number">1</carried>
         <damagelist/>
         <isidentified type="number">1</isidentified>
         <maxammo type="number">0</maxammo>
