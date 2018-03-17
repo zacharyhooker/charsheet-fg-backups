@@ -325,7 +325,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">23</total>
-      <wounds type="number">0</wounds>
+      <wounds type="number">6</wounds>
     </hp>
     <ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
     <initiative>
@@ -577,7 +577,7 @@
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
-        <used type="number">0</used>
+        <used type="number">1</used>
       </spellslots2>
       <spellslots3>
         <max type="number">0</max>
@@ -680,6 +680,10 @@
             <order type="number">3</order>
             <type type="string">cast</type>
           </id-00003>
+          <id-00004>
+            <order type="number">4</order>
+            <type type="string">cast</type>
+          </id-00004>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>
@@ -863,6 +867,10 @@
             <order type="number">4</order>
             <type type="string">cast</type>
           </id-00004>
+          <id-00005>
+            <order type="number">5</order>
+            <type type="string">cast</type>
+          </id-00005>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>

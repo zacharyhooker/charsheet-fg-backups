@@ -54,7 +54,7 @@
       <class>reference_background</class>
       <recordname>reference.backgrounddata.urchin@DD PHB Deluxe</recordname>
     </backgroundlink>
-    <bonds type="string">Osfyr Shaeradim</bonds>
+    <bonds type="string">My dearest brother Osfyr Shaeradim</bonds>
     <classes>
       <id-00001>
         <casterlevelinvmult type="number">1</casterlevelinvmult>
@@ -86,7 +86,7 @@
         <amount type="number">0</amount>
       </slot4>
       <slot5>
-        <amount type="number">110</amount>
+        <amount type="number">83</amount>
         <name type="string">GP</name>
       </slot5>
       <slot6>
@@ -257,7 +257,7 @@
         </text>
       </id-00010>
     </featurelist>
-    <flaws type="string">When I see something valuable, I can't think about anything but how to steal it\n\nIs irrationally paranoid when everyone agrees with them, immediately backtracking to disagree with themselves.\n\nBorn gambler</flaws>
+    <flaws type="string">Is irrationally paranoid when everyone agrees with them, immediately backtracking to disagree with themselves.\n\nGambler</flaws>
     <gender type="string">Male</gender>
     <height type="string">5'5</height>
     <hp>

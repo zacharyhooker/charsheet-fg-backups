@@ -54,7 +54,7 @@
       <class>reference_background</class>
       <recordname>reference.backgrounddata.hermit@DD PHB Deluxe</recordname>
     </backgroundlink>
-    <bonds type="string">I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.</bonds>
+    <bonds type="string">I entered seclusion to hide .I must one day return to my home.</bonds>
     <classes>
       <id-00003>
         <casterlevelinvmult type="number">1</casterlevelinvmult>
@@ -950,6 +950,7 @@
         <used type="number">0</used>
       </spellslots9>
     </powermeta>
+    <powermode type="string">combat</powermode>
     <powers>
       <id-00001>
         <actions/>

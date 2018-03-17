@@ -57,7 +57,6 @@
       <class>reference_background</class>
       <recordname>reference.backgrounddata.hermit@DD PHB Deluxe</recordname>
     </backgroundlink>
-    <bonds type="string">I entered seclusion to hide from ones who might still be hunting me. I must someday confront them.</bonds>
     <classes>
       <id-00001>
         <casterlevelinvmult type="number">0</casterlevelinvmult>
@@ -222,7 +221,7 @@
         </text>
       </id-00008>
     </featurelist>
-    <flaws type="string">I am dogmatic in my thoughts and philosophy</flaws>
+    <flaws type="string">I think with my hammer.44441744744747</flaws>
     <gender type="string">Male</gender>
     <height type="string">4'6"</height>
     <hp>
@@ -233,7 +232,7 @@
       <total type="number">36</total>
       <wounds type="number">0</wounds>
     </hp>
-    <ideals type="string">Self-Knowledge. If you know yourself, there's nothing left to know.</ideals>
+    <ideals type="string">With a belly full of drink and food, anything is possible.</ideals>
     <initiative>
       <misc type="number">0</misc>
       <temporary type="number">0</temporary>
@@ -241,13 +240,6 @@
     </initiative>
     <inspiration type="number">0</inspiration>
     <inventorylist>
-      <id-00002>
-        <carried type="number">1</carried>
-        <count type="number">1</count>
-        <isidentified type="number">1</isidentified>
-        <name type="string">Lollipop</name>
-        <weight type="number">0</weight>
-      </id-00002>
       <id-00003>
         <carried type="number">1</carried>
         <cost type="string">5 sp</cost>
@@ -352,7 +344,7 @@
     <name type="string">Krug</name>
     <perception type="number">12</perception>
     <perceptionmodifier type="number">0</perceptionmodifier>
-    <personalitytraits type="string">I feel tremendous empathy for all who suffer. I retreated from society after a life-altering event, the murder of my beloved wife, Hilda</personalitytraits>
+    <personalitytraits type="string">No longer attached to my heritage. For the most part I have dropped the dwarfish accent but occasionally it'll slip up. Left everything behind after my wife, Hilda, was brutally murdered by an unknown assailant.</personalitytraits>
     <powergroup>
       <id-00001>
         <atkprof type="number">1</atkprof>
