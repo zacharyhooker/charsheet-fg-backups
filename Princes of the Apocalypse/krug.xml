@@ -77,7 +77,7 @@
         <name type="string">CP</name>
       </slot1>
       <slot2>
-        <amount type="number">39</amount>
+        <amount type="number">40</amount>
         <name type="string">GP</name>
       </slot2>
       <slot3>
@@ -221,7 +221,7 @@
         </text>
       </id-00008>
     </featurelist>
-    <flaws type="string">I think with my hammer.44441744744747</flaws>
+    <flaws type="string">I think with my hammer</flaws>
     <gender type="string">Male</gender>
     <height type="string">4'6"</height>
     <hp>
@@ -230,7 +230,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">36</total>
-      <wounds type="number">0</wounds>
+      <wounds type="number">25</wounds>
     </hp>
     <ideals type="string">With a belly full of drink and food, anything is possible.</ideals>
     <initiative>
@@ -338,7 +338,6 @@
       <id-00003>
         <name type="string">Giant</name>
       </id-00003>
-      <id-00004/>
     </languagelist>
     <level type="number">3</level>
     <name type="string">Krug</name>
@@ -486,7 +485,7 @@
             <type type="string">effect</type>
           </id-00001>
         </actions>
-        <cast type="number">0</cast>
+        <cast type="number">1</cast>
         <description type="formattedtext">
           <p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
           <p>If you are able to cast spells, you can't cast them while raging.</p>
@@ -737,6 +736,7 @@
           <id-00001>
             <dice type="dice">d8</dice>
             <stat type="string">base</stat>
+            <statmult type="number">1</statmult>
             <type type="string">bludgeoning</type>
           </id-00001>
         </damagelist>

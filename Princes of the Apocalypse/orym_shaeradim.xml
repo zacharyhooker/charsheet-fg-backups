@@ -108,7 +108,7 @@
       <encumbered type="number">50</encumbered>
       <encumberedheavy type="number">100</encumberedheavy>
       <liftpushdrag type="number">300</liftpushdrag>
-      <load type="number">47.625</load>
+      <load type="number">48.625</load>
       <max type="number">150</max>
     </encumbrance>
     <exp type="number">50</exp>
@@ -310,10 +310,15 @@
         <weight type="number">10</weight>
       </id-00002>
       <id-00003>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
         <carried type="number">1</carried>
         <cost type="string">1 sp</cost>
         <count type="number">1</count>
         <damage type="string">1d4 bludgeoning</damage>
+        <description type="formattedtext">
+          <p/>
+        </description>
         <isidentified type="number">1</isidentified>
         <locked type="number">1</locked>
         <name type="string">Club</name>
@@ -486,7 +491,7 @@
         <cost type="string">1 gp</cost>
         <count type="number">1</count>
         <description type="formattedtext">
-          <p>8/10 charges left.</p>
+          <p>7/10 charges left.</p>
           <p>When struck the Tuning fork emits an A. When the fork is struck and placed against a solid, earthly object a fog settles in a 20'-90' radius (depending on the striking intensity) around the caster.</p>
           <p/>
           <p>Reference:</p>
@@ -568,6 +573,38 @@
         <type type="string">Armor</type>
         <weight type="number">13</weight>
       </id-00017>
+      <id-00018>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">5gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p>Absorbs one random property from everything it touches, including the wearer.</p>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Ring of Absorption</name>
+        <rarity type="string">Uncommon</rarity>
+        <type type="string">Ring</type>
+        <weight type="number">1</weight>
+      </id-00018>
+      <id-00019>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">250gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p>When flipped, it will give whatever result the owner wishes. This is not limited to heads/tails.</p>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Cheater's Coin</name>
+        <rarity type="string">Uncommon</rarity>
+        <type type="string">Coin</type>
+        <weight type="number">0</weight>
+      </id-00019>
     </inventorylist>
     <languagelist>
       <id-00001>
@@ -647,7 +684,7 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">0</used>
+        <used type="number">1</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
@@ -1192,7 +1229,7 @@
         <type type="number">0</type>
       </id-00001>
       <id-00002>
-        <ammo type="number">0</ammo>
+        <ammo type="number">3</ammo>
         <carried type="number">2</carried>
         <damagelist>
           <id-00001>

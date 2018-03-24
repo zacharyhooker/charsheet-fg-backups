@@ -46,7 +46,7 @@
       </wisdom>
     </abilities>
     <adventurelist/>
-    <age type="string">37</age>
+    <age type="string">29</age>
     <alignment type="string">Chaotic Good</alignment>
     <appearance type="string">Standing before you with a somber expression is a half elf of middling height, shoulder-length ratty oak-brown hair, pale skin and bright green eyes. Bags hang under the eyes, and his clothing appears worse for the wear. Clutching the patchwork robe around his bony body, you get the feeling of skin pulled taut across a skeleton and a life hard lived.</appearance>
     <background type="string">Urchin</background>
@@ -325,7 +325,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">23</total>
-      <wounds type="number">6</wounds>
+      <wounds type="number">0</wounds>
     </hp>
     <ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
     <initiative>
@@ -573,11 +573,11 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">0</used>
+        <used type="number">2</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
-        <used type="number">1</used>
+        <used type="number">0</used>
       </spellslots2>
       <spellslots3>
         <max type="number">0</max>
@@ -822,6 +822,10 @@
             <order type="number">4</order>
             <type type="string">cast</type>
           </id-00004>
+          <id-00005>
+            <order type="number">5</order>
+            <type type="string">cast</type>
+          </id-00005>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>

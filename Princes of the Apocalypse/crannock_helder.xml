@@ -247,13 +247,18 @@
         <weight type="number">55</weight>
       </id-00001>
       <id-00002>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
         <carried type="number">2</carried>
-        <cost type="string">50 gp</cost>
+        <cost type="string">250 gp</cost>
         <count type="number">1</count>
         <damage type="string">2d6 slashing</damage>
+        <description type="formattedtext">
+          <p/>
+        </description>
         <isidentified type="number">1</isidentified>
         <locked type="number">1</locked>
-        <name type="string">Greatsword</name>
+        <name type="string">Masterwork Greatsword</name>
         <properties type="string">Heavy, two-handed</properties>
         <subtype type="string">Martial Melee Weapons</subtype>
         <type type="string">Weapon</type>
@@ -574,7 +579,7 @@
       </id-00002>
       <id-00004>
         <actions/>
-        <cast type="number">0</cast>
+        <cast type="number">1</cast>
         <description type="formattedtext">
           <p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
           <p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>
@@ -774,17 +779,20 @@
     <traitlist/>
     <weaponlist>
       <id-00001>
+        <attackbonus type="number">1</attackbonus>
         <carried type="number">2</carried>
         <damagelist>
           <id-00001>
+            <bonus type="number">0</bonus>
             <dice type="dice">d6,d6</dice>
             <stat type="string">base</stat>
+            <statmult type="number">1</statmult>
             <type type="string">slashing</type>
           </id-00001>
         </damagelist>
         <isidentified type="number">1</isidentified>
         <maxammo type="number">0</maxammo>
-        <name type="string">Greatsword</name>
+        <name type="string">Masterwork Greatsword</name>
         <prof type="number">1</prof>
         <shortcut type="windowreference">
           <class>item</class>
