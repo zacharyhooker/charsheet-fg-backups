@@ -265,7 +265,7 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
       <total type="number">27</total>
-      <wounds type="number">0</wounds>
+      <wounds type="number">2</wounds>
     </hp>
     <initiative>
       <misc type="number">0</misc>
@@ -1229,7 +1229,7 @@
         <type type="number">0</type>
       </id-00001>
       <id-00002>
-        <ammo type="number">3</ammo>
+        <ammo type="number">5</ammo>
         <carried type="number">2</carried>
         <damagelist>
           <id-00001>

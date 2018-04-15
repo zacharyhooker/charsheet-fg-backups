@@ -109,7 +109,7 @@
       <encumbered type="number">60</encumbered>
       <encumberedheavy type="number">120</encumberedheavy>
       <liftpushdrag type="number">360</liftpushdrag>
-      <load type="number">124.51</load>
+      <load type="number">125.51</load>
       <max type="number">180</max>
     </encumbrance>
     <exp type="number">50</exp>
@@ -536,7 +536,7 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
       <total type="number">27</total>
-      <wounds type="number">0</wounds>
+      <wounds type="number">14</wounds>
     </hp>
     <ideals type="string">Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)</ideals>
     <initiative>
@@ -833,6 +833,13 @@
         <name type="string">Agate</name>
         <weight type="number">0</weight>
       </id-00023>
+      <id-00024>
+        <carried type="number">1</carried>
+        <count type="number">1</count>
+        <isidentified type="number">1</isidentified>
+        <name type="string">Grimjow's Key</name>
+        <weight type="number">1</weight>
+      </id-00024>
       <id-00025>
         <carried type="number">1</carried>
         <count type="number">1</count>
@@ -922,11 +929,11 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">1</used>
+        <used type="number">0</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
-        <used type="number">1</used>
+        <used type="number">0</used>
       </spellslots2>
       <spellslots3>
         <max type="number">0</max>
@@ -1560,7 +1567,7 @@
         <type type="number">2</type>
       </id-00002>
       <id-00003>
-        <ammo type="number">4</ammo>
+        <ammo type="number">6</ammo>
         <attackbonus type="number">0</attackbonus>
         <carried type="number">2</carried>
         <damagelist>

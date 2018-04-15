@@ -573,7 +573,7 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">2</used>
+        <used type="number">1</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
@@ -684,6 +684,10 @@
             <order type="number">4</order>
             <type type="string">cast</type>
           </id-00004>
+          <id-00005>
+            <order type="number">5</order>
+            <type type="string">cast</type>
+          </id-00005>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>
@@ -826,6 +830,10 @@
             <order type="number">5</order>
             <type type="string">cast</type>
           </id-00005>
+          <id-00006>
+            <order type="number">6</order>
+            <type type="string">cast</type>
+          </id-00006>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>
