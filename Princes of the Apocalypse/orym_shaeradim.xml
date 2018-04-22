@@ -265,7 +265,7 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
       <total type="number">27</total>
-      <wounds type="number">2</wounds>
+      <wounds type="number">19</wounds>
     </hp>
     <initiative>
       <misc type="number">0</misc>
@@ -684,7 +684,7 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">1</used>
+        <used type="number">4</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
@@ -1015,7 +1015,7 @@
             <type type="string">effect</type>
           </id-00002>
         </actions>
-        <cast type="number">0</cast>
+        <cast type="number">1</cast>
         <description type="formattedtext">
           <p/>
         </description>
@@ -1229,7 +1229,7 @@
         <type type="number">0</type>
       </id-00001>
       <id-00002>
-        <ammo type="number">5</ammo>
+        <ammo type="number">7</ammo>
         <carried type="number">2</carried>
         <damagelist>
           <id-00001>

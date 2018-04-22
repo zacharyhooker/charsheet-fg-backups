@@ -75,7 +75,7 @@
         <name type="string">PP</name>
       </slot1>
       <slot2>
-        <amount type="number">64</amount>
+        <amount type="number">63</amount>
         <name type="string">SP</name>
       </slot2>
       <slot3>
@@ -325,7 +325,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">23</total>
-      <wounds type="number">0</wounds>
+      <wounds type="number">15</wounds>
     </hp>
     <ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
     <initiative>
@@ -573,11 +573,11 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">1</used>
+        <used type="number">4</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
-        <used type="number">0</used>
+        <used type="number">2</used>
       </spellslots2>
       <spellslots3>
         <max type="number">0</max>
@@ -883,6 +883,10 @@
             <order type="number">5</order>
             <type type="string">cast</type>
           </id-00005>
+          <id-00006>
+            <order type="number">6</order>
+            <type type="string">cast</type>
+          </id-00006>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>

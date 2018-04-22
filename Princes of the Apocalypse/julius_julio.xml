@@ -536,7 +536,7 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
       <total type="number">27</total>
-      <wounds type="number">14</wounds>
+      <wounds type="number">16</wounds>
     </hp>
     <ideals type="string">Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)</ideals>
     <initiative>
@@ -929,11 +929,11 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">0</used>
+        <used type="number">3</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
-        <used type="number">0</used>
+        <used type="number">2</used>
       </spellslots2>
       <spellslots3>
         <max type="number">0</max>
@@ -1098,7 +1098,7 @@
       </id-00004>
       <id-00005>
         <actions/>
-        <cast type="number">0</cast>
+        <cast type="number">2</cast>
         <description type="formattedtext">
           <p/>
         </description>
