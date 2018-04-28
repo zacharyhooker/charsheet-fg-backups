@@ -60,7 +60,7 @@
         <casterlevelinvmult type="number">1</casterlevelinvmult>
         <casterpactmagic type="number">0</casterpactmagic>
         <hddie type="dice">d6</hddie>
-        <hdused type="number">0</hdused>
+        <hdused type="number">1</hdused>
         <level type="number">3</level>
         <name type="string">Sorcerer</name>
         <shortcut type="windowreference">
@@ -110,7 +110,7 @@
       <encumbered type="number">50</encumbered>
       <encumberedheavy type="number">100</encumberedheavy>
       <liftpushdrag type="number">300</liftpushdrag>
-      <load type="number">9</load>
+      <load type="number">12</load>
       <max type="number">150</max>
     </encumbrance>
     <exp type="number">50</exp>
@@ -325,7 +325,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">23</total>
-      <wounds type="number">15</wounds>
+      <wounds type="number">0</wounds>
     </hp>
     <ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
     <initiative>
@@ -477,7 +477,7 @@
         <locked type="number">1</locked>
         <name type="string">Wand of Magic Missiles</name>
         <type type="string">Wand</type>
-        <weight type="number">0</weight>
+        <weight type="number">3</weight>
       </id-00010>
       <id-00011>
         <carried type="number">2</carried>
@@ -507,6 +507,17 @@
         <type type="string">Tools</type>
         <weight type="number">2</weight>
       </id-00012>
+      <id-00013>
+        <carried type="number">1</carried>
+        <count type="number">1</count>
+        <isidentified type="number">1</isidentified>
+        <name type="string">mushrooms</name>
+      </id-00013>
+      <id-00014>
+        <carried type="number">1</carried>
+        <count type="number">1</count>
+        <isidentified type="number">1</isidentified>
+      </id-00014>
     </inventorylist>
     <languagelist>
       <id-00001>
@@ -573,11 +584,11 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">4</used>
+        <used type="number">0</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
-        <used type="number">2</used>
+        <used type="number">0</used>
       </spellslots2>
       <spellslots3>
         <max type="number">0</max>

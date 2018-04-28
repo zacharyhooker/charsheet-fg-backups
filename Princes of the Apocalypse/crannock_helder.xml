@@ -60,7 +60,7 @@
         <casterlevelinvmult type="number">0</casterlevelinvmult>
         <casterpactmagic type="number">0</casterpactmagic>
         <hddie type="dice">d10</hddie>
-        <hdused type="number">0</hdused>
+        <hdused type="number">1</hdused>
         <level type="number">3</level>
         <name type="string">Fighter</name>
         <shortcut type="windowreference">
@@ -217,7 +217,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">31</total>
-      <wounds type="number">25</wounds>
+      <wounds type="number">0</wounds>
     </hp>
     <ideals type="string">I must prove that I can handle myself without the coddling of my family.</ideals>
     <initiative>
@@ -579,7 +579,7 @@
       </id-00002>
       <id-00004>
         <actions/>
-        <cast type="number">1</cast>
+        <cast type="number">0</cast>
         <description type="formattedtext">
           <p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
           <p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>

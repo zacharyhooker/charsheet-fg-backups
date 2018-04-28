@@ -230,7 +230,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">36</total>
-      <wounds type="number">25</wounds>
+      <wounds type="number">0</wounds>
     </hp>
     <ideals type="string">With a belly full of drink and food, anything is possible.</ideals>
     <initiative>
@@ -485,7 +485,7 @@
             <type type="string">effect</type>
           </id-00001>
         </actions>
-        <cast type="number">1</cast>
+        <cast type="number">0</cast>
         <description type="formattedtext">
           <p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
           <p>If you are able to cast spells, you can't cast them while raging.</p>
