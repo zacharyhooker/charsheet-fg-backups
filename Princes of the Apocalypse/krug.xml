@@ -112,7 +112,7 @@
       <encumbered type="number">90</encumbered>
       <encumberedheavy type="number">180</encumberedheavy>
       <liftpushdrag type="number">540</liftpushdrag>
-      <load type="number">28</load>
+      <load type="number">31</load>
       <max type="number">270</max>
     </encumbrance>
     <exp type="number">50</exp>
@@ -230,7 +230,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">36</total>
-      <wounds type="number">0</wounds>
+      <wounds type="number">23</wounds>
     </hp>
     <ideals type="string">With a belly full of drink and food, anything is possible.</ideals>
     <initiative>
@@ -240,6 +240,19 @@
     </initiative>
     <inspiration type="number">0</inspiration>
     <inventorylist>
+      <id-00001>
+        <carried type="number">2</carried>
+        <cost type="string">15 gp</cost>
+        <count type="number">1</count>
+        <damage type="string">1d8 slashing</damage>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Longsword</name>
+        <properties type="string">Versatile (1d10)</properties>
+        <subtype type="string">Martial Weapons</subtype>
+        <type type="string">Weapon</type>
+        <weight type="number">3</weight>
+      </id-00001>
       <id-00003>
         <carried type="number">1</carried>
         <cost type="string">5 sp</cost>
@@ -485,7 +498,7 @@
             <type type="string">effect</type>
           </id-00001>
         </actions>
-        <cast type="number">0</cast>
+        <cast type="number">1</cast>
         <description type="formattedtext">
           <p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
           <p>If you are able to cast spells, you can't cast them while raging.</p>
@@ -750,6 +763,28 @@
         </shortcut>
         <type type="number">0</type>
       </id-00001>
+      <id-00002>
+        <attackbonus type="number">0</attackbonus>
+        <carried type="number">2</carried>
+        <damagelist>
+          <id-00001>
+            <bonus type="number">0</bonus>
+            <dice type="dice">d8</dice>
+            <stat type="string">base</stat>
+            <type type="string">slashing</type>
+          </id-00001>
+        </damagelist>
+        <isidentified type="number">1</isidentified>
+        <maxammo type="number">0</maxammo>
+        <name type="string">Longsword</name>
+        <prof type="number">1</prof>
+        <properties type="string">Versatile (1d10)</properties>
+        <shortcut type="windowreference">
+          <class>item</class>
+          <recordname>....inventorylist.id-00001</recordname>
+        </shortcut>
+        <type type="number">0</type>
+      </id-00002>
     </weaponlist>
     <weight type="string">263lb</weight>
   </charsheet>

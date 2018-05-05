@@ -110,7 +110,7 @@
       <encumbered type="number">50</encumbered>
       <encumberedheavy type="number">100</encumberedheavy>
       <liftpushdrag type="number">300</liftpushdrag>
-      <load type="number">12</load>
+      <load type="number">21.01</load>
       <max type="number">150</max>
     </encumbrance>
     <exp type="number">50</exp>
@@ -477,7 +477,7 @@
         <locked type="number">1</locked>
         <name type="string">Wand of Magic Missiles</name>
         <type type="string">Wand</type>
-        <weight type="number">3</weight>
+        <weight type="number">7</weight>
       </id-00010>
       <id-00011>
         <carried type="number">2</carried>
@@ -512,12 +512,43 @@
         <count type="number">1</count>
         <isidentified type="number">1</isidentified>
         <name type="string">mushrooms</name>
+        <weight type="number">0</weight>
       </id-00013>
-      <id-00014>
+      <id-00015>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
         <carried type="number">1</carried>
+        <cost type="string">25 gp</cost>
         <count type="number">1</count>
+        <description type="formattedtext">
+          <p>A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section).</p>
+        </description>
         <isidentified type="number">1</isidentified>
-      </id-00014>
+        <locked type="number">1</locked>
+        <name type="string">Book</name>
+        <subtype type="string">Standard</subtype>
+        <type type="string">Adventuring Gear</type>
+        <weight type="number">5</weight>
+      </id-00015>
+      <id-00016>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">155 gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p>5/6 Charges.</p>
+          <p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>
+          <p>While the candle is lit, you can use an action (once per 45 minutes) to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you have used the candle, it can't be used again until it has been snuffed.</p>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Candle of Power</name>
+        <rarity type="string">Uncommon (Requires Attunement By A Spellcaster)</rarity>
+        <subtype type="string">Standard</subtype>
+        <type type="string">Adventuring Gear</type>
+        <weight type="number">0.01</weight>
+      </id-00016>
     </inventorylist>
     <languagelist>
       <id-00001>
@@ -532,7 +563,7 @@
     </languagelist>
     <level type="number">3</level>
     <name type="string">Osfyr Shaeradim</name>
-    <notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult\nsavra - woman feathergate\n</notes>
+    <notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult\nsavra - woman feathergate\n\nMother Earth, Fire, Wind, Water and Spirit, I ask thee to free and heal my body from all negative forces. Blessed be!\n</notes>
     <perception type="number">12</perception>
     <perceptionmodifier type="number">0</perceptionmodifier>
     <personalitytraits type="string">I think anyone who's nice to me is hiding evil intent.</personalitytraits>

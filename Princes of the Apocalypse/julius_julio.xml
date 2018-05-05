@@ -95,7 +95,7 @@
     <defenses>
       <ac>
         <armor type="number">1</armor>
-        <disstealth type="number">1</disstealth>
+        <disstealth type="number">0</disstealth>
         <misc type="number">0</misc>
         <prof type="number">1</prof>
         <shield type="number">0</shield>
@@ -108,7 +108,7 @@
       <encumbered type="number">70</encumbered>
       <encumberedheavy type="number">140</encumberedheavy>
       <liftpushdrag type="number">420</liftpushdrag>
-      <load type="number">30.25</load>
+      <load type="number">32.25</load>
       <max type="number">210</max>
     </encumbrance>
     <exp type="number">0</exp>
@@ -283,6 +283,8 @@
     <gender type="string">Male</gender>
     <height type="string">5'10"</height>
     <hp>
+      <deathsavefail type="number">0</deathsavefail>
+      <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
       <total type="number">25</total>
       <wounds type="number">0</wounds>
@@ -312,25 +314,26 @@
         <type type="string">Weapon</type>
         <weight type="number">2</weight>
       </id-00001>
-      <id-00003>
+      <id-00002>
         <ac type="number">11</ac>
+        <bonus type="number">0</bonus>
         <carried type="number">2</carried>
-        <cost type="string">5 gp</cost>
+        <cost type="string">10 gp</cost>
         <count type="number">1</count>
         <description type="formattedtext">
           <p>Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.</p>
-          <p>Padded armor consists of quilted layers of cloth and batting.</p>
+          <p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>
         </description>
         <dexbonus type="string">Yes</dexbonus>
         <isidentified type="number">1</isidentified>
         <locked type="number">1</locked>
-        <name type="string">Padded Leather</name>
-        <stealth type="string">Disadvantage</stealth>
+        <name type="string">Leather</name>
+        <stealth type="string">-</stealth>
         <strength type="string">-</strength>
         <subtype type="string">Light Armor</subtype>
         <type type="string">Armor</type>
-        <weight type="number">8</weight>
-      </id-00003>
+        <weight type="number">10</weight>
+      </id-00002>
       <id-00004>
         <carried type="number">1</carried>
         <cost type="string">1 gp</cost>
