@@ -110,7 +110,7 @@
       <encumbered type="number">80</encumbered>
       <encumberedheavy type="number">160</encumberedheavy>
       <liftpushdrag type="number">480</liftpushdrag>
-      <load type="number">65.1</load>
+      <load type="number">66.1</load>
       <max type="number">240</max>
     </encumbrance>
     <exp type="number">50</exp>
@@ -217,7 +217,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">31</total>
-      <wounds type="number">0</wounds>
+      <wounds type="number">7</wounds>
     </hp>
     <ideals type="string">I must prove that I can handle myself without the coddling of my family.</ideals>
     <initiative>
@@ -265,6 +265,22 @@
         <type type="string">Weapon</type>
         <weight type="number">6</weight>
       </id-00002>
+      <id-00003>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">1 cp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Torch</name>
+        <subtype type="string">Standard</subtype>
+        <type type="string">Adventuring Gear</type>
+        <weight type="number">1</weight>
+      </id-00003>
       <id-00004>
         <ac type="number">0</ac>
         <bonus type="number">0</bonus>
@@ -288,13 +304,6 @@
         <name type="string">scrimshaw pipe</name>
         <weight type="number">0</weight>
       </id-00005>
-      <id-00006>
-        <carried type="number">1</carried>
-        <count type="number">1</count>
-        <isidentified type="number">1</isidentified>
-        <name type="string">torch, 3</name>
-        <weight type="number">0</weight>
-      </id-00006>
       <id-00007>
         <ac type="number">0</ac>
         <bonus type="number">0</bonus>

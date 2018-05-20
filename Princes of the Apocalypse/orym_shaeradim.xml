@@ -265,7 +265,7 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
       <total type="number">27</total>
-      <wounds type="number">0</wounds>
+      <wounds type="number">18</wounds>
     </hp>
     <initiative>
       <misc type="number">0</misc>
@@ -605,6 +605,20 @@
         <type type="string">Coin</type>
         <weight type="number">0</weight>
       </id-00019>
+      <id-00020>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p>Small scrap of cloth with Dib's fortress design notes scribbled in smudged ink.</p>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <istemplate type="number">0</istemplate>
+        <locked type="number">1</locked>
+        <name type="string">Scrap Of Cloth</name>
+        <weight type="number">0</weight>
+      </id-00020>
     </inventorylist>
     <languagelist>
       <id-00001>
@@ -1015,7 +1029,7 @@
             <type type="string">effect</type>
           </id-00002>
         </actions>
-        <cast type="number">0</cast>
+        <cast type="number">1</cast>
         <description type="formattedtext">
           <p/>
         </description>
@@ -1229,7 +1243,7 @@
         <type type="number">0</type>
       </id-00001>
       <id-00002>
-        <ammo type="number">7</ammo>
+        <ammo type="number">12</ammo>
         <carried type="number">2</carried>
         <damagelist>
           <id-00001>

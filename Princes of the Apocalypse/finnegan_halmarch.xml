@@ -74,11 +74,11 @@
         <name type="string">GP</name>
       </slot1>
       <slot2>
-        <amount type="number">22</amount>
+        <amount type="number">20</amount>
         <name type="string">SP</name>
       </slot2>
       <slot3>
-        <amount type="number">66</amount>
+        <amount type="number">0</amount>
         <name type="string">CP</name>
       </slot3>
       <slot4>

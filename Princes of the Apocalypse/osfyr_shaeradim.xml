@@ -75,7 +75,7 @@
         <name type="string">PP</name>
       </slot1>
       <slot2>
-        <amount type="number">63</amount>
+        <amount type="number">89</amount>
         <name type="string">SP</name>
       </slot2>
       <slot3>
@@ -325,7 +325,7 @@
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
       <total type="number">23</total>
-      <wounds type="number">0</wounds>
+      <wounds type="number">10</wounds>
     </hp>
     <ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
     <initiative>
@@ -428,7 +428,7 @@
         <carried type="number">1</carried>
         <count type="number">1</count>
         <isidentified type="number">1</isidentified>
-        <name type="string">Red Curtain</name>
+        <name type="string">Burnt Red Curtain</name>
         <rarity type="string">Common</rarity>
         <subtype type="string">Curtain</subtype>
         <type type="string">Rough Linen</type>
@@ -549,6 +549,13 @@
         <type type="string">Adventuring Gear</type>
         <weight type="number">0.01</weight>
       </id-00016>
+      <id-00017>
+        <carried type="number">1</carried>
+        <count type="number">1</count>
+        <isidentified type="number">1</isidentified>
+        <name type="string">Shiny Rocks</name>
+        <weight type="number">0</weight>
+      </id-00017>
     </inventorylist>
     <languagelist>
       <id-00001>
@@ -615,7 +622,7 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">0</used>
+        <used type="number">4</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
@@ -730,6 +737,10 @@
             <order type="number">5</order>
             <type type="string">cast</type>
           </id-00005>
+          <id-00006>
+            <order type="number">6</order>
+            <type type="string">cast</type>
+          </id-00006>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>
@@ -797,6 +808,10 @@
             <order type="number">3</order>
             <type type="string">cast</type>
           </id-00003>
+          <id-00004>
+            <order type="number">4</order>
+            <type type="string">cast</type>
+          </id-00004>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>
@@ -876,6 +891,10 @@
             <order type="number">6</order>
             <type type="string">cast</type>
           </id-00006>
+          <id-00007>
+            <order type="number">7</order>
+            <type type="string">cast</type>
+          </id-00007>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>

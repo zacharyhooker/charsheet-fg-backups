@@ -73,15 +73,15 @@
     </classes>
     <coins>
       <slot1>
-        <amount type="number">2</amount>
+        <amount type="number">66</amount>
         <name type="string">CP</name>
       </slot1>
       <slot2>
-        <amount type="number">40</amount>
+        <amount type="number">0</amount>
         <name type="string">GP</name>
       </slot2>
       <slot3>
-        <amount type="number">53</amount>
+        <amount type="number">2</amount>
         <name type="string">SP</name>
       </slot3>
       <slot4>
@@ -498,7 +498,7 @@
             <type type="string">effect</type>
           </id-00001>
         </actions>
-        <cast type="number">1</cast>
+        <cast type="number">0</cast>
         <description type="formattedtext">
           <p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
           <p>If you are able to cast spells, you can't cast them while raging.</p>
