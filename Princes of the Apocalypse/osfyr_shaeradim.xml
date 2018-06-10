@@ -3,11 +3,11 @@
   <charsheet>
     <abilities>
       <charisma>
-        <bonus type="number">3</bonus>
-        <save type="number">5</save>
+        <bonus type="number">4</bonus>
+        <save type="number">6</save>
         <savemodifier type="number">0</savemodifier>
         <saveprof type="number">1</saveprof>
-        <score type="number">17</score>
+        <score type="number">19</score>
       </charisma>
       <constitution>
         <bonus type="number">3</bonus>
@@ -61,7 +61,7 @@
         <casterpactmagic type="number">0</casterpactmagic>
         <hddie type="dice">d6</hddie>
         <hdused type="number">1</hdused>
-        <level type="number">3</level>
+        <level type="number">4</level>
         <name type="string">Sorcerer</name>
         <shortcut type="windowreference">
           <class>reference_class</class>
@@ -315,6 +315,15 @@
       <id-00009>
         <name type="string">Heightened Spell</name>
       </id-00009>
+      <id-00010>
+        <level type="number">4</level>
+        <locked type="number">1</locked>
+        <name type="string">Ability Score Improvement</name>
+        <source type="string">Sorcerer</source>
+        <text type="formattedtext">
+          <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+        </text>
+      </id-00010>
     </featurelist>
     <flaws type="string">People who can't take care of themselves get what they deserve.</flaws>
     <gender type="string">M</gender>
@@ -324,7 +333,7 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
-      <total type="number">23</total>
+      <total type="number">30</total>
       <wounds type="number">10</wounds>
     </hp>
     <ideals type="string">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</ideals>
@@ -568,7 +577,7 @@
         <name type="string">Celestial</name>
       </id-00003>
     </languagelist>
-    <level type="number">3</level>
+    <level type="number">4</level>
     <name type="string">Osfyr Shaeradim</name>
     <notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult\nsavra - woman feathergate\n\nMother Earth, Fire, Wind, Water and Spirit, I ask thee to free and heal my body from all negative forces. Blessed be!\n</notes>
     <perception type="number">12</perception>
@@ -625,8 +634,8 @@
         <used type="number">4</used>
       </spellslots1>
       <spellslots2>
-        <max type="number">2</max>
-        <used type="number">0</used>
+        <max type="number">3</max>
+        <used type="number">2</used>
       </spellslots2>
       <spellslots3>
         <max type="number">0</max>
@@ -683,6 +692,7 @@
         <name type="string">Prestidigitation</name>
         <prepared type="number">0</prepared>
         <range type="string">10 feet</range>
+        <ritual type="number">0</ritual>
         <school type="string">Transmutation</school>
         <source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
       </id-00001>
@@ -725,22 +735,6 @@
             <order type="number">2</order>
             <type type="string">damage</type>
           </id-00002>
-          <id-00003>
-            <order type="number">3</order>
-            <type type="string">cast</type>
-          </id-00003>
-          <id-00004>
-            <order type="number">4</order>
-            <type type="string">cast</type>
-          </id-00004>
-          <id-00005>
-            <order type="number">5</order>
-            <type type="string">cast</type>
-          </id-00005>
-          <id-00006>
-            <order type="number">6</order>
-            <type type="string">cast</type>
-          </id-00006>
         </actions>
         <cast type="number">0</cast>
         <castingtime type="string">1 action</castingtime>
@@ -760,31 +754,6 @@
         <school type="string">Evocation</school>
         <source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
       </id-00003>
-      <id-00004>
-        <actions>
-          <id-00001>
-            <order type="number">1</order>
-            <type type="string">cast</type>
-          </id-00001>
-        </actions>
-        <cast type="number">0</cast>
-        <castingtime type="string">1 minute</castingtime>
-        <components type="string">V, S, M (two lodestones)</components>
-        <description type="formattedtext">
-          <p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it. leaving no trace of the former damage.</p>
-          <p>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</p>
-        </description>
-        <duration type="string">Instantaneous</duration>
-        <group type="string">Spells</group>
-        <level type="number">0</level>
-        <locked type="number">1</locked>
-        <name type="string">Mending</name>
-        <prepared type="number">0</prepared>
-        <range type="string">Touch</range>
-        <ritual type="number">0</ritual>
-        <school type="string">Transmutation</school>
-        <source type="string">Bard, Cleric, Druid, Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
-      </id-00004>
       <id-00005>
         <actions>
           <id-00001>
@@ -1009,6 +978,101 @@
         <school type="string">Evocation</school>
         <source type="string">Wizard</source>
       </id-00009>
+      <id-00013>
+        <actions>
+          <id-00001>
+            <atktype type="string">ranged</atktype>
+            <order type="number">1</order>
+            <type type="string">cast</type>
+          </id-00001>
+          <id-00002>
+            <damagelist>
+              <id-00001>
+                <dice type="dice">d6,d6</dice>
+                <type type="string">fire</type>
+              </id-00001>
+            </damagelist>
+            <order type="number">2</order>
+            <type type="string">damage</type>
+          </id-00002>
+        </actions>
+        <cast type="number">0</cast>
+        <castingtime type="string">1 action</castingtime>
+        <components type="string">V, S</components>
+        <description type="formattedtext">
+          <p>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several. Make a ranged spell attack for each ray. On a hit, the target takes 2d6 fire damage.</p>
+          <p>
+            <b>At Higher Levels.</b>
+          </p>
+        </description>
+        <duration type="string">Instantaneous</duration>
+        <group type="string">Spells</group>
+        <level type="number">2</level>
+        <locked type="number">1</locked>
+        <name type="string">Scorching Ray</name>
+        <prepared type="number">0</prepared>
+        <range type="string">120 feet</range>
+        <ritual type="number">0</ritual>
+        <school type="string">Evocation</school>
+        <source type="string">Cleric Light Domain, Eldritch Knight, Warlock (Fiend), Sorcerer, Wizard, Arcane Trickster</source>
+      </id-00013>
+      <id-00014>
+        <actions>
+          <id-00001>
+            <order type="number">1</order>
+            <savemagic type="number">1</savemagic>
+            <savetype type="string">dexterity</savetype>
+            <type type="string">cast</type>
+          </id-00001>
+          <id-00002>
+            <damagelist>
+              <id-00001>
+                <dice type="dice">d6</dice>
+                <statmult type="number">1</statmult>
+                <type type="string">acid</type>
+              </id-00001>
+            </damagelist>
+            <order type="number">2</order>
+            <type type="string">damage</type>
+          </id-00002>
+        </actions>
+        <cast type="number">0</cast>
+        <castingtime type="string">1 action</castingtime>
+        <components type="string">V, S</components>
+        <description type="formattedtext">
+          <p>You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage. This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+        </description>
+        <duration type="string">Instantaneous</duration>
+        <group type="string">Spells</group>
+        <level type="number">0</level>
+        <locked type="number">1</locked>
+        <name type="string">Acid Splash</name>
+        <prepared type="number">0</prepared>
+        <range type="string">60 feet</range>
+        <ritual type="number">0</ritual>
+        <school type="string">Conjuration</school>
+        <source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
+      </id-00014>
+      <id-00015>
+        <actions/>
+        <cast type="number">0</cast>
+        <castingtime type="string">1 action</castingtime>
+        <components type="string">V, S, M (a short piece of copper wire)</components>
+        <description type="formattedtext">
+          <p>You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.</p>
+          <p>You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence. 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings.</p>
+        </description>
+        <duration type="string">1 round</duration>
+        <group type="string">Spells</group>
+        <level type="number">0</level>
+        <locked type="number">1</locked>
+        <name type="string">Message</name>
+        <prepared type="number">0</prepared>
+        <range type="string">120 feet</range>
+        <ritual type="number">0</ritual>
+        <school type="string">Transmutation</school>
+        <source type="string">Bard, Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
+      </id-00015>
     </powers>
     <profbonus type="number">2</profbonus>
     <proficiencylist>
@@ -1046,7 +1110,7 @@
         <name type="string">Deception</name>
         <prof type="number">1</prof>
         <stat type="string">charisma</stat>
-        <total type="number">5</total>
+        <total type="number">6</total>
       </id-00003>
       <id-00004>
         <misc type="number">0</misc>
@@ -1074,7 +1138,7 @@
         <name type="string">Persuasion</name>
         <prof type="number">0</prof>
         <stat type="string">charisma</stat>
-        <total type="number">3</total>
+        <total type="number">4</total>
       </id-00007>
       <id-00008>
         <misc type="number">0</misc>
@@ -1095,7 +1159,7 @@
         <name type="string">Performance</name>
         <prof type="number">0</prof>
         <stat type="string">charisma</stat>
-        <total type="number">3</total>
+        <total type="number">4</total>
       </id-00010>
       <id-00011>
         <misc type="number">0</misc>
@@ -1130,7 +1194,7 @@
         <name type="string">Intimidation</name>
         <prof type="number">0</prof>
         <stat type="string">charisma</stat>
-        <total type="number">3</total>
+        <total type="number">4</total>
       </id-00015>
       <id-00016>
         <misc type="number">0</misc>

@@ -68,6 +68,18 @@
           <recordname>reference.classdata.bard@DD PHB Deluxe</recordname>
         </shortcut>
       </id-00001>
+      <id-00002>
+        <casterlevelinvmult type="number">0</casterlevelinvmult>
+        <casterpactmagic type="number">0</casterpactmagic>
+        <hddie type="dice">d8</hddie>
+        <hdused type="number">0</hdused>
+        <level type="number">1</level>
+        <name type="string">Rogue</name>
+        <shortcut type="windowreference">
+          <class>reference_class</class>
+          <recordname>reference.classdata.rogue@DD PHB Deluxe</recordname>
+        </shortcut>
+      </id-00002>
     </classes>
     <coins>
       <slot1>
@@ -108,7 +120,7 @@
       <encumbered type="number">50</encumbered>
       <encumberedheavy type="number">100</encumberedheavy>
       <liftpushdrag type="number">300</liftpushdrag>
-      <load type="number">48.625</load>
+      <load type="number">50.625</load>
       <max type="number">150</max>
     </encumbrance>
     <exp type="number">50</exp>
@@ -256,6 +268,27 @@
           <p>At 10th level, you can choose another two skill proficiencies to gain this benefit.</p>
         </text>
       </id-00010>
+      <id-00011>
+        <level type="number">1</level>
+        <locked type="number">1</locked>
+        <name type="string">Thieves' Cant</name>
+        <source type="string">Rogue</source>
+        <text type="formattedtext">
+          <p>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</p>
+          <p>In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</p>
+        </text>
+      </id-00011>
+      <id-00012>
+        <level type="number">1</level>
+        <locked type="number">1</locked>
+        <name type="string">Sneak Attack</name>
+        <source type="string">Rogue</source>
+        <text type="formattedtext">
+          <p>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</p>
+          <p>You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</p>
+          <p>The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</p>
+        </text>
+      </id-00012>
     </featurelist>
     <flaws type="string">Gambler</flaws>
     <gender type="string">Male</gender>
@@ -264,7 +297,7 @@
       <deathsavefail type="number">0</deathsavefail>
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
-      <total type="number">27</total>
+      <total type="number">43</total>
       <wounds type="number">18</wounds>
     </hp>
     <initiative>
@@ -372,10 +405,15 @@
         <weight type="number">3</weight>
       </id-00005>
       <id-00006>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
         <carried type="number">2</carried>
         <cost type="string">75 gp</cost>
         <count type="number">1</count>
         <damage type="string">1d6 piercing</damage>
+        <description type="formattedtext">
+          <p/>
+        </description>
         <isidentified type="number">1</isidentified>
         <locked type="number">1</locked>
         <name type="string">Crossbow, Hand</name>
@@ -619,6 +657,23 @@
         <name type="string">Scrap Of Cloth</name>
         <weight type="number">0</weight>
       </id-00020>
+      <id-00021>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
+        <carried type="number">1</carried>
+        <cost type="string">0 gp</cost>
+        <count type="number">1</count>
+        <description type="formattedtext">
+          <p>Holds up to 30 lbs.</p>
+        </description>
+        <isidentified type="number">1</isidentified>
+        <locked type="number">1</locked>
+        <name type="string">Wolf Skin Bag</name>
+        <rarity type="string">Uncommon</rarity>
+        <subtype type="string">Flesh Bag</subtype>
+        <type type="string">Bag</type>
+        <weight type="number">2</weight>
+      </id-00021>
     </inventorylist>
     <languagelist>
       <id-00001>
@@ -631,9 +686,9 @@
         <name type="string">Sylvan</name>
       </id-00003>
     </languagelist>
-    <level type="number">3</level>
+    <level type="number">4</level>
     <name type="string">Orym Shaeradim</name>
-    <perception type="number">13</perception>
+    <perception type="number">11</perception>
     <perceptionmodifier type="number">0</perceptionmodifier>
     <personalitytraits type="string">Playful Trickster\nI'm a born gambler who can't resist taking a risk for a potential payoff.</personalitytraits>
     <powergroup>
@@ -698,7 +753,7 @@
       </pactmagicslots9>
       <spellslots1>
         <max type="number">4</max>
-        <used type="number">2</used>
+        <used type="number">3</used>
       </spellslots1>
       <spellslots2>
         <max type="number">2</max>
@@ -773,6 +828,7 @@
             <damagelist>
               <id-00001>
                 <dice type="dice">d4</dice>
+                <statmult type="number">1</statmult>
                 <type type="string">psychic</type>
               </id-00001>
             </damagelist>
@@ -1029,7 +1085,7 @@
             <type type="string">effect</type>
           </id-00002>
         </actions>
-        <cast type="number">1</cast>
+        <cast type="number">2</cast>
         <description type="formattedtext">
           <p/>
         </description>
@@ -1057,6 +1113,9 @@
       <id-00005>
         <name type="string">Tool: Disguise kit, thieves' tools</name>
       </id-00005>
+      <id-00007>
+        <name type="string">Tool: Thieves' tools</name>
+      </id-00007>
     </proficiencylist>
     <race type="string">Half-Elf</race>
     <racelink type="windowreference">
@@ -1069,9 +1128,9 @@
       <id-00001>
         <misc type="number">0</misc>
         <name type="string">Perception</name>
-        <prof type="number">1</prof>
+        <prof type="number">0</prof>
         <stat type="string">wisdom</stat>
-        <total type="number">3</total>
+        <total type="number">1</total>
       </id-00001>
       <id-00002>
         <misc type="number">0</misc>
@@ -1167,9 +1226,9 @@
       <id-00015>
         <misc type="number">0</misc>
         <name type="string">Investigation</name>
-        <prof type="number">1</prof>
+        <prof type="number">2</prof>
         <stat type="string">intelligence</stat>
-        <total type="number">4</total>
+        <total type="number">6</total>
       </id-00015>
       <id-00016>
         <misc type="number">0</misc>
@@ -1243,7 +1302,7 @@
         <type type="number">0</type>
       </id-00001>
       <id-00002>
-        <ammo type="number">12</ammo>
+        <ammo type="number">18</ammo>
         <carried type="number">2</carried>
         <damagelist>
           <id-00001>

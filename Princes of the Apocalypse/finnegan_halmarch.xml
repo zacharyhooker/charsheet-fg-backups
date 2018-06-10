@@ -60,7 +60,7 @@
         <casterpactmagic type="number">1</casterpactmagic>
         <hddie type="dice">d8</hddie>
         <hdused type="number">0</hdused>
-        <level type="number">3</level>
+        <level type="number">4</level>
         <name type="string">Warlock</name>
         <shortcut type="windowreference">
           <class>reference_class</class>
@@ -145,6 +145,15 @@
           </linklist>
         </text>
       </id-00001>
+      <id-00002>
+        <level type="number">4</level>
+        <locked type="number">1</locked>
+        <name type="string">Ability Score Improvement</name>
+        <source type="string">Warlock</source>
+        <text type="formattedtext">
+          <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability s cores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+        </text>
+      </id-00002>
       <id-00004>
         <locked type="number">1</locked>
         <name type="string">False Identity</name>
@@ -733,7 +742,7 @@
       <deathsavefail type="number">0</deathsavefail>
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
-      <total type="number">23</total>
+      <total type="number">27</total>
       <wounds type="number">0</wounds>
     </hp>
     <ideals type="string">Charity. I distribute the money I acquire to the people who really need it. (Good)</ideals>
@@ -810,7 +819,7 @@
         <name type="string">Orcs</name>
       </id-00002>
     </languagelist>
-    <level type="number">3</level>
+    <level type="number">4</level>
     <name type="string">Finnegan Halmarch</name>
     <perception type="number">12</perception>
     <perceptionmodifier type="number">0</perceptionmodifier>

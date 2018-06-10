@@ -31,11 +31,11 @@
         <score type="number">15</score>
       </intelligence>
       <strength>
-        <bonus type="number">4</bonus>
-        <save type="number">4</save>
+        <bonus type="number">5</bonus>
+        <save type="number">5</save>
         <savemodifier type="number">0</savemodifier>
         <saveprof type="number">0</saveprof>
-        <score type="number">18</score>
+        <score type="number">20</score>
       </strength>
       <wisdom>
         <bonus type="number">2</bonus>
@@ -63,7 +63,7 @@
         <casterpactmagic type="number">0</casterpactmagic>
         <hddie type="dice"/>
         <hdused type="number">0</hdused>
-        <level type="number">3</level>
+        <level type="number">4</level>
         <name type="string">Barbarian</name>
         <shortcut type="windowreference">
           <class>reference_class</class>
@@ -109,11 +109,11 @@
     </defenses>
     <deity type="string">Torm, god of courage and self-sacrifice</deity>
     <encumbrance>
-      <encumbered type="number">90</encumbered>
-      <encumberedheavy type="number">180</encumberedheavy>
-      <liftpushdrag type="number">540</liftpushdrag>
+      <encumbered type="number">100</encumbered>
+      <encumberedheavy type="number">200</encumberedheavy>
+      <liftpushdrag type="number">600</liftpushdrag>
       <load type="number">31</load>
-      <max type="number">270</max>
+      <max type="number">300</max>
     </encumbrance>
     <exp type="number">50</exp>
     <expneeded type="number">0</expneeded>
@@ -220,6 +220,15 @@
           <p>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals, as described in chapter 10. To cast a spell as a ritual, you must add 10 minutes to the spell's casting time.</p>
         </text>
       </id-00008>
+      <id-00009>
+        <level type="number">4</level>
+        <locked type="number">1</locked>
+        <name type="string">Ability Score Improvement</name>
+        <source type="string">Barbarian</source>
+        <text type="formattedtext">
+          <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+        </text>
+      </id-00009>
     </featurelist>
     <flaws type="string">I think with my hammer</flaws>
     <gender type="string">Male</gender>
@@ -229,7 +238,7 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
-      <total type="number">36</total>
+      <total type="number">53</total>
       <wounds type="number">23</wounds>
     </hp>
     <ideals type="string">With a belly full of drink and food, anything is possible.</ideals>
@@ -352,7 +361,7 @@
         <name type="string">Giant</name>
       </id-00003>
     </languagelist>
-    <level type="number">3</level>
+    <level type="number">4</level>
     <name type="string">Krug</name>
     <perception type="number">12</perception>
     <perceptionmodifier type="number">0</perceptionmodifier>
@@ -620,7 +629,7 @@
         <name type="string">Athletics</name>
         <prof type="number">0</prof>
         <stat type="string">strength</stat>
-        <total type="number">4</total>
+        <total type="number">5</total>
       </id-00010>
       <id-00011>
         <misc type="number">0</misc>

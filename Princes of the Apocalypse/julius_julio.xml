@@ -60,7 +60,7 @@
         <casterpactmagic type="number">0</casterpactmagic>
         <hddie type="dice">d10</hddie>
         <hdused type="number">0</hdused>
-        <level type="number">3</level>
+        <level type="number">4</level>
         <name type="string">Ranger</name>
         <shortcut type="windowreference">
           <class>reference_class</class>
@@ -78,7 +78,7 @@
         <name type="string">GP</name>
       </slot2>
       <slot3>
-        <amount type="number">0</amount>
+        <amount type="number">96</amount>
         <name type="string">SP</name>
       </slot3>
       <slot4>
@@ -270,6 +270,15 @@
           <p>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</p>
         </text>
       </id-00008>
+      <id-00009>
+        <level type="number">4</level>
+        <locked type="number">1</locked>
+        <name type="string">Ability Score Improvement</name>
+        <source type="string">Ranger</source>
+        <text type="formattedtext">
+          <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+        </text>
+      </id-00009>
       <id-00010>
         <locked type="number">1</locked>
         <name type="string">Wanderer</name>
@@ -286,7 +295,7 @@
       <deathsavefail type="number">0</deathsavefail>
       <deathsavesuccess type="number">0</deathsavesuccess>
       <temporary type="number">0</temporary>
-      <total type="number">25</total>
+      <total type="number">41</total>
       <wounds type="number">0</wounds>
     </hp>
     <ideals type="string">Free thinking. Inquiry and curiosity are the pillars of progress.</ideals>
@@ -335,7 +344,7 @@
         <weight type="number">10</weight>
       </id-00002>
       <id-00003>
-        <carried type="number">1</carried>
+        <carried type="number">2</carried>
         <cost type="string">10 gp</cost>
         <count type="number">1</count>
         <damage type="string">1d6 piercing</damage>
@@ -405,6 +414,8 @@
         <weight type="number">0</weight>
       </id-00008>
       <id-00010>
+        <ac type="number">0</ac>
+        <bonus type="number">0</bonus>
         <carried type="number">1</carried>
         <cost type="string">1 gp</cost>
         <count type="number">1</count>
@@ -430,7 +441,7 @@
         <name type="string">Orc</name>
       </id-00003>
     </languagelist>
-    <level type="number">3</level>
+    <level type="number">4</level>
     <name type="string">Julius Julio</name>
     <perception type="number">16</perception>
     <perceptionmodifier type="number">0</perceptionmodifier>
@@ -498,6 +509,7 @@
         <max type="number">0</max>
       </spellslots9>
     </powermeta>
+    <powermode type="string">combat</powermode>
     <powers>
       <id-00001>
         <actions>
@@ -526,7 +538,7 @@
         <level type="number">1</level>
         <locked type="number">1</locked>
         <name type="string">Cure Wounds</name>
-        <prepared type="number">0</prepared>
+        <prepared type="number">1</prepared>
         <range type="string">Touch</range>
         <ritual type="number">0</ritual>
         <school type="string">Evocation</school>
@@ -558,7 +570,7 @@
         <level type="number">1</level>
         <locked type="number">1</locked>
         <name type="string">Hunter's Mark</name>
-        <prepared type="number">0</prepared>
+        <prepared type="number">1</prepared>
         <range type="string">90 feet</range>
         <school type="string">Divination</school>
         <source type="string">Ranger</source>
@@ -597,7 +609,7 @@
         <level type="number">1</level>
         <locked type="number">1</locked>
         <name type="string">Hail of Thorns</name>
-        <prepared type="number">0</prepared>
+        <prepared type="number">1</prepared>
         <range type="string">Self</range>
         <ritual type="number">0</ritual>
         <school type="string">Conjuration</school>
@@ -616,6 +628,69 @@
         <ritual type="number">0</ritual>
         <specializationchoice type="number">0</specializationchoice>
       </id-00004>
+      <id-00005>
+        <actions>
+          <id-00001>
+            <order type="number">1</order>
+            <savemagic type="number">1</savemagic>
+            <savetype type="string">strength</savetype>
+            <type type="string">cast</type>
+          </id-00001>
+          <id-00002>
+            <durmod type="number">1</durmod>
+            <durunit type="string">minute</durunit>
+            <label type="string">Restrained; (C)</label>
+            <order type="number">2</order>
+            <type type="string">effect</type>
+          </id-00002>
+          <id-00003>
+            <durmod type="number">1</durmod>
+            <durunit type="string">minute</durunit>
+            <label type="string">DMGO: 1d6 piercing; (C)</label>
+            <order type="number">3</order>
+            <type type="string">effect</type>
+          </id-00003>
+        </actions>
+        <cast type="number">0</cast>
+        <castingtime type="string">1 bonus action</castingtime>
+        <components type="string">V</components>
+        <description type="formattedtext">
+          <p>The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.</p>
+          <p>While restrained by this spell, the target takes 1d6 piercing damage at the start of each of its turns. A creature restrained by the vines or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.</p>
+          <p>
+            <b>At Higher Levels.</b>
+          </p>
+        </description>
+        <duration type="string">Concentration, up to 1 minute</duration>
+        <group type="string">Spells</group>
+        <level type="number">1</level>
+        <locked type="number">1</locked>
+        <name type="string">Ensnaring Strike</name>
+        <prepared type="number">0</prepared>
+        <range type="string">Self</range>
+        <ritual type="number">0</ritual>
+        <school type="string">Conjuration</school>
+        <source type="string">Ranger</source>
+      </id-00005>
+      <id-00006>
+        <actions/>
+        <cast type="number">0</cast>
+        <castingtime type="string">1 action</castingtime>
+        <components type="string">V, S</components>
+        <description type="formattedtext">
+          <p>You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion.</p>
+        </description>
+        <duration type="string">10 minutes</duration>
+        <group type="string">Spells</group>
+        <level type="number">1</level>
+        <locked type="number">1</locked>
+        <name type="string">Speak with Animals</name>
+        <prepared type="number">0</prepared>
+        <range type="string">Self</range>
+        <ritual type="number">1</ritual>
+        <school type="string">Divination</school>
+        <source type="string">Bard, Cleric Nature Domain, Druid, Eldritch Invocations, Ranger</source>
+      </id-00006>
     </powers>
     <profbonus type="number">2</profbonus>
     <proficiencylist>
@@ -820,6 +895,13 @@
         <type type="string">subracial</type>
       </id-00005>
     </traitlist>
+    <weapon>
+      <critdicebonus/>
+      <critrange>
+        <melee type="number">20</melee>
+        <ranged type="number">20</ranged>
+      </critrange>
+    </weapon>
     <weaponlist>
       <id-00001>
         <ammo type="number">0</ammo>
@@ -848,7 +930,7 @@
       <id-00002>
         <attackbonus type="number">0</attackbonus>
         <attackstat type="string">dexterity</attackstat>
-        <carried type="number">1</carried>
+        <carried type="number">2</carried>
         <damagelist>
           <id-00001>
             <bonus type="number">0</bonus>

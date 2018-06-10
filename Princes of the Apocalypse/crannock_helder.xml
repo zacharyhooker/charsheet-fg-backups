@@ -31,11 +31,11 @@
         <score type="number">12</score>
       </intelligence>
       <strength>
-        <bonus type="number">3</bonus>
-        <save type="number">5</save>
+        <bonus type="number">4</bonus>
+        <save type="number">6</save>
         <savemodifier type="number">0</savemodifier>
         <saveprof type="number">1</saveprof>
-        <score type="number">16</score>
+        <score type="number">18</score>
       </strength>
       <wisdom>
         <bonus type="number">1</bonus>
@@ -61,7 +61,7 @@
         <casterpactmagic type="number">0</casterpactmagic>
         <hddie type="dice">d10</hddie>
         <hdused type="number">1</hdused>
-        <level type="number">3</level>
+        <level type="number">4</level>
         <name type="string">Fighter</name>
         <shortcut type="windowreference">
           <class>reference_class</class>
@@ -107,11 +107,11 @@
     </defenses>
     <deity type="string">Tempus</deity>
     <encumbrance>
-      <encumbered type="number">80</encumbered>
-      <encumberedheavy type="number">160</encumberedheavy>
-      <liftpushdrag type="number">480</liftpushdrag>
+      <encumbered type="number">90</encumbered>
+      <encumberedheavy type="number">180</encumberedheavy>
+      <liftpushdrag type="number">540</liftpushdrag>
       <load type="number">66.1</load>
-      <max type="number">240</max>
+      <max type="number">270</max>
     </encumbrance>
     <exp type="number">50</exp>
     <expneeded type="number">0</expneeded>
@@ -207,6 +207,15 @@
           <p>Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.</p>
         </text>
       </id-00006>
+      <id-00007>
+        <level type="number">4</level>
+        <locked type="number">1</locked>
+        <name type="string">Ability Score Improvement</name>
+        <source type="string">Fighter</source>
+        <text type="formattedtext">
+          <p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+        </text>
+      </id-00007>
     </featurelist>
     <flaws type="string">I hide a truly scandalous secret that could ruin my family forever.</flaws>
     <gender type="string">Male</gender>
@@ -216,8 +225,8 @@
       <deathsavesuccess type="number">0</deathsavesuccess>
       <hdmod type="number">0</hdmod>
       <temporary type="number">0</temporary>
-      <total type="number">31</total>
-      <wounds type="number">7</wounds>
+      <total type="number">49</total>
+      <wounds type="number">21</wounds>
     </hp>
     <ideals type="string">I must prove that I can handle myself without the coddling of my family.</ideals>
     <initiative>
@@ -481,7 +490,7 @@
         <name type="string">Elvish</name>
       </id-00003>
     </languagelist>
-    <level type="number">3</level>
+    <level type="number">4</level>
     <name type="string">Crannock Helder</name>
     <notes type="string">Growing up as the third son of a wealthy noble in Baldur's Gate, Crannock was often overlooked upon reaching adulthood. In order to make a name for himself, he set off to gain a landed title and become an anointed knight. His father, merely indulging his son, sent a retainer named Finnegan along with Crannock in order to make sure his son doesn't sully his good name.</notes>
     <perception type="number">13</perception>
@@ -579,6 +588,35 @@
     </powermeta>
     <powermode type="string">standard</powermode>
     <powers>
+      <id-00001>
+        <actions>
+          <id-00001>
+            <heallist>
+              <id-00001>
+                <bonus type="number">0</bonus>
+                <dice type="dice">d10</dice>
+                <stat type="string">fighter</stat>
+                <statmult type="number">1</statmult>
+              </id-00001>
+            </heallist>
+            <healtargeting type="string">self</healtargeting>
+            <order type="number">1</order>
+            <type type="string">heal</type>
+          </id-00001>
+        </actions>
+        <cast type="number">0</cast>
+        <description type="formattedtext">
+          <p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>
+          <p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>
+        </description>
+        <group type="string">Feature</group>
+        <level type="number">0</level>
+        <locked type="number">1</locked>
+        <name type="string">Second Wind</name>
+        <prepared type="number">0</prepared>
+        <ritual type="number">0</ritual>
+        <source type="string">Fighter</source>
+      </id-00001>
       <id-00002>
         <actions>
           <id-00001>
@@ -600,6 +638,7 @@
         <locked type="number">1</locked>
         <name type="string">Great Weapon Master</name>
         <prepared type="number">0</prepared>
+        <ritual type="number">0</ritual>
       </id-00002>
       <id-00004>
         <actions/>
@@ -732,7 +771,7 @@
         <name type="string">Athletics</name>
         <prof type="number">1</prof>
         <stat type="string">strength</stat>
-        <total type="number">5</total>
+        <total type="number">6</total>
       </id-00010>
       <id-00011>
         <misc type="number">0</misc>
