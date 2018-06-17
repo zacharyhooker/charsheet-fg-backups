@@ -78,11 +78,11 @@
         <name type="string">GP</name>
       </slot2>
       <slot3>
-        <amount type="number">96</amount>
+        <amount type="number">70</amount>
         <name type="string">SP</name>
       </slot3>
       <slot4>
-        <amount type="number">22</amount>
+        <amount type="number">72</amount>
         <name type="string">CP</name>
       </slot4>
       <slot5>
@@ -108,7 +108,7 @@
       <encumbered type="number">70</encumbered>
       <encumberedheavy type="number">140</encumberedheavy>
       <liftpushdrag type="number">420</liftpushdrag>
-      <load type="number">34.25</load>
+      <load type="number">35.25</load>
       <max type="number">210</max>
     </encumbrance>
     <exp type="number">0</exp>
@@ -362,7 +362,7 @@
       <id-00004>
         <carried type="number">1</carried>
         <cost type="string">1 gp</cost>
-        <count type="number">4</count>
+        <count type="number">5</count>
         <isidentified type="number">1</isidentified>
         <locked type="number">1</locked>
         <name type="string">Arrows (20)</name>
@@ -456,57 +456,75 @@
     <powermeta>
       <pactmagicslots1>
         <max type="number">0</max>
+        <used type="number">0</used>
       </pactmagicslots1>
       <pactmagicslots2>
         <max type="number">0</max>
+        <used type="number">0</used>
       </pactmagicslots2>
       <pactmagicslots3>
         <max type="number">0</max>
+        <used type="number">0</used>
       </pactmagicslots3>
       <pactmagicslots4>
         <max type="number">0</max>
+        <used type="number">0</used>
       </pactmagicslots4>
       <pactmagicslots5>
         <max type="number">0</max>
+        <used type="number">0</used>
       </pactmagicslots5>
       <pactmagicslots6>
         <max type="number">0</max>
+        <used type="number">0</used>
       </pactmagicslots6>
       <pactmagicslots7>
         <max type="number">0</max>
+        <used type="number">0</used>
       </pactmagicslots7>
       <pactmagicslots8>
         <max type="number">0</max>
+        <used type="number">0</used>
       </pactmagicslots8>
       <pactmagicslots9>
         <max type="number">0</max>
+        <used type="number">0</used>
       </pactmagicslots9>
       <spellslots1>
         <max type="number">3</max>
+        <used type="number">0</used>
       </spellslots1>
       <spellslots2>
         <max type="number">0</max>
+        <used type="number">0</used>
       </spellslots2>
       <spellslots3>
         <max type="number">0</max>
+        <used type="number">0</used>
       </spellslots3>
       <spellslots4>
         <max type="number">0</max>
+        <used type="number">0</used>
       </spellslots4>
       <spellslots5>
         <max type="number">0</max>
+        <used type="number">0</used>
       </spellslots5>
       <spellslots6>
         <max type="number">0</max>
+        <used type="number">0</used>
       </spellslots6>
       <spellslots7>
         <max type="number">0</max>
+        <used type="number">0</used>
       </spellslots7>
       <spellslots8>
         <max type="number">0</max>
+        <used type="number">0</used>
       </spellslots8>
       <spellslots9>
         <max type="number">0</max>
+        <used type="number">0</used>
       </spellslots9>
     </powermeta>
     <powermode type="string">combat</powermode>
@@ -917,7 +935,7 @@
           </id-00001>
         </damagelist>
         <isidentified type="number">1</isidentified>
-        <maxammo type="number">80</maxammo>
+        <maxammo type="number">100</maxammo>
         <name type="string">Longbow</name>
         <prof type="number">1</prof>
         <properties type="string">Ammunition (range 150/600), heavy, two-handed</properties>
