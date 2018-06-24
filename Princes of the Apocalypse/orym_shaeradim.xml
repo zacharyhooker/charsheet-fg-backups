@@ -3,46 +3,46 @@
   <charsheet>
     <abilities>
       <charisma>
-        <bonus type="number">4</bonus>
-        <save type="number">6</save>
-        <savemodifier type="number">0</savemodifier>
-        <saveprof type="number">1</saveprof>
-        <score type="number">18</score>
-      </charisma>
-      <constitution>
-        <bonus type="number">3</bonus>
-        <save type="number">3</save>
-        <savemodifier type="number">0</savemodifier>
-        <saveprof type="number">0</saveprof>
-        <score type="number">16</score>
-      </constitution>
-      <dexterity>
         <bonus type="number">3</bonus>
         <save type="number">5</save>
         <savemodifier type="number">0</savemodifier>
         <saveprof type="number">1</saveprof>
         <score type="number">17</score>
+      </charisma>
+      <constitution>
+        <bonus type="number">1</bonus>
+        <save type="number">1</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">0</saveprof>
+        <score type="number">13</score>
+      </constitution>
+      <dexterity>
+        <bonus type="number">2</bonus>
+        <save type="number">4</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">1</saveprof>
+        <score type="number">15</score>
       </dexterity>
       <intelligence>
-        <bonus type="number">2</bonus>
-        <save type="number">2</save>
-        <savemodifier type="number">0</savemodifier>
-        <saveprof type="number">0</saveprof>
-        <score type="number">15</score>
-      </intelligence>
-      <strength>
-        <bonus type="number">0</bonus>
-        <save type="number">0</save>
-        <savemodifier type="number">0</savemodifier>
-        <saveprof type="number">0</saveprof>
-        <score type="number">10</score>
-      </strength>
-      <wisdom>
         <bonus type="number">1</bonus>
         <save type="number">1</save>
         <savemodifier type="number">0</savemodifier>
         <saveprof type="number">0</saveprof>
         <score type="number">12</score>
+      </intelligence>
+      <strength>
+        <bonus type="number">-1</bonus>
+        <save type="number">-1</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">0</saveprof>
+        <score type="number">8</score>
+      </strength>
+      <wisdom>
+        <bonus type="number">0</bonus>
+        <save type="number">0</save>
+        <savemodifier type="number">0</savemodifier>
+        <saveprof type="number">0</saveprof>
+        <score type="number">11</score>
       </wisdom>
     </abilities>
     <adventurelist/>
@@ -91,7 +91,7 @@
         <name type="string">PP</name>
       </slot2>
       <slot3>
-        <amount type="number">132</amount>
+        <amount type="number">125</amount>
         <name type="string">SP</name>
       </slot3>
       <slot4>
@@ -113,15 +113,15 @@
         <prof type="number">1</prof>
         <shield type="number">0</shield>
         <temporary type="number">0</temporary>
-        <total type="number">14</total>
+        <total type="number">13</total>
       </ac>
     </defenses>
     <encumbrance>
-      <encumbered type="number">50</encumbered>
-      <encumberedheavy type="number">100</encumberedheavy>
-      <liftpushdrag type="number">300</liftpushdrag>
+      <encumbered type="number">40</encumbered>
+      <encumberedheavy type="number">80</encumberedheavy>
+      <liftpushdrag type="number">240</liftpushdrag>
       <load type="number">50.625</load>
-      <max type="number">150</max>
+      <max type="number">120</max>
     </encumbrance>
     <exp type="number">50</exp>
     <expneeded type="number">0</expneeded>
@@ -303,7 +303,7 @@
     <initiative>
       <misc type="number">0</misc>
       <temporary type="number">0</temporary>
-      <total type="number">3</total>
+      <total type="number">2</total>
     </initiative>
     <inspiration type="number">0</inspiration>
     <inventorylist>
@@ -1128,7 +1128,7 @@
       <id-00001>
         <misc type="number">0</misc>
         <name type="string">Perception</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">wisdom</stat>
         <total type="number">1</total>
       </id-00001>
@@ -1137,47 +1137,47 @@
         <name type="string">Deception</name>
         <prof type="number">2</prof>
         <stat type="string">charisma</stat>
-        <total type="number">8</total>
+        <total type="number">7</total>
       </id-00002>
       <id-00003>
         <misc type="number">0</misc>
         <name type="string">Persuasion</name>
         <prof type="number">2</prof>
         <stat type="string">charisma</stat>
-        <total type="number">8</total>
+        <total type="number">7</total>
       </id-00003>
       <id-00004>
         <misc type="number">0</misc>
         <name type="string">Sleight of Hand</name>
         <prof type="number">1</prof>
         <stat type="string">dexterity</stat>
-        <total type="number">5</total>
+        <total type="number">4</total>
       </id-00004>
       <id-00005>
         <misc type="number">0</misc>
         <name type="string">Arcana</name>
         <prof type="number">1</prof>
         <stat type="string">intelligence</stat>
-        <total type="number">4</total>
+        <total type="number">3</total>
       </id-00005>
       <id-00006>
         <misc type="number">0</misc>
         <name type="string">Nature</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">intelligence</stat>
         <total type="number">2</total>
       </id-00006>
       <id-00007>
         <misc type="number">0</misc>
         <name type="string">Medicine</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">wisdom</stat>
         <total type="number">1</total>
       </id-00007>
       <id-00008>
         <misc type="number">0</misc>
         <name type="string">Survival</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">wisdom</stat>
         <total type="number">1</total>
       </id-00008>
@@ -1186,26 +1186,26 @@
         <name type="string">Performance</name>
         <prof type="number">1</prof>
         <stat type="string">charisma</stat>
-        <total type="number">6</total>
+        <total type="number">5</total>
       </id-00009>
       <id-00010>
         <misc type="number">0</misc>
         <name type="string">Acrobatics</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">dexterity</stat>
         <total type="number">3</total>
       </id-00010>
       <id-00011>
         <misc type="number">0</misc>
         <name type="string">Religion</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">intelligence</stat>
         <total type="number">2</total>
       </id-00011>
       <id-00012>
         <misc type="number">0</misc>
         <name type="string">Athletics</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">strength</stat>
         <total type="number">0</total>
       </id-00012>
@@ -1214,40 +1214,40 @@
         <name type="string">Insight</name>
         <prof type="number">1</prof>
         <stat type="string">wisdom</stat>
-        <total type="number">3</total>
+        <total type="number">2</total>
       </id-00013>
       <id-00014>
         <misc type="number">0</misc>
         <name type="string">Intimidation</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">charisma</stat>
         <total type="number">4</total>
       </id-00014>
       <id-00015>
         <misc type="number">0</misc>
         <name type="string">Investigation</name>
-        <prof type="number">2</prof>
+        <prof type="number">1</prof>
         <stat type="string">intelligence</stat>
-        <total type="number">6</total>
+        <total type="number">3</total>
       </id-00015>
       <id-00016>
         <misc type="number">0</misc>
         <name type="string">Stealth</name>
         <prof type="number">1</prof>
         <stat type="string">dexterity</stat>
-        <total type="number">5</total>
+        <total type="number">4</total>
       </id-00016>
       <id-00017>
         <misc type="number">0</misc>
         <name type="string">History</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">intelligence</stat>
         <total type="number">2</total>
       </id-00017>
       <id-00018>
         <misc type="number">0</misc>
         <name type="string">Animal Handling</name>
-        <prof type="number">0</prof>
+        <prof type="number">3</prof>
         <stat type="string">wisdom</stat>
         <total type="number">1</total>
       </id-00018>
