@@ -54,7 +54,7 @@
 			<class>reference_background</class>
 			<recordname>reference.backgrounddata.outlander@DD PHB Deluxe</recordname>
 		</backgroundlink>
-		<bonds type="string">I entered seclusion to hide, I must one day return to my home.</bonds>
+		<bonds type="string">I entered seclusion to hid+1e, I must one day return to my home.</bonds>
 		<classes>
 			<id-00001>
 				<casterlevelinvmult type="number">2</casterlevelinvmult>
@@ -75,7 +75,7 @@
 				<name type="string">PP</name>
 			</slot1>
 			<slot2>
-				<amount type="number">3</amount>
+				<amount type="number">2</amount>
 				<name type="string">GP</name>
 			</slot2>
 			<slot3>
@@ -395,6 +395,7 @@
 				<count type="number">1</count>
 				<isidentified type="number">1</isidentified>
 				<name type="string">Torch</name>
+				<weight type="number">0</weight>
 			</id-00009>
 			<id-00010>
 				<ac type="number">0</ac>
@@ -412,6 +413,18 @@
 				<type type="string">Tools</type>
 				<weight type="number">5</weight>
 			</id-00010>
+			<id-00011>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<name type="string">1/2 WyrmWood Jelly</name>
+				<weight type="number">0</weight>
+			</id-00011>
+			<id-00013>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<name type="string">Sleeping Bag</name>
+				<weight type="number">0</weight>
+			</id-00013>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
@@ -475,7 +488,7 @@
 			</pactmagicslots9>
 			<spellslots1>
 				<max type="number">3</max>
-				<used type="number">1</used>
+				<used type="number">0</used>
 			</spellslots1>
 			<spellslots2>
 				<max type="number">0</max>

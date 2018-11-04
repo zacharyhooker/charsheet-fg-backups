@@ -61,7 +61,7 @@
 				<casterlevelinvmult type="number">1</casterlevelinvmult>
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice">d6</hddie>
-				<hdused type="number">1</hdused>
+				<hdused type="number">0</hdused>
 				<level type="number">4</level>
 				<name type="string">Sorcerer</name>
 				<shortcut type="windowreference">
@@ -92,7 +92,7 @@
 				<name type="string">ep</name>
 			</slot5>
 			<slot6>
-				<amount type="number">46</amount>
+				<amount type="number">36</amount>
 				<name type="string">GP</name>
 			</slot6>
 		</coins>
@@ -530,6 +530,11 @@
 				<name type="string">Shiny Rocks</name>
 				<weight type="number">0</weight>
 			</id-00017>
+			<id-00018>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<name type="string">Sleeping Bag</name>
+			</id-00018>
 			<id-00019>
 				<carried type="number">1</carried>
 				<count type="number">1</count>
@@ -550,7 +555,7 @@
 		</languagelist>
 		<level type="number">4</level>
 		<name type="string">Osfyr Shaeradim</name>
-		<notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult\nsavra - woman feathergate\n\nMother Earth, Fire, Wind, Water and Spirit, I ask thee to free and heal my body from all negative forces. Blessed be!\n\nTwo figures &#34;give this to thorsk&#34;, long hair cloaks, went into the wagon place. Long black hair, skinny. Runs thelron's safe journey's. Ruis worked for thorsk. Asdan brother of thorsk. Strange little man from Amn, customer. \n\nIllmeth put the orc down here\nBibishaba - mine was built for it\nBaylen - Rothar is fathers name\nBlack earth cult - bandits who attacked us in the stone tomb\nTomb of the moving stones\nLarach - \nBeregosts Harbuckler - old man in tomb\n</notes>
+		<notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult\nsavra - woman feathergate\n\nMother Earth, Fire, Wind, Water and Spirit, I ask thee to free and heal my body from all negative forces. Blessed be!\n\nTwo figures &#34;give this to thorsk&#34;, long hair cloaks, went into the wagon place. Long black hair, skinny. Runs thelron's safe journey's. Ruis worked for thorsk. Asdan brother of thorsk. Strange little man from Amn, customer. \n\nIllmeth put the orc down here\nBibishaba - mine was built for it\nBaylen - Rothar is fathers name hartherhands\nBlack earth cult - bandits who attacked us in the stone tomb\nTomb of the moving stones\nLarach - \nBeregosts Harbuckler - old man in tomb\nTiar Basils\n</notes>
 		<perception type="number">12</perception>
 		<perceptionmodifier type="number">0</perceptionmodifier>
 		<personalitytraits type="string">I think anyone who's nice to me is hiding evil intent.</personalitytraits>
@@ -604,11 +609,11 @@
 			</pactmagicslots9>
 			<spellslots1>
 				<max type="number">4</max>
-				<used type="number">1</used>
+				<used type="number">0</used>
 			</spellslots1>
 			<spellslots2>
 				<max type="number">3</max>
-				<used type="number">1</used>
+				<used type="number">0</used>
 			</spellslots2>
 			<spellslots3>
 				<max type="number">0</max>
@@ -1186,7 +1191,7 @@
 		<weaponlist>
 			<id-00001>
 				<attackbonus type="number">0</attackbonus>
-				<carried type="number">2</carried>
+				<carried type="number">1</carried>
 				<damagelist>
 					<id-00001>
 						<bonus type="number">0</bonus>

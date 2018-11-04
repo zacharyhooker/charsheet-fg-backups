@@ -71,7 +71,7 @@
 		</classes>
 		<coins>
 			<slot1>
-				<amount type="number">113</amount>
+				<amount type="number">90</amount>
 				<name type="string">GP</name>
 			</slot1>
 			<slot2>
@@ -107,7 +107,7 @@
 			<encumbered type="number">80</encumbered>
 			<encumberedheavy type="number">160</encumberedheavy>
 			<liftpushdrag type="number">480</liftpushdrag>
-			<load type="number">1.5</load>
+			<load type="number">9.5</load>
 			<max type="number">240</max>
 		</encumbrance>
 		<exp type="number">0</exp>
@@ -548,6 +548,22 @@
 				<type type="string">Adventuring Gear</type>
 				<weight type="number">0.5</weight>
 			</id-00002>
+			<id-00003>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<carried type="number">1</carried>
+				<cost type="string">15</cost>
+				<count type="number">4</count>
+				<description type="formattedtext">
+					<p>The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 60 minutes. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a success.</p>
+				</description>
+				<locked type="number">1</locked>
+				<name type="string">Potion of Paralysis</name>
+				<nonid_name type="string">Potion</nonid_name>
+				<rarity type="string">Rare</rarity>
+				<type type="string">Potion</type>
+				<weight type="number">2</weight>
+			</id-00003>
 		</inventorylist>
 		<languagelist>
 			<id-00001>

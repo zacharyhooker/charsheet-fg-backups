@@ -61,7 +61,7 @@
 				<casterlevelinvmult type="number">0</casterlevelinvmult>
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice">d10</hddie>
-				<hdused type="number">1</hdused>
+				<hdused type="number">0</hdused>
 				<level type="number">4</level>
 				<name type="string">Fighter</name>
 				<shortcut type="windowreference">
@@ -79,14 +79,14 @@
 				<amount type="number">0</amount>
 			</slot2>
 			<slot3>
-				<amount type="number">29</amount>
+				<amount type="number">25</amount>
 				<name type="string">GP</name>
 			</slot3>
 			<slot4>
 				<amount type="number">0</amount>
 			</slot4>
 			<slot5>
-				<amount type="number">59</amount>
+				<amount type="number">35</amount>
 				<name type="string">SP</name>
 			</slot5>
 			<slot6>
@@ -111,7 +111,7 @@
 			<encumbered type="number">100</encumbered>
 			<encumberedheavy type="number">200</encumberedheavy>
 			<liftpushdrag type="number">600</liftpushdrag>
-			<load type="number">71.4</load>
+			<load type="number">126.4</load>
 			<max type="number">300</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -313,6 +313,12 @@
 				<name type="string">scrimshaw pipe</name>
 				<weight type="number">0</weight>
 			</id-00005>
+			<id-00006>
+				<carried type="number">1</carried>
+				<count type="number">4</count>
+				<name type="string">wormwood jelly</name>
+				<weight type="number">5</weight>
+			</id-00006>
 			<id-00007>
 				<ac type="number">0</ac>
 				<bonus type="number">0</bonus>
@@ -486,6 +492,30 @@
 				<type type="string">Adventuring Gear</type>
 				<weight type="number">1</weight>
 			</id-00015>
+			<id-00016>
+				<carried type="number">1</carried>
+				<count type="number">5</count>
+				<name type="string">dried meat</name>
+				<weight type="number">5</weight>
+			</id-00016>
+			<id-00017>
+				<carried type="number">1</carried>
+				<count type="number">2</count>
+				<name type="string">dried berries</name>
+				<weight type="number">2</weight>
+			</id-00017>
+			<id-00018>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<name type="string">sleeping bags</name>
+				<weight type="number">6</weight>
+			</id-00018>
+			<id-00019>
+				<carried type="number">1</carried>
+				<count type="number">2</count>
+				<name type="string">rye bread</name>
+				<weight type="number">0</weight>
+			</id-00019>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
