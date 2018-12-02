@@ -61,7 +61,7 @@
 				<casterlevelinvmult type="number">0</casterlevelinvmult>
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice">d10</hddie>
-				<hdused type="number">0</hdused>
+				<hdused type="number">2</hdused>
 				<level type="number">4</level>
 				<name type="string">Fighter</name>
 				<shortcut type="windowreference">
@@ -225,7 +225,7 @@
 			<hdmod type="number">0</hdmod>
 			<temporary type="number">0</temporary>
 			<total type="number">49</total>
-			<wounds type="number">0</wounds>
+			<wounds type="number">27</wounds>
 		</hp>
 		<ideals type="string">I must prove that I can handle myself without the coddling of my family.</ideals>
 		<initiative>

@@ -109,7 +109,7 @@
 			<encumbered type="number">70</encumbered>
 			<encumberedheavy type="number">140</encumberedheavy>
 			<liftpushdrag type="number">420</liftpushdrag>
-			<load type="number">36.4</load>
+			<load type="number">36.34</load>
 			<max type="number">210</max>
 		</encumbrance>
 		<exp type="number">0</exp>
@@ -137,7 +137,7 @@
 				<name type="string">Natural Explorer</name>
 				<source type="string">Ranger</source>
 				<text type="formattedtext">
-					<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.</p>
+					<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, <b>forest</b>, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.</p>
 					<p>While traveling for an hour or m ore in your favored terrain, you gain the following benefits:</p>
 					<p>You choose additional favored terrain types at 6th and 10th level.</p>
 					<list>
@@ -273,7 +273,7 @@
 			<deathsavesuccess type="number">0</deathsavesuccess>
 			<temporary type="number">0</temporary>
 			<total type="number">41</total>
-			<wounds type="number">0</wounds>
+			<wounds type="number">5</wounds>
 		</hp>
 		<ideals type="string">Free thinking. Inquiry and curiosity are the pillars of progress.</ideals>
 		<initiative>
@@ -426,7 +426,7 @@
 					<p></p>
 				</description>
 				<name type="string">Extra Hefty Bag of Wyrmwood</name>
-				<weight type="number">1.15</weight>
+				<weight type="number">1.07</weight>
 			</id-00012>
 			<id-00013>
 				<carried type="number">1</carried>
@@ -434,6 +434,25 @@
 				<name type="string">Sleeping Bag</name>
 				<weight type="number">0</weight>
 			</id-00013>
+			<id-00014>
+				<carried type="number">1</carried>
+				<cost type="string">25 gp</cost>
+				<count type="number">1</count>
+				<description type="formattedtext">
+					<p>A gold ring taken from a Gnoll Pack Lord</p>
+				</description>
+				<locked type="number">1</locked>
+				<name type="string">Gold Ring</name>
+				<subtype type="string">Treasure</subtype>
+				<type type="string">Adventuring Gear</type>
+				<weight type="number">0.02</weight>
+			</id-00014>
+			<id-00015>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<name type="string">Rabbit Fur Coinpurse</name>
+				<weight type="number">0</weight>
+			</id-00015>
 		</inventorylist>
 		<languagelist>
 			<id-00001>
@@ -497,7 +516,7 @@
 			</pactmagicslots9>
 			<spellslots1>
 				<max type="number">3</max>
-				<used type="number">0</used>
+				<used type="number">1</used>
 			</spellslots1>
 			<spellslots2>
 				<max type="number">0</max>
@@ -591,6 +610,7 @@
 				<name type="string">Hunter's Mark</name>
 				<prepared type="number">1</prepared>
 				<range type="string">90 feet</range>
+				<ritual type="number">0</ritual>
 				<school type="string">Divination</school>
 				<source type="string">Ranger</source>
 			</id-00002>
@@ -923,7 +943,7 @@
 		</weapon>
 		<weaponlist>
 			<id-00001>
-				<ammo type="number">5</ammo>
+				<ammo type="number">12</ammo>
 				<attackbonus type="number">2</attackbonus>
 				<carried type="number">2</carried>
 				<damagelist>

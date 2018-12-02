@@ -114,7 +114,7 @@
 			<encumbered type="number">85</encumbered>
 			<encumberedheavy type="number">170</encumberedheavy>
 			<liftpushdrag type="number">510</liftpushdrag>
-			<load type="number">31</load>
+			<load type="number">95</load>
 			<max type="number">255</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -236,7 +236,7 @@
 			<hdmod type="number">0</hdmod>
 			<temporary type="number">0</temporary>
 			<total type="number">53</total>
-			<wounds type="number">0</wounds>
+			<wounds type="number">14</wounds>
 		</hp>
 		<ideals type="string">With a belly full of drink and food, anything is possible.</ideals>
 		<initiative>
@@ -266,16 +266,22 @@
 				<weight type="number">15</weight>
 			</id-00001>
 			<id-00002>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
 				<carried type="number">1</carried>
 				<count type="number">1</count>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<locked type="number">1</locked>
 				<name type="string">Miniture Wooden Horse</name>
-				<weight type="number">0</weight>
+				<weight type="number">0.5</weight>
 			</id-00002>
 			<id-00003>
 				<carried type="number">1</carried>
 				<count type="number">1</count>
 				<name type="string">Miniture Half-Finished Wooden Pig</name>
-				<weight type="number">0</weight>
+				<weight type="number">0.5</weight>
 			</id-00003>
 			<id-00004>
 				<carried type="number">1</carried>
@@ -313,8 +319,20 @@
 				<carried type="number">1</carried>
 				<count type="number">1</count>
 				<name type="string">chilld's sleeping bag</name>
-				<weight type="number">0</weight>
+				<weight type="number">1</weight>
 			</id-00007>
+			<id-00008>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<name type="string">Cast Iron Pot</name>
+				<weight type="number">10</weight>
+			</id-00008>
+			<id-00010>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<name type="string">Wheel of Aged Cheese</name>
+				<weight type="number">2</weight>
+			</id-00010>
 			<id-00011>
 				<ac type="number">0</ac>
 				<bonus type="number">0</bonus>
@@ -331,6 +349,12 @@
 				<type type="string">Adventuring Gear</type>
 				<weight type="number">4</weight>
 			</id-00011>
+			<id-00014>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<name type="string">100 ft. Rope</name>
+				<weight type="number">50</weight>
+			</id-00014>
 			<id-00015>
 				<carried type="number">1</carried>
 				<count type="number">1</count>

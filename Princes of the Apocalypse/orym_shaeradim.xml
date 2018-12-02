@@ -92,7 +92,7 @@
 				<name type="string">PP</name>
 			</slot2>
 			<slot3>
-				<amount type="number">50</amount>
+				<amount type="number">0</amount>
 				<name type="string">SP</name>
 			</slot3>
 			<slot4>
@@ -686,6 +686,12 @@
 				<name type="string">Silk Blanket</name>
 				<weight type="number">1</weight>
 			</id-00025>
+			<id-00026>
+				<carried type="number">1</carried>
+				<count type="number">1</count>
+				<name type="string">Main Sack</name>
+				<weight type="number">0</weight>
+			</id-00026>
 			<id-00027>
 				<ac type="number">0</ac>
 				<bonus type="number">0</bonus>
@@ -789,7 +795,7 @@
 			</pactmagicslots9>
 			<spellslots1>
 				<max type="number">4</max>
-				<used type="number">0</used>
+				<used type="number">1</used>
 			</spellslots1>
 			<spellslots2>
 				<max type="number">2</max>
@@ -1129,12 +1135,17 @@
 						<type type="string">effect</type>
 					</id-00002>
 				</actions>
-				<cast type="number">0</cast>
+				<cast type="number">2</cast>
+				<description type="formattedtext">
+					<p></p>
+				</description>
 				<group type="string">Bardic Inspiration</group>
 				<level type="number">0</level>
+				<locked type="number">1</locked>
 				<name type="string">Cutting Words</name>
 				<prepared type="number">0</prepared>
 				<range type="string">60</range>
+				<ritual type="number">0</ritual>
 			</id-00013>
 			<id-00014>
 				<actions>
@@ -1158,12 +1169,13 @@
 						<type type="string">effect</type>
 					</id-00002>
 				</actions>
-				<cast type="number">0</cast>
+				<cast type="number">1</cast>
 				<description type="formattedtext">
 					<p></p>
 				</description>
 				<group type="string">Bardic Inspiration</group>
 				<level type="number">0</level>
+				<locked type="number">1</locked>
 				<name type="string">Bardic Inspiration</name>
 				<prepared type="number">0</prepared>
 				<ritual type="number">0</ritual>
@@ -1376,7 +1388,7 @@
 				<type type="number">0</type>
 			</id-00001>
 			<id-00002>
-				<ammo type="number">22</ammo>
+				<ammo type="number">25</ammo>
 				<carried type="number">2</carried>
 				<damagelist>
 					<id-00001>
