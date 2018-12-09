@@ -61,7 +61,7 @@
 				<casterlevelinvmult type="number">0</casterlevelinvmult>
 				<casterpactmagic type="number">0</casterpactmagic>
 				<hddie type="dice">d10</hddie>
-				<hdused type="number">2</hdused>
+				<hdused type="number">3</hdused>
 				<level type="number">4</level>
 				<name type="string">Fighter</name>
 				<shortcut type="windowreference">
@@ -111,7 +111,7 @@
 			<encumbered type="number">100</encumbered>
 			<encumberedheavy type="number">200</encumberedheavy>
 			<liftpushdrag type="number">600</liftpushdrag>
-			<load type="number">128.4</load>
+			<load type="number">106.4</load>
 			<max type="number">300</max>
 		</encumbrance>
 		<exp type="number">50</exp>
@@ -225,7 +225,7 @@
 			<hdmod type="number">0</hdmod>
 			<temporary type="number">0</temporary>
 			<total type="number">49</total>
-			<wounds type="number">27</wounds>
+			<wounds type="number">18</wounds>
 		</hp>
 		<ideals type="string">I must prove that I can handle myself without the coddling of my family.</ideals>
 		<initiative>
@@ -313,12 +313,6 @@
 				<name type="string">scrimshaw pipe</name>
 				<weight type="number">0</weight>
 			</id-00005>
-			<id-00006>
-				<carried type="number">1</carried>
-				<count type="number">4</count>
-				<name type="string">wormwood jelly</name>
-				<weight type="number">5</weight>
-			</id-00006>
 			<id-00007>
 				<ac type="number">0</ac>
 				<bonus type="number">0</bonus>
@@ -504,12 +498,6 @@
 				<name type="string">rye bread</name>
 				<weight type="number">0</weight>
 			</id-00019>
-			<id-00020>
-				<carried type="number">1</carried>
-				<count type="number">1</count>
-				<name type="string">wormwood</name>
-				<weight type="number">2</weight>
-			</id-00020>
 		</inventorylist>
 		<languagelist>
 			<id-00001>

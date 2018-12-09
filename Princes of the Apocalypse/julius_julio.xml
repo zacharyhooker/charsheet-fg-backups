@@ -137,7 +137,7 @@
 				<name type="string">Natural Explorer</name>
 				<source type="string">Ranger</source>
 				<text type="formattedtext">
-					<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, <b>forest</b>, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.</p>
+					<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, <b>forest </b>, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.</p>
 					<p>While traveling for an hour or m ore in your favored terrain, you gain the following benefits:</p>
 					<p>You choose additional favored terrain types at 6th and 10th level.</p>
 					<list>
@@ -273,7 +273,7 @@
 			<deathsavesuccess type="number">0</deathsavesuccess>
 			<temporary type="number">0</temporary>
 			<total type="number">41</total>
-			<wounds type="number">5</wounds>
+			<wounds type="number">0</wounds>
 		</hp>
 		<ideals type="string">Free thinking. Inquiry and curiosity are the pillars of progress.</ideals>
 		<initiative>

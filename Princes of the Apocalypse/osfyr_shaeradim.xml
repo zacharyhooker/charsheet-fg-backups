@@ -550,7 +550,7 @@
 			</id-00020>
 			<id-00021>
 				<carried type="number">1</carried>
-				<count type="number">2</count>
+				<count type="number">3</count>
 				<name type="string">Sausage</name>
 				<weight type="number">0</weight>
 			</id-00021>
@@ -592,7 +592,7 @@
 		</languagelist>
 		<level type="number">4</level>
 		<name type="string">Osfyr Shaeradim</name>
-		<notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult\nsavra - woman feathergate\n\nMother Earth, Fire, Wind, Water and Spirit, I ask thee to free and heal my body from all negative forces. Blessed be!\n\nTwo figures &#34;give this to thorsk&#34;, long hair cloaks, went into the wagon place. Long black hair, skinny. Runs thelron's safe journey's. Ruis worked for thorsk. Asdan brother of thorsk. Strange little man from Amn, customer. \n\nIllmeth put the orc down here\nBibishaba - mine was built for it\nBaylen - Rothar is fathers name hartherhands\nBlack earth cult - bandits who attacked us in the stone tomb\nTomb of the moving stones\nLarach - \nBeregosts Harbuckler - old man in tomb\nTiar Basils\n\nGnoll eating people, ring, swimming/flying, something on fire - Crannock's hallucination\n\nOne Pot Stop - Sausage, water, onions, green onions, green shoots &#34;feels like I have a medicine ball&#34;, bird meat, beef. - 10/10\nDav'theg Kloche - baldurs gate fine meats\n \nBeliard last place seen the delegation from Mirrobar. \n\nStrongest recruiting policy is a good meal\n</notes>
+		<notes type="string">Meliko - stonemason\nVelovi - shy man with army of children\nLancerock - southwest keldell path\nDesserim Valley - Elemental cult\nsavra - woman feathergate\n\nMother Earth, Fire, Wind, Water and Spirit, I ask thee to free and heal my body from all negative forces. Blessed be!\n\nTwo figures &#34;give this to thorsk&#34;, long hair cloaks, went into the wagon place. Long black hair, skinny. Runs thelron's safe journey's. Ruis worked for thorsk. Asdan brother of thorsk. Strange little man from Amn, customer. \n\nIllmeth put the orc down here\nBibishaba - mine was built for it\nBaylen - Rothar is fathers name hartherhands\nBlack earth cult - bandits who attacked us in the stone tomb\nTomb of the moving stones\nLarach - \nBeregosts Harbuckler - old man in tomb\nTiar Basils\n\nGnoll eating people, ring, swimming/flying, something on fire - Crannock's hallucination\n\nOne Pot Stop - Sausage, water, onions, green onions, green shoots &#34;feels like I have a medicine ball&#34;, bird meat, beef. - 10/10\nDav'theg Kloche - baldurs gate fine meats\n \nBeliard last place seen the delegation from Mirrobar. Crannocks rune\n\nStrongest recruiting policy is a good meal\n</notes>
 		<perception type="number">12</perception>
 		<perceptionmodifier type="number">0</perceptionmodifier>
 		<personalitytraits type="string">I think anyone who's nice to me is hiding evil intent.</personalitytraits>
